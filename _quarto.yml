@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "RSEED"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Team
+      - href: projects.qmd
+        text: Projects
+      - href: data.qmd
+        text: Data
+      - href: software.qmd
+        text: Software
+      - href: courses.qmd
+        text: Courses
+      - href: community.qmd
+        text: Community
+      - href: blog.qmd
+        text: blog
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
