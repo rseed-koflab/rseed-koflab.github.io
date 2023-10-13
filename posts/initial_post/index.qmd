@@ -1,0 +1,20 @@
+---
+title: "RSEED at KOF Lab"
+description: "In 2023, the KOF Swiss Economic Institute started KOF Lab as a new research devision to develop, test and implement new approaches to economic research. *Research Software Engineering and Economic Data (RSEED)* starts as one of four KOF Lab sections alongside *Medium and Long-Term Scenarios*, *Inequality and Public Economics* and *Public and Social Policy Design*."
+author: "Matthias Bannert"
+date: "11/01/2023"
+categories:
+    - research software engineering
+    - economic data
+    - teaching
+---
+
+
+The aim of the newly launched [KOF Lab](https://kof.ethz.ch/en/the-institute/kof-divisions/Research-Division-KOF-Lab.html) section is to become a competence hub for Research Software Engineering and Economic Data in Switzerland and beyond. The section aims to enable more researchers to work with KOF's unique datasets an to help use the potential of programming as a channel to communicate methodological advances and new analyses. In addition, RSEED provides courses to help non-computer science scholars bolster their computational competencies.
+
+RSEED's initial offering includes working with the [KOF Micro Data Center](https://kof.ethz.ch/daten/kof-micro-data-centre.html), the course [Hacking for Science]() along with the book project [*Research Software Engineering - A Guide to the Open Source Ecosystem*](https://rse-book.github.io) as well as several software package projects. Short term future plans include the launch of a new seminar in an innovative, blog-assisted format as well as the launch of a matrix based community chat space. 
+
+- R package downloads
+- Swiss node to connect to the community
+- recently announced useR! 
+- reference ETH 

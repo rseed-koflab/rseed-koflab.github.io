@@ -1,0 +1,12 @@
+---
+title: "Oliver Müller"
+subtitle: "Research Software Engineer"
+image: profile.jpg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+---
+
+
+A statement on the joint interest in RSEED. 

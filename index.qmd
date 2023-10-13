@@ -2,18 +2,31 @@
 title: "Research Software Engineering and <br> Economic Data at KOF Lab"
 ---
 
-General Intro
+The majority of social and economic data has been created within the last decade. In turn, many fields of research are confronted with an unprecedented wealth of data. In an effort to make the most of this opportunity, the section *Research Software Engineering and Economic Data (RSEED)* has set out to become a competence hub for research projects that embrace a data and programming driven approach to analysis. 
 
 
 ## Work with our Economic Data! 
 
-Aggregated and at the Micro Level
+- part of KOF Lab
+- decades of fine grained longitudinal data monitoring the Swiss Economy. 
+- value contribution, increase impact by enabling researchers, increase data usage
+
+- references: KOF micro data center | KOF timeseries database
 
 
 ## Turn Analysis and Methodology into Software Publications!
+
+- modern Open Source Ecosystem one of the greatest advances in statistical computing within the last 20 years. 
+- extension systems of languages like R, Python or Julia allow a larger number of people to contribute
+- extension repositories and knowledege sharing platforms enable researchers
+
+
+
 
 
 ## Learn Data Skills that Carry you in Academia and Beyond! 
 
 
 
+
+- teach an approach to data management and analysis that makes learners sought after collaborators

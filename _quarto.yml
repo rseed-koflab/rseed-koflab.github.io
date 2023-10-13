@@ -3,25 +3,23 @@ project:
 
 website:
   title: "RSEED"
+  search: true
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: Team
-      - href: projects.qmd
-        text: Projects
       - href: data.qmd
         text: Data
       - href: software.qmd
         text: Software
       - href: courses.qmd
         text: Courses
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: Team
       - href: community.qmd
         text: Community
       - href: blog.qmd
         text: blog
-
 
 format:
   html:

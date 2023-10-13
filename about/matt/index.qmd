@@ -1,0 +1,21 @@
+---
+title: "Dr. Matthias (Matt) Bannert"
+subtitle: "Section Lead RSEED"
+image: profile.jpg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/mbannert
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/matt-bannert-078168272/
+    - icon: twitter
+      href: https://twitter.com/whatsgoodio
+---
+
+
+A statement on the joint interest in RSEED. 

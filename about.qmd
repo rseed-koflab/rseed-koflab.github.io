@@ -1,5 +1,15 @@
 ---
-title: "About"
+title: "Team"
+listing:
+  contents: "about/*/index.qmd"
+  fields: [image, title, subtitle]
+  type: grid
+  sort-ui: false
+  filter-ui: false
+  categories: false
 ---
 
-About this site
+*Research Software Engineering and Economic Data* is a team effort. 
+
+- scrum guild inspired (folks across tribes and squads come together for a joint interest)
+- leads coming together

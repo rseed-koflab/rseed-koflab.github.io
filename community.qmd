@@ -1,0 +1,17 @@
+---
+title: "Community"
+---
+
+
+>The English-language word "community" derives from the Old French comuneté (Modern French: communauté), which comes from the Latin communitas "community", "public spirit" (from Latin communis, "common"). -- en.wikipedia.org
+
+
+## RSEED Matrix Spaces
+
+
+
+## Other Recommended Community Groups
+
+- ZH R User Groups
+- Basel R User Group
+- Openwashdata Matrix Space
