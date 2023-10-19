@@ -1,24 +1,28 @@
 ---
 title: "Projects"
+subtitle: "Applied Data Science and Data Engineering"
 ---
 
 
 ## Openwashdata
 
-
 ## Swissdata
-
-
-
-## Avisblatt
-
-
-
-## Digital Lives
-
-
 
 ## NRP 77
 
 
-## High Frequency Dashboard
+
+## Finished Projects
+
+
+### Avisblatt
+
+
+### Digital Lives
+
+
+### High Frequency Dashboard
+
+
+
+

@@ -2,8 +2,3 @@
 title: "Data"
 ---
 
-
-
-- KOF at opendata
-- KOF micro data center
-- KOF time series (time series explorer)

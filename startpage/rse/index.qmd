@@ -1,0 +1,12 @@
+---
+title: "Contribute Through Software"
+subtitle: "Turn Software into Publications"
+image: rse.png
+---
+
+
+## Analysis and Methodology
+
+- modern Open Source Ecosystem one of the greatest advances in statistical computing within the last 20 years. 
+- extension systems of languages like R, Python or Julia allow a larger number of people to contribute
+- extension repositories and knowledege sharing platforms enable researchers

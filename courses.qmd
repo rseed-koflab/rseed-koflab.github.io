@@ -1,6 +1,0 @@
----
-title: "Courses"
-draft: true
----
-
-## Hacking for Science

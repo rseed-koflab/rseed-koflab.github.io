@@ -3,14 +3,15 @@ project:
 
 website:
   title: "RSEED"
+  open-graph: true
   search: true
   navbar:
     left:
-      - href: data.qmd
+      - href: startpage/ed/index.qmd
         text: Data
-      - href: software.qmd
+      - href: startpage/rse/index.qmd
         text: Software
-      - href: courses.qmd
+      - href: startpage/teaching/index.qmd
         text: Courses
       - href: projects.qmd
         text: Projects
@@ -20,6 +21,9 @@ website:
         text: Community
       - href: blog.qmd
         text: blog
+  page-footer: 'RSEED is a part of KOF Lab at ETH Zurich.' 
+
+
 
 format:
   html:

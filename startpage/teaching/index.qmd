@@ -1,0 +1,22 @@
+---
+title: "Courses"
+subtitle: "Learn Data Skills for Academia and Beyond!"
+image: h4sci.jpeg
+---
+
+
+Teaching is an integral part of our work at the KOF Lab section for Research Software Engineering and Economic Data. We strive to teach what is needed and continously learn in a dynamically evolving field. 
+Hence, feedback to existing courses our requests to extend our program are greatly appreciated. [Join our community](community.qmd) to engage in the discussion! 
+
+
+## Hacking for Science, ETH PhD program
+
+Hacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. 
+Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector. 
+
+[Hacking for Science ETH Course Catalog]() | [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io) | [2021 KITE Award nomnination]()
+
+
+
+
+

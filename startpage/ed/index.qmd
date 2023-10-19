@@ -1,0 +1,75 @@
+---
+title: "Economic Datasets"
+subtitle: "Conduct research with KOF's unique time series and micro data!"
+image: profile.jpg
+sequence: 1
+---
+
+One of the three main goals of RSEED is to increase the impact of KOF's unique economic datasets by enabling academic researchers to work with the datasets we built up and maintain. Social and economic data ask for contributions not only from researchers, but also from companies and individuals. To fully value these contributions we are committed to create the conditions to use the economic datasets maintained by KOF while protecting the privacy of individual companies and persons. 
+
+
+## KOF on opendata.swiss
+
+KOF's economic indicators are KOF's most exposed data. Indicators such as the KOF Barometer (see below) are publicly available and designed for intertemporal comparison as they summarise economic development in a single number. 
+
+```{r, echo=FALSE, warnings=FALSE, message=FALSE} 
+library(kofdata)
+library(tsbox)
+tsl <- get_time_series("ch.kof.barometer")
+class(tsl) <- c("tslist","list")
+ts_plot(tsl,
+        title = "FLI for Switzerland: Economic Barometer",
+        subtitle = "source: KOF, ETH Zurich")
+
+```
+
+Comprehensive dissemination of the extracted information is an important part of monitoring the Swiss economy. Hence it is important to follow standards in order to make data not only available but immediately processible. KOF indicators are available from the official open government data (OGD) portal of the Swiss Federal Office of Statistics and the KOF Data application programming interface (API). 
+
+
+[kofdata API R package]() | [KOF indicators on kof.ethz.ch]() | [KOF at opendata.swiss]() 
+
+![](opendata_swiss.png)
+
+
+## KOF Time Series Database
+
+In addition to its publicly available time series, KOF offers a plethora of finer grained time series including regional and sector specific indicators. 
+
+- well beyond 100K , hence TSE
+
+
+
+[KOF Time Series Explorer]() | 
+
+https://kof.ethz.ch/en/data/kof-time-series-database.html
+
+
+
+
+## KOF Micro Data Centre
+
+
+
+
+
+
+
+
+
+- allocation to researchers 
+
+- KOF at opendata
+- KOF micro data center
+- KOF time series (time series explorer)
+
+
+"- part of KOF Lab
+- decades of fine grained longitudinal data monitoring the Swiss Economy. 
+- value contribution, increase impact by enabling researchers, increase data usage
+
+- references: KOF micro data center | KOF timeseries database
+"
+
+
+
+
