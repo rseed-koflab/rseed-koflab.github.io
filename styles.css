@@ -1,4 +1,9 @@
 /* css styles */
 .navbar-dark{
-    background-color: #007894;
+    background-color: #191a19ff;
+    color: #ffffff;
+}
+
+.navbar-brand-container{
+    margin-bottom: .25em;
 }
