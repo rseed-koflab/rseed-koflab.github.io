@@ -5,8 +5,4 @@ image: rse.png
 ---
 
 
-## Analysis and Methodology
-
-- modern Open Source Ecosystem one of the greatest advances in statistical computing within the last 20 years. 
-- extension systems of languages like R, Python or Julia allow a larger number of people to contribute to projects.
-- extension repositories and knowledge sharing platforms enable better research to be conducted.
+Open source programming languages, led by R, Python and JavaScript have taken the data analytics and engineering world by storm. This sharing, reproducibility and transparency driven development has not only resulted in a plethora of useful, license cost-free software package but has also established a tremendous communication channel in source code. RSEED aims to help (economic) researchers put their ideas into state-of-the-art software packages in increase the impact of their work in different ways: we make contributions reusable and connect researchers to a vibrant data science and open source software community. 

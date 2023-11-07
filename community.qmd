@@ -28,12 +28,3 @@ The openwashdata community, which also uses Matrix as a chat platform, offers a 
 
 Find our entrypoint room at **#rseed-lobby:staffchat.ethz.ch** ! 
 From the lobby you will find your first contacts as well as other more specific channels to join within our chat spaces. 
-
-
-
-
-
-## Other Recommended Community Groups
-
-- ZH R User Groups
-- Basel R User Group
