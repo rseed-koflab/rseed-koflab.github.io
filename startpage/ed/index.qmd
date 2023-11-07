@@ -6,9 +6,9 @@ sequence: 1
 ---
 
 ```{css, echo = FALSE}
-.justify {
-  text-align: justify !important
-}
+<!-- .justify { -->
+<!--   text-align: justify !important -->
+<!-- } -->
 ```
 
 
