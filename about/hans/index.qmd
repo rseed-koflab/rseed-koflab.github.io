@@ -1,11 +1,11 @@
 ---
 title: "Prof. Dr. Hans Gersbach"
 subtitle: "Division Head KOF Lab"
-image: profile.jpg
+image: hgersbach.jpeg
 about:
   template: trestles
   image-width: 10em
-  image-shape: round
+  image-shape: rectangle
 ---
 
 Something about me. 

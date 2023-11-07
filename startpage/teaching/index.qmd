@@ -5,56 +5,15 @@ image: h4sci.jpeg
 ---
 
 
-
-Teaching is an integral part of our work at the KOF Lab section for Research Software Engineering and Economic Data. We strive to teach what is needed and continously learn in a dynamically evolving field. 
-Hence, feedback to existing courses our requests to extend our program are greatly appreciated. [Join our community](community.qmd) to engage in the discussion! 
-
-
-::: {.column-margin}
-
-**Feedback, Questions, Ideas?**
-
-Contact us. 
-
-**Minna Heim**
-
-heim [ at ] kof.ethz.ch
-
-<br><br>
-
-
-**Newsletter Registration**
-
-Stay informed about new courses and trainings. [Join the quarterly RSEED newsletter](https://kof.ethz.ch/das-institut/bereiche/kof-lab.html).
-
-```{r, echo=FALSE}
-library(qrcode)
-
-q <- qrcode::qr_code("https://kof.ethz.ch/das-institut/bereiche/kof-lab.html")
-plot(q)
-
-```
-
-:::
-
+Teaching is an integral part of our work at the KOF Lab for Research Software Engineering and Economic Data. We strive to teach what is needed and to learn continuously in a dynamically evolving field. 
+Feedback on existing courses or requests to expand our programme are therefore greatly appreciated. [Join our community](community.qmd) to engage in the discussion! 
 
 
 ## Hacking for Science, ETH PhD program
 
-Hacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. 
-Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector. 
+Hacking for Science is a highly interactive online course that provides non-computer science students with valuable big-picture guidance and practical software development skills. The course is designed to help researchers in all disciplines who are considering programming as part of their approach to working with data. Hacking for Science is part of the D-MTEC offer for PhD students, but has also benefited guests from academia and the public and private sectors. 
 
-[Hacking for Science ETH Course Catalog]() | [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io) | [2021 KITE Award nomnination]()
-
-
-
-## Hacking for Research Assistants, Make Repetitive Work Fun Again! 
-
-Assistant work in academic research may not consist of cutting edge tasks to 100%. In fact, turning real world information into machine friendly standardized datasets can be cumbersome, but inevitable. What is not inevitable though is an error prone, repetitive and hardly transparent approach. 
-This new training camp style course idea plans to work together with research assistants to find their most common needs and use programming to work on these needs hands-on in highly interactive fashion.  
-
-Further details to be determined. We expect to host the course in 2nd half of 2024 for the first time. 
-
+[Hacking for Science ETH Course Catalog](https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&ansicht=LEHRVERANSTALTUNGEN&lerneinheitId=161937&lang=en) | [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io) | [2021 KITE Award nomnination]()
 
 
 
