@@ -2,3 +2,8 @@
 .navbar-dark{
     background-color: #000000;
 }
+
+
+.navbar-brand-container{
+    margin-bottom: .25em;
+}
