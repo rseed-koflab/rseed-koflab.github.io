@@ -19,6 +19,10 @@ We have opened up a Matrix based chat space for people working with (economic) d
 - free registration at a matrix home server. 
 - a matrix client for your computer and/or mobile device. We recommend to use [Element](), the most popular matrix client. 
 
+
+![Join our Matrix channels either from ETH or outside ETH](element.png)
+
+
 ### Matrix Tutorial 
 
 The openwashdata community which also uses Matrix as a chat platform offers a comprehensive Matrix tutorial. The tutorial will guide you through finding the right homeserver for you and help set up an Element Matrix client so you can find and join our chat space and its channels. Make sure to use the below entrypoint instead of the openshdata community's entrypoint. 
@@ -29,12 +33,3 @@ The openwashdata community which also uses Matrix as a chat platform offers a co
 
 Find our entrypoint room at **#rseed-lobby:staffchat.ethz.ch** ! 
 From the lobby you will find your first contacts as well as other more specific channels to join within our chat spaces. 
-
-
-
-
-
-## Other Recommended Community Groups
-
-- ZH R User Groups
-- Basel R User Group

@@ -5,8 +5,38 @@ image: h4sci.jpeg
 ---
 
 
+
 Teaching is an integral part of our work at the KOF Lab section for Research Software Engineering and Economic Data. We strive to teach what is needed and continously learn in a dynamically evolving field. 
 Hence, feedback to existing courses our requests to extend our program are greatly appreciated. [Join our community](community.qmd) to engage in the discussion! 
+
+
+::: {.column-margin}
+
+**Feedback, Questions, Ideas?**
+
+Contact us. 
+
+**Minna Heim**
+
+heim [ at ] kof.ethz.ch
+
+<br><br>
+
+
+**Newsletter Registration**
+
+Stay informed about new courses and trainings. [Join the quarterly RSEED newsletter](https://kof.ethz.ch/das-institut/bereiche/kof-lab.html).
+
+```{r, echo=FALSE}
+library(qrcode)
+
+q <- qrcode::qr_code("https://kof.ethz.ch/das-institut/bereiche/kof-lab.html")
+plot(q)
+
+```
+
+:::
+
 
 
 ## Hacking for Science, ETH PhD program
@@ -15,6 +45,16 @@ Hacking for Science is a highly interactive, online course providing non-compute
 Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector. 
 
 [Hacking for Science ETH Course Catalog]() | [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io) | [2021 KITE Award nomnination]()
+
+
+
+## Hacking for Research Assistants, Make Repetitive Work Fun Again! 
+
+Assistant work in academic research may not consist of cutting edge tasks to 100%. In fact, turning real world information into machine friendly standardized datasets can be cumbersome, but inevitable. What is not inevitable though is an error prone, repetitive and hardly transparent approach. 
+This new training camp style course idea plans to work together with research assistants to find their most common needs and use programming to work on these needs hands-on in highly interactive fashion.  
+
+Further details to be determined. We expect to host the course in 2nd half of 2024 for the first time. 
+
 
 
 
