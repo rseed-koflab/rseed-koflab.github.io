@@ -1,11 +1,11 @@
 ---
 title: "Oliver Müller"
 subtitle: "Research Software Engineer"
-image: profile.jpg
+image: omueller.jpg
 about:
   template: trestles
   image-width: 10em
-  image-shape: round
+  image-shape: rectangle
 ---
 
 

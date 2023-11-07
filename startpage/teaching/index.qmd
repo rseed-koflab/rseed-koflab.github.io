@@ -1,6 +1,6 @@
 ---
-title: "Courses"
-subtitle: "Learn Data Skills for Academia and Beyond!"
+title: "Teaching"
+subtitle: "Software Engineering Skills for Researchers"
 image: h4sci.jpeg
 ---
 
@@ -54,7 +54,6 @@ Assistant work in academic research may not consist of cutting edge tasks to 100
 This new training camp style course idea plans to work together with research assistants to find their most common needs and use programming to work on these needs hands-on in highly interactive fashion.  
 
 Further details to be determined. We expect to host the course in 2nd half of 2024 for the first time. 
-
 
 
 

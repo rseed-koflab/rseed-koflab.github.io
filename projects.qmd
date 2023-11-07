@@ -3,8 +3,15 @@ title: "Projects"
 subtitle: "Applied Data Science and Data Engineering"
 ---
 
+## Research Software Engineering Book
+
+The Book: [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io/intro.html), written by Matthias Bannert, aims to give an introduction to Software Engineering for different groups of people, such as Researchers, who usually have difficulty accustoming themselves to Programming, Git, etc. 
+
+![Research Software Engineering, Figure 2](rse-book-cover2.png)
 
 ## Openwashdata
+
+[openwashdata](https://openwashdata.org) is an active global community that applies FAIR principles to data generated in the greater water, sanitation, and hygiene (WASH) sector. Open Wash Data's mission is to empower WASH professionals to engage with tools and workflows for open data and code. They do this by creating a [community in Element](https://openwashdata.org/pages/get-started/chat/) and holding[Events](https://openwashdata.org/pages/events/) on the topic.
 
 ## Swissdata
 

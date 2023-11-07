@@ -1,21 +1,19 @@
 ---
 title: "Minna Heim"
-subtitle: "Organization Development and Community Management"
-image: profile.jpg
+subtitle: "Research Assistant and Organization Development"
+image: minnaheim.jpg
 about:
   template: trestles
   image-width: 10em
-  image-shape: round
+  image-shape: rectangle
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/mbannert
+      href: https://github.com/minnaheim
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/matt-bannert-078168272/
-    - icon: twitter
-      href: https://twitter.com/whatsgoodio
+      href: https://www.linkedin.com/in/minna-heim-a885aa229/
 ---
 
 
-A statement on the joint interest in RSEED. 
+RSEED has the potential to make data accessible, beyond the current scope of data scientists and software engineers. The aim of my organisational development role is to expand this project and to make gathering open source data and learning, sharing and communicating as easy as possible with this platform.

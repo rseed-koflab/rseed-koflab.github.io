@@ -1,11 +1,11 @@
 ---
 title: "Dr. Matthias (Matt) Bannert"
 subtitle: "Section Lead RSEED"
-image: profile.jpg
+image: mbannert.jpeg
 about:
   template: trestles
   image-width: 10em
-  image-shape: round
+  image-shape: rectangle
   links:
     - icon: github
       text: GitHub
@@ -18,4 +18,4 @@ about:
 ---
 
 
-A statement on the joint interest in RSEED. 
+A statement on the joint interest in RSEED.

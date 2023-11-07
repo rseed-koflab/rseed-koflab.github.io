@@ -1,11 +1,11 @@
 ---
 title: "Dr. Klaus Abberger"
 subtitle: "Division Head Business Tendency Surveys"
-image: profile.jpg
+image: kabberger.jpeg
 about:
   template: trestles
   image-width: 10em
-  image-shape: round
+  image-shape: rectangle
 ---
 
 
