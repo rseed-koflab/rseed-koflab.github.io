@@ -11,5 +11,5 @@ listing:
 
 *Research Software Engineering and Economic Data* is a team effort. 
 
-- scrum guild inspired (folks across tribes and squads come together for a joint interest)
-- leads coming together
+*Research Software Engineering and Economic Data* (RSEED) is a KOF Lab section which itself is a part of KOF, the D-MTEC department and ETH Zurich. The RSEED team does not a have an hierarchical approach to organize its activities. Our understanding of working together is more similar to the *guild* approach  in SCRUM: RSEED intends to give contributors from all of research divisions of KOF and beyond a platform collaborate on the data and software component of their work. 
+

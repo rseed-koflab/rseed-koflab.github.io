@@ -22,7 +22,7 @@ website:
         text: Community
       - href: blog.qmd
         text: blog
-  page-footer: 'RSEED is a part of KOF Lab at ETH Zurich.' 
+  page-footer: 'RSEED is a part of [KOF Lab at ETH Zurich](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed.html#).' 
 
 
 

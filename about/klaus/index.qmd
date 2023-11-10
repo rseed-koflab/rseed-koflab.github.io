@@ -8,5 +8,3 @@ about:
   image-shape: rectangle
 ---
 
-
-A statement on the joint interest in RSEED. 
