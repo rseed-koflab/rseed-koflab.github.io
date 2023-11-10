@@ -6,3 +6,28 @@ image: rse.png
 
 
 Open source programming languages, led by R, Python and JavaScript have taken the data analytics and engineering world by storm. This sharing, reproducibility and transparency driven development has not only resulted in a plethora of useful, license cost-free software package but has also established a tremendous communication channel in source code. RSEED aims to help (economic) researchers put their ideas into state-of-the-art software packages in increase the impact of their work in different ways: we make contributions reusable and connect researchers to a vibrant data science and open source software community. 
+
+
+## timeseriesdb: A Time Series Database for Official Statistics with R and PostgreSQL
+
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/timeseriesdb)](https://cran.r-project.org/package=timeseriesdb)
+[![CRAN_time_from_release](https://www.r-pkg.org/badges/ago/timeseriesdb)](https://cran.r-project.org/package=timeseriesdb)
+[![metacran downloads](https://cranlogs.r-pkg.org/badges/timeseriesdb)](https://cran.r-project.org/package=timeseriesdb)
+[![license](https://img.shields.io/badge/license-gplv3-lightgrey.svg)](https://choosealicense.com/)
+
+
+Archive and manage times series data from official statistics. The 'timeseriesdb' package was designed to manage a large catalog of time series from official statistics which are typically published on a monthly, quarterly or yearly basis. Thus timeseriesdb is optimized to handle updates caused by data revision as well as elaborate, multi-lingual meta information.
+
+[timeseriesdb on CRAN](https://cran.r-project.org/package=timeseriesdb) | [timeseriesdb on GitHub](https://github.com/mbannert/timeseriesdb/) | [timeseriesdb Documentation](https://mbannert.github.io/timeseriesdb/)  
+
+
+## kofdata: Get Data from the 'KOF Datenservice' API
+
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/kofdata)](https://cran.r-project.org/package=kofdata)
+[![CRAN_time_from_release](https://www.r-pkg.org/badges/ago/kofdata)](https://cran.r-project.org/package=kofdata)
+[![metacran downloads](https://cranlogs.r-pkg.org/badges/kofdata)](https://cran.r-project.org/package=kofdata)
+[![license](https://img.shields.io/badge/license-gplv3-lightgrey.svg)](https://choosealicense.com/)
+
+Read Swiss time series data from the 'KOF Data' API, <https://datenservice.kof.ethz.ch>. The API provides macro economic time series data mostly about Switzerland. The package itself is a set of wrappers around the 'KOF Datenservice' API. The 'kofdata' package is able to consume public information as well as data that requires an API token.
+
+[kofdata on CRAN](https://cran.r-project.org/package=kofdata) | [kofdata on Github (documentation in README)](https://github.com/KOF-ch/kofdata) 
