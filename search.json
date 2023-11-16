@@ -42,6 +42,13 @@
     "text": "What to Expect from this Blog?\nBesides section news, tutorials and an occasional discussion of highlights in the field, expect the blog to accompany the RSEED seminar. We invite speakers to present their topic in a blog post before their actual presentation. This form of pre-circulated content is intended to help drive the discussion, improve feedback at the live event and allow to catch-up for debriefing. In addition to the blog, the seminar has its own channel on the RSEED matrix chat space."
   },
   {
+    "objectID": "posts/newsletter/index.html",
+    "href": "posts/newsletter/index.html",
+    "title": "Psssst… Quarterly RSEED Newsletter launched",
+    "section": "",
+    "text": "Code\nlibrary(qrcode)\nq <- qrcode::qr_code(\n  \"https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html\",ecl = \"M\"\n)\n\nql <- qrcode::add_logo(q,\"rseed-blk.png\")\nplot(ql)\n\n\n\n\n\nSubscribe to the RSEED Newsletter."
+  },
+  {
     "objectID": "about/minna/index.html",
     "href": "about/minna/index.html",
     "title": "Minna Heim",
@@ -74,7 +81,7 @@
     "href": "about.html",
     "title": "Team",
     "section": "",
-    "text": "Research Software Engineering and Economic Data is a team effort.\nResearch Software Engineering and Economic Data (RSEED) is a KOF Lab section which itself is a part of KOF, the D-MTEC department and ETH Zurich. The RSEED team does not a have an hierarchical approach to organize its activities. Our understanding of working together is more similar to the guild approach in SCRUM: RSEED intends to give contributors from all of research divisions of KOF and beyond a platform collaborate on the data and software component of their work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Klaus Abberger\n\n\nDivision Head Business Tendency Surveys\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Matthias Bannert\n\n\nSection Lead RSEED\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinna Heim\n\n\nResearch Assistant and Organization Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nOliver Müller\n\n\nResearch Software Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Hans Gersbach\n\n\nDivision Head KOF Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Martin Wörter\n\n\nLead Innovation Economics at KOF\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Software Engineering and Economic Data is a team effort.\nResearch Software Engineering and Economic Data (RSEED) is a KOF Lab section which itself is a part of KOF, the D-MTEC department and ETH Zurich. The RSEED team does not a have an hierarchical approach to organize its activities. Our understanding of working together is more similar to the guild approach in SCRUM: RSEED intends to give contributors from all of research divisions of KOF and beyond a platform collaborate on the data and software component of their work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Klaus Abberger\n\n\nDivision Head Business Tendency Surveys\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Matthias Bannert\n\n\nSection Lead RSEED\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinna Heim\n\n\nResearch Assistant and Organization Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nOliver Müller\n\n\nResearch Software Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Hans Gersbach\n\n\nDivision Head KOF Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Martin Wörter\n\n\nDivision Head Innovation Economics\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "startpage/ed/index.html",
@@ -151,6 +158,6 @@
     "href": "blog.html",
     "title": "blog.rseed",
     "section": "",
-    "text": "RSEED at KOF Lab\n\n\n\n\n\n\n\nresearch software engineering\n\n\neconomic data\n\n\nteaching\n\n\nRSEED news\n\n\n\n\nIn 2023, the KOF Swiss Economic Institute started KOF Lab as a new research devision to develop, test and implement new approaches to economic research. Research Software Engineering and Economic Data (RSEED) starts as one of four KOF Lab sections alongside Medium and Long-Term Scenarios, Inequality and Public Economics and Public and Social Policy Design.\n\n\n\n\n\n\nNov 1, 2023\n\n\nMatthias Bannert\n\n\n\n\n\n\nNo matching items"
+    "text": "Psssst… Quarterly RSEED Newsletter launched\n\n\n\n\n\n\n\nresearch software engineering\n\n\neconomic data\n\n\nteaching\n\n\nRSEED news\n\n\n\n\nWant to know more about new courses or community events around programming with data? Do you want to know how RSEED at KOF Lab evolves over time? Are you on the lookout for the next job opportunity in the field? Mix in our take on the latest developments in the field. If you interested in any of the above, this newsletter is for you. No Spam. Just one email per quarter.\n\n\n\n\n\n\nNov 6, 2023\n\n\nMatthias Bannert\n\n\n\n\n\n\n\n\nRSEED at KOF Lab\n\n\n\n\n\n\n\nresearch software engineering\n\n\neconomic data\n\n\nteaching\n\n\nRSEED news\n\n\n\n\nIn 2023, the KOF Swiss Economic Institute started KOF Lab as a new research devision to develop, test and implement new approaches to economic research. Research Software Engineering and Economic Data (RSEED) starts as one of four KOF Lab sections alongside Medium and Long-Term Scenarios, Inequality and Public Economics and Public and Social Policy Design.\n\n\n\n\n\n\nNov 1, 2023\n\n\nMatthias Bannert\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -21,6 +21,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/newsletter/index.html",
       "/posts/initial_post/index.html"
     ]
   }
