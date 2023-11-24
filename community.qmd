@@ -48,5 +48,5 @@ The openwashdata community which also uses Matrix as a chat platform offers a co
 
 ### RSEED Join Information
 
-Find our entrypoint room at **#rseed-lobby:staffchat.ethz.ch** ! 
-From the lobby you will find your first contacts as well as other more specific channels to join within our chat spaces. 
+Find our entrypoint room at **#rseed:staffchat.ethz.ch** ! 
+From the there you will find your first contacts as well as other more specific channels to join within our chat spaces. 
