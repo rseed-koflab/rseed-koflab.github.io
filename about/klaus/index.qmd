@@ -9,4 +9,4 @@ about:
 ---
 
 
-A statement on the joint interest in RSEED. 
+The use of data, knowing how to use it correctly, but also how to make your own data available for others to use so that they can work with it in a suitable way, are important prerequisites in today's world. As a data producer on the one hand and a data user on the other, KOF can play an important bridging role and bring together data producers and academic users in particular. I am looking forward to the exciting process of helping to build this bridge.
