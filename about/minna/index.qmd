@@ -15,5 +15,4 @@ about:
       href: https://www.linkedin.com/in/minna-heim-a885aa229/
 ---
 
-
-RSEED has the potential to make data accessible beyond the current reach of data scientists and software engineers. The aim of the Organisational Development role is to help grow this project through funding and the development of our communication tools (seminars, newsletters, etc).
+RSEED has the potential to make data accessible beyond its current reach of data scientists and software engineers. I want to help grow the RSEED section and develop our community. 

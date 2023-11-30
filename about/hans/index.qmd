@@ -8,4 +8,4 @@ about:
   image-shape: rectangle
 ---
 
-Something about me. 
+RSEED is a particularly promising field of research for my work in democracy and innovation. For the citizens in any democracy, enhanced, equal access to data as well as data quality can be defined as public goods. Enhanced data and a programming-driven approach to the analysis of these data are also the basis needed for innovation in the collective decision-making processes we examine in our research, with the goal to improve democracy and to ensure long-term welfare for society.

@@ -9,4 +9,4 @@ about:
 ---
 
 
-A statement on the joint interest in RSEED. 
+Integrating data from all over Switzerland here at KOF will supercharge its usefulness for the social sciences. To make this a reality, we need to do lots of engineering. As an IT specialist with a fondness for economic research, I will contribute my expertise and many lines of code to this promising venture.
