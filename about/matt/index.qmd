@@ -1,5 +1,5 @@
 ---
-title: "Dr. Matthias (Matt) Bannert"
+title: "Dr. Matthias Bannert"
 subtitle: "Section Lead RSEED"
 image: mbannert.jpeg
 about:
@@ -17,5 +17,4 @@ about:
       href: https://twitter.com/whatsgoodio
 ---
 
-
-A statement on the joint interest in RSEED.
+Over the last two decades, we have witnessed programming, and source code in particular, become a tremendously sharp, illustrative and hence increasingly popular communication channel across many fields of research. RSEED picks up this chance to leverage our resources: Reproducible dissemination of results, interactive communication of methodological advances and truly accessible data, make research more inclusive, increase its reach and therefore its impact. 
