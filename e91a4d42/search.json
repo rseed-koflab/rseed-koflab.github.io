@@ -1,0 +1,198 @@
+[
+  {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Community",
+    "section": "",
+    "text": "The English-language word “community” derives from the Old French comuneté (Modern French: communauté), which comes from the Latin communitas “community”, “public spirit” (from Latin communis, “common”). – en.wikipedia.org"
+  },
+  {
+    "objectID": "community.html#rseed-seminar-series",
+    "href": "community.html#rseed-seminar-series",
+    "title": "Community",
+    "section": "RSEED Seminar Series",
+    "text": "RSEED Seminar Series\nin 2024, we are planning to hold a monthly seminar with speakers from academia, the public and private sector. Speakers will publish a blog post on their topic in advance of the live sessions to foster educated discussions within the sessions. The seminar series will run its own matrix channel to extend exchange beyond the live sessions."
+  },
+  {
+    "objectID": "community.html#join-the-rseed-matrix-chat-space",
+    "href": "community.html#join-the-rseed-matrix-chat-space",
+    "title": "Community",
+    "section": "Join the RSEED Matrix Chat Space",
+    "text": "Join the RSEED Matrix Chat Space\nWe have opened up a Matrix based chat space for people working with (economic) data who are interested in exchange on programming as an approach to analyse and manage data. Matrix is an open network for secure and decentralized communication. All you need is\n\nfree registration at a matrix home server.\na matrix client for your computer and/or mobile device. We recommend to use Element, the most popular matrix client.\n\n\n\n\nJoin our Matrix channels either from ETH or outside ETH\n\n\n\nMatrix Tutorial\nThe openwashdata community which also uses Matrix as a chat platform offers a comprehensive Matrix tutorial. The tutorial will guide you through finding the right homeserver for you and help set up an Element Matrix client so you can find and join our chat space and its channels. Make sure to use the below entrypoint instead of the openshdata community’s entrypoint.\nopenwashdata Matrix tutorial | element Matrix client\n\n\nRSEED Join Information\nFind our entrypoint room at #rseed:staffchat.ethz.ch ! From the there you will find your first contacts as well as other more specific channels to join within our chat spaces."
+  },
+  {
+    "objectID": "posts/initial_post/index.html",
+    "href": "posts/initial_post/index.html",
+    "title": "RSEED at KOF Lab",
+    "section": "",
+    "text": "Code\nlibrary(cranlogs)\nlibrary(dplyr)\nlibrary(lubridate)\nlibrary(tsbox)\ntop <- cranlogs::cran_top_downloads()\n\npacks <- cranlogs::cran_downloads(\n                               from = \"2015-01-01\",\n                               to = \"2023-09-30\")\n\npacks |> \n  group_by(floor_date(date, \"month\")) |> \n  summarize(m = sum(count)) |> \n  ts_plot(title = \"Sum of Monthly R Package Downloads\",\n          subtitle = \"source: RStudio CRAN mirror\")\nThe aim of the newly launched KOF Lab section is to become a competence hub for Research Software Engineering and Economic Data in Switzerland and beyond. The section aims to enable more researchers to work with KOF’s unique datasets an to help use the potential of programming as a channel to communicate methodological advances and new analyses. In addition, RSEED provides courses to help non-computer science scholars bolster their computational competencies."
+  },
+  {
+    "objectID": "posts/initial_post/index.html#what-to-expect-from-rseed",
+    "href": "posts/initial_post/index.html#what-to-expect-from-rseed",
+    "title": "RSEED at KOF Lab",
+    "section": "What to Expect from RSEED?",
+    "text": "What to Expect from RSEED?\nRSEED’s initial offering includes working with the KOF Micro Data Center, the course Hacking for Science along with the book project Research Software Engineering - A Guide to the Open Source Ecosystem as well as several software package projects. Short term future plans include the launch of a new innovative seminar."
+  },
+  {
+    "objectID": "posts/initial_post/index.html#what-to-expect-from-this-blog",
+    "href": "posts/initial_post/index.html#what-to-expect-from-this-blog",
+    "title": "RSEED at KOF Lab",
+    "section": "What to Expect from this Blog?",
+    "text": "What to Expect from this Blog?\nBesides section news, tutorials and an occasional discussion of highlights in the field, expect the blog to accompany the RSEED seminar. We invite speakers to present their topic in a blog post before their actual presentation. This form of pre-circulated content is intended to help drive the discussion, improve feedback at the live event and allow to catch-up for debriefing. In addition to the blog, the seminar has its own channel on the RSEED matrix chat space."
+  },
+  {
+    "objectID": "posts/newsletter/index.html",
+    "href": "posts/newsletter/index.html",
+    "title": "Psssst… Quarterly RSEED Newsletter launched",
+    "section": "",
+    "text": "Code\nlibrary(qrcode)\nq <- qrcode::qr_code(\n  \"https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html\",ecl = \"M\"\n)\n\nql <- qrcode::add_logo(q,\"rseed-blk.png\")\nplot(ql)\n\n\n\n\n\nSubscribe to the RSEED Newsletter."
+  },
+  {
+    "objectID": "about/minna/index.html",
+    "href": "about/minna/index.html",
+    "title": "Minna Heim",
+    "section": "",
+    "text": "RSEED has the potential to make data accessible beyond its current reach of data scientists and software engineers. I want to help grow the RSEED section and develop our community."
+  },
+  {
+    "objectID": "about/martin/index.html",
+    "href": "about/martin/index.html",
+    "title": "Prof. Dr. Martin Wörter",
+    "section": "",
+    "text": "RSEED is a key resource in our data-centric age, where the availability of microdata, software expertise and analytical skills are becoming increasingly important. The potential of RSEED as a basis for sound economic policy analysis is immense. So it’s not just about having access to data, it’s about being able to unlock its potential through improved analytical skills. It is very exciting to be part of this project."
+  },
+  {
+    "objectID": "about/matt/index.html",
+    "href": "about/matt/index.html",
+    "title": "Dr. Matthias Bannert",
+    "section": "",
+    "text": "Over the last two decades, we have witnessed programming, and source code in particular, become a tremendously sharp, illustrative and hence increasingly popular communication channel across many fields of research. RSEED picks up this chance to leverage our resources: Reproducible dissemination of results, interactive communication of methodological advances and truly accessible data, make research more inclusive, increase its reach and therefore its impact."
+  },
+  {
+    "objectID": "about/hans/index.html",
+    "href": "about/hans/index.html",
+    "title": "Prof. Dr. Hans Gersbach",
+    "section": "",
+    "text": "RSEED is a particularly promising field of research for my work in democracy and innovation. For the citizens in any democracy, enhanced, equal access to data as well as data quality can be defined as public goods. Enhanced data and a programming-driven approach to the analysis of these data are also the basis needed for innovation in the collective decision-making processes we examine in our research, with the goal to improve democracy and to ensure long-term welfare for society."
+  },
+  {
+    "objectID": "about/klaus/index.html",
+    "href": "about/klaus/index.html",
+    "title": "Dr. Klaus Abberger",
+    "section": "",
+    "text": "The use of data, knowing how to use it correctly, but also how to make your own data available for others to use so that they can work with it in a suitable way, are important prerequisites in today’s world. As a data producer on the one hand and a data user on the other, KOF can play an important bridging role and bring together data producers and academic users in particular. I am looking forward to the exciting process of helping to build this bridge."
+  },
+  {
+    "objectID": "about/oliver/index.html",
+    "href": "about/oliver/index.html",
+    "title": "Oliver Müller",
+    "section": "",
+    "text": "Integrating data from all over Switzerland here at KOF will supercharge its usefulness for the social sciences. To make this a reality, we need to do lots of engineering. As an IT specialist with a fondness for economic research, I will contribute my expertise and many lines of code to this promising venture."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "The book project Research Software Engineering - A Guide to the Open Source Ecosystem argues that a solid programming and operations skill level is totally in reach for most researchers. And most importantly, investing is worth the effort: being able to code leverages field specific expertise and fosters interdisciplinary collaboration as source code continues to become an important communication channel\n\n\n\nResearch Software Engineering, Figure 2"
+  },
+  {
+    "objectID": "projects.html#openwashdata",
+    "href": "projects.html#openwashdata",
+    "title": "Projects",
+    "section": "Openwashdata",
+    "text": "Openwashdata\nopenwashdata is an active global community that applies FAIR principles to data generated in the greater water, sanitation, and hygiene (WASH) sector. Open Wash Data’s mission is to empower WASH professionals to engage with tools and workflows for open data and code."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Research Software Engineering and  Economic Data at KOF Lab",
+    "section": "",
+    "text": "The majority of social and economic data has been created within the last decade. In turn, many fields of research are confronted with an unprecedented wealth of data. In an effort to make the most of this opportunity, the section Research Software Engineering and Economic Data (RSEED) has set out to become a competence hub for research projects that embrace a data and programming driven approach to analysis.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconomic Datasets\n\n\nConduct research with KOF’s unique time series and micro data!\n\n\n\n\n\n\n\n\n\n\n\n\n\nContribute Through Software\n\n\nTurn Software into Publications!\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching\n\n\nSoftware Engineering Skills for Researchers\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Team",
+    "section": "",
+    "text": "Research Software Engineering and Economic Data is a team effort.\nResearch Software Engineering and Economic Data (RSEED) is a KOF Lab section which itself is a part of KOF, the D-MTEC department and ETH Zurich. The RSEED team does not a have an hierarchical approach to organize its activities. Our understanding of working together is more similar to the guild approach in SCRUM: RSEED intends to give contributors from all of research divisions of KOF and beyond a platform collaborate on the data and software component of their work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Klaus Abberger\n\n\nDivision Head Business Tendency Surveys\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Matthias Bannert\n\n\nSection Lead RSEED\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinna Heim\n\n\nResearch Assistant and Organization Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nOliver Müller\n\n\nResearch Software Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Hans Gersbach\n\n\nDivision Head KOF Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Martin Wörter\n\n\nDivision Head Innovation Economics\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "startpage/ed/index.html",
+    "href": "startpage/ed/index.html",
+    "title": "Economic Datasets",
+    "section": "",
+    "text": "One of the three main goals of RSEED is to increase the impact of KOF’s unique economic datasets by enabling academic researchers to work with the datasets we built and maintain. Social and economic data ask for contributions not only from researchers, but also from companies and individuals. To fully value these contributions we are committed to creating the conditions to use the economic datasets maintained by KOF while protecting the privacy of individual companies and persons."
+  },
+  {
+    "objectID": "startpage/ed/index.html#micro-data-at-kof",
+    "href": "startpage/ed/index.html#micro-data-at-kof",
+    "title": "Economic Datasets",
+    "section": "Micro Data at KOF",
+    "text": "Micro Data at KOF\n\nThe term “micro data” refers to unit-level data obtained from sample surveys, censuses and administrative systems, usually from individual firms. Part of the KOF Lab’s expertise stems from decades of fine-grained panel data monitoring of the Swiss economy, partly through surveys from which micro data are generated. This added value is enhanced by giving researchers access to some of the anonymised micro data and thus increasing the use of the data."
+  },
+  {
+    "objectID": "startpage/ed/index.html#opendata.swiss-at-kof",
+    "href": "startpage/ed/index.html#opendata.swiss-at-kof",
+    "title": "Economic Datasets",
+    "section": "opendata.swiss at KOF",
+    "text": "opendata.swiss at KOF\nKOF’s economic indicators are its most exposed data. Indicators such as the KOF Barometer (see below) are publicly available and designed for intertemporal comparison as they summarise economic development in a single number.\n\n\n\n\n\n\nComprehensive dissemination of the extracted information is an important part of monitoring the Swiss economy. Hence, it is important to follow standards in order to make data not only available but immediately processable. KOF indicators are available from the official open government data (OGD) portal of the Swiss Federal Office of Statistics and the KOF Data application programming interface (API).\n| Learn more about KOF indicators on kof.ethz.ch | KOF at opendata.swiss"
+  },
+  {
+    "objectID": "startpage/ed/index.html#time-series-database-at-kof",
+    "href": "startpage/ed/index.html#time-series-database-at-kof",
+    "title": "Economic Datasets",
+    "section": "Time Series Database at KOF",
+    "text": "Time Series Database at KOF\nIn addition to its publicly available time series, KOF offers a plethora of finer grained time series including regional and sector specific indicators. The KOF time series data API provides researchers with access to over 30’000 time series on every sector of the Swiss economy.\n\n\n\nThe KOF Time Series Explorer helps user navigate over 30’000 economic time series\n\n\nKOF Micro Data Center |KOF Time Series Explorer | kofdata API R package | Learn more about the KOF Time Series database on kof.ethz.ch"
+  },
+  {
+    "objectID": "startpage/teaching/index.html",
+    "href": "startpage/teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching is an integral part of our work at the KOF Lab section for Research Software Engineering and Economic Data. We strive to teach what is needed and continously learn in a dynamically evolving field. Hence, feedback to existing courses our requests to extend our program are greatly appreciated. Join our community to engage in the discussion!"
+  },
+  {
+    "objectID": "startpage/teaching/index.html#hacking-for-science-eth-phd-program",
+    "href": "startpage/teaching/index.html#hacking-for-science-eth-phd-program",
+    "title": "Teaching",
+    "section": "Hacking for Science, ETH PhD program",
+    "text": "Hacking for Science, ETH PhD program\nHacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector.\nHacking for Science ETH Course Catalog | Research Software Engineering - A Guide to the Open Source Ecosystem | 2021 KITE Award nomnination"
+  },
+  {
+    "objectID": "startpage/teaching/index.html#hacking-for-research-assistants-make-repetitive-work-fun-again",
+    "href": "startpage/teaching/index.html#hacking-for-research-assistants-make-repetitive-work-fun-again",
+    "title": "Teaching",
+    "section": "Hacking for Research Assistants, Make Repetitive Work Fun Again!",
+    "text": "Hacking for Research Assistants, Make Repetitive Work Fun Again!\nAssistant work in academic research may not consist of cutting edge tasks to 100%. In fact, turning real world information into machine friendly standardized datasets can be cumbersome, but inevitable. What is not inevitable though is an error prone, repetitive and hardly transparent approach. This new training camp style course idea plans to work together with research assistants to find their most common needs and use programming to work on these needs hands-on in highly interactive fashion.\nFurther details to be determined. We expect to host the course in 2nd half of 2024 for the first time."
+  },
+  {
+    "objectID": "startpage/rse/index.html",
+    "href": "startpage/rse/index.html",
+    "title": "Contribute Through Software",
+    "section": "",
+    "text": "Open source programming languages, led by R, Python and JavaScript have taken the data analytics and engineering world by storm. This sharing, reproducibility and transparency driven development has not only resulted in a plethora of useful, license cost-free software package but has also established a tremendous communication channel in source code. RSEED aims to help (economic) researchers put their ideas into state-of-the-art software packages in increase the impact of their work in different ways: we make contributions reusable and connect researchers to a vibrant data science and open source software community."
+  },
+  {
+    "objectID": "startpage/rse/index.html#timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql",
+    "href": "startpage/rse/index.html#timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql",
+    "title": "Contribute Through Software",
+    "section": "timeseriesdb: A Time Series Database for Official Statistics with R and PostgreSQL",
+    "text": "timeseriesdb: A Time Series Database for Official Statistics with R and PostgreSQL\nArchive and manage times series data from official statistics. The ‘timeseriesdb’ package was designed to manage a large catalog of time series from official statistics which are typically published on a monthly, quarterly or yearly basis. Thus timeseriesdb is optimized to handle updates caused by data revision as well as elaborate, multi-lingual meta information.\ntimeseriesdb on CRAN | timeseriesdb on GitHub | timeseriesdb Documentation"
+  },
+  {
+    "objectID": "startpage/rse/index.html#kofdata-get-data-from-the-kof-datenservice-api",
+    "href": "startpage/rse/index.html#kofdata-get-data-from-the-kof-datenservice-api",
+    "title": "Contribute Through Software",
+    "section": "kofdata: Get Data from the ‘KOF Datenservice’ API",
+    "text": "kofdata: Get Data from the ‘KOF Datenservice’ API\nRead Swiss time series data from the ‘KOF Data’ API, https://datenservice.kof.ethz.ch. The API provides macro economic time series data mostly about Switzerland. The package itself is a set of wrappers around the ‘KOF Datenservice’ API. The ‘kofdata’ package is able to consume public information as well as data that requires an API token.\nkofdata on CRAN | kofdata on Github (documentation in README)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "blog.rseed",
+    "section": "",
+    "text": "Psssst… Quarterly RSEED Newsletter launched\n\n\n\n\n\n\n\nresearch software engineering\n\n\neconomic data\n\n\nteaching\n\n\nRSEED news\n\n\n\n\nWant to know more about new courses or community events around programming with data? Do you want to know how RSEED at KOF Lab evolves over time? Are you on the lookout for the next job opportunity in the field? Mix in our take on the latest developments in the field. If you interested in any of the above, this newsletter is for you. No Spam. Just one email per quarter.\n\n\n\n\n\n\nNov 6, 2023\n\n\nMatthias Bannert\n\n\n\n\n\n\n\n\nRSEED at KOF Lab\n\n\n\n\n\n\n\nresearch software engineering\n\n\neconomic data\n\n\nteaching\n\n\nRSEED news\n\n\n\n\nIn 2023, the KOF Swiss Economic Institute started KOF Lab as a new research devision to develop, test and implement new approaches to economic research. Research Software Engineering and Economic Data (RSEED) starts as one of four KOF Lab sections alongside Medium and Long-Term Scenarios, Inequality and Public Economics and Public and Social Policy Design.\n\n\n\n\n\n\nNov 1, 2023\n\n\nMatthias Bannert\n\n\n\n\n\n\nNo matching items"
+  }
+]
