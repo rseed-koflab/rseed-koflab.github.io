@@ -15,5 +15,4 @@ about:
       href: https://www.linkedin.com/in/minna-heim-a885aa229/
 ---
 
-
-RSEED has the potential to make data accessible, beyond the current scope of data scientists and software engineers. The aim of my organisational development role is to expand this project and to make gathering open source data and learning, sharing and communicating as easy as possible with this platform.
+RSEED has the potential to make data accessible beyond its current reach of data scientists and software engineers. I want to help grow the RSEED section and develop our community. 
