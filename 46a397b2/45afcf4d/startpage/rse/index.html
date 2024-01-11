@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Contribute Through Software</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Contribute Through Software">
+<meta property="og:description" content="Turn Software into Publications!">
+<meta property="og:image" content="https://rseed-koflab.github.io/45afcf4d/startpage/rse/rse.png">
+<meta property="og:image:height" content="242">
+<meta property="og:image:width" content="504">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../rseed-neg.png" alt="Research Software Engineering and Economic Data at KOF Lab" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../startpage/ed/index.html">
+ <span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../startpage/rse/index.html">
+ <span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../startpage/teaching/index.html">
+ <span class="menu-text">Courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../projects.html">
+ <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html">
+ <span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../community.html">
+ <span class="menu-text">Community</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog.html">
+ <span class="menu-text">blog</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql" id="toc-timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql" class="nav-link active" data-scroll-target="#timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql">timeseriesdb: A Time Series Database for Official Statistics with R and PostgreSQL</a></li>
+  <li><a href="#kofdata-get-data-from-the-kof-datenservice-api" id="toc-kofdata-get-data-from-the-kof-datenservice-api" class="nav-link" data-scroll-target="#kofdata-get-data-from-the-kof-datenservice-api">kofdata: Get Data from the ‘KOF Datenservice’ API</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Contribute Through Software</h1>
+<p class="subtitle lead">Turn Software into Publications!</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Open source programming languages, led by R, Python and JavaScript have taken the data analytics and engineering world by storm. This sharing, reproducibility and transparency driven development has not only resulted in a plethora of useful, license cost-free software package but has also established a tremendous communication channel in source code. RSEED aims to help (economic) researchers put their ideas into state-of-the-art software packages in increase the impact of their work in different ways: we make contributions reusable and connect researchers to a vibrant data science and open source software community.</p>
+<section id="timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql" class="level2">
+<h2 class="anchored" data-anchor-id="timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql">timeseriesdb: A Time Series Database for Official Statistics with R and PostgreSQL</h2>
+<p><a href="https://cran.r-project.org/package=timeseriesdb"><img src="https://www.r-pkg.org/badges/version/timeseriesdb.png" class="img-fluid" alt="CRAN_Status_Badge"></a> <a href="https://cran.r-project.org/package=timeseriesdb"><img src="https://www.r-pkg.org/badges/ago/timeseriesdb.png" class="img-fluid" alt="CRAN_time_from_release"></a> <a href="https://cran.r-project.org/package=timeseriesdb"><img src="https://cranlogs.r-pkg.org/badges/timeseriesdb.png" class="img-fluid" alt="metacran downloads"></a> <a href="https://choosealicense.com/"><img src="https://img.shields.io/badge/license-gplv3-lightgrey.svg" class="img-fluid" alt="license"></a></p>
+<p>Archive and manage times series data from official statistics. The ‘timeseriesdb’ package was designed to manage a large catalog of time series from official statistics which are typically published on a monthly, quarterly or yearly basis. Thus timeseriesdb is optimized to handle updates caused by data revision as well as elaborate, multi-lingual meta information.</p>
+<p><a href="https://cran.r-project.org/package=timeseriesdb">timeseriesdb on CRAN</a> | <a href="https://github.com/mbannert/timeseriesdb/">timeseriesdb on GitHub</a> | <a href="https://mbannert.github.io/timeseriesdb/">timeseriesdb Documentation</a></p>
+</section>
+<section id="kofdata-get-data-from-the-kof-datenservice-api" class="level2">
+<h2 class="anchored" data-anchor-id="kofdata-get-data-from-the-kof-datenservice-api">kofdata: Get Data from the ‘KOF Datenservice’ API</h2>
+<p><a href="https://cran.r-project.org/package=kofdata"><img src="https://www.r-pkg.org/badges/version/kofdata.png" class="img-fluid" alt="CRAN_Status_Badge"></a> <a href="https://cran.r-project.org/package=kofdata"><img src="https://www.r-pkg.org/badges/ago/kofdata.png" class="img-fluid" alt="CRAN_time_from_release"></a> <a href="https://cran.r-project.org/package=kofdata"><img src="https://cranlogs.r-pkg.org/badges/kofdata.png" class="img-fluid" alt="metacran downloads"></a> <a href="https://choosealicense.com/"><img src="https://img.shields.io/badge/license-gplv3-lightgrey.svg" class="img-fluid" alt="license"></a></p>
+<p>Read Swiss time series data from the ‘KOF Data’ API, <a href="https://datenservice.kof.ethz.ch" class="uri">https://datenservice.kof.ethz.ch</a>. The API provides macro economic time series data mostly about Switzerland. The package itself is a set of wrappers around the ‘KOF Datenservice’ API. The ‘kofdata’ package is able to consume public information as well as data that requires an API token.</p>
+<p><a href="https://cran.r-project.org/package=kofdata">kofdata on CRAN</a> | <a href="https://github.com/KOF-ch/kofdata">kofdata on Github (documentation in README)</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">RSEED is a part of <a href="https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed.html#">KOF Lab at ETH Zurich</a>.</div>
+  </div>
+</footer>
+
+
+
+</body></html>
