@@ -1,12 +1,11 @@
 ---
 title: "Prof. Dr. Martin Wörter"
-subtitle: "Lead Innovation Economics at KOF"
+subtitle: "Division Head Innovation Economics"
 image: mwoerter.jpeg
 about:
   template: trestles
   image-width: 10em
-  image-shape: rectangle
-  
+  image-shape: rectangle  
 ---
 
 
