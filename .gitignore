@@ -32,6 +32,8 @@ vignettes/*.pdf
 # knitr and R markdown default cache directories
 *_cache/
 /cache/
+/.quarto/
+/_site/
 
 # Temporary files created by R markdown
 *.utf8.md
@@ -49,7 +51,5 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-/.quarto/
 
-# build folder _site & removed from the git repo cache
-_site/
+

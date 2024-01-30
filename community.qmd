@@ -5,11 +5,28 @@ title: "Community"
 
 >The English-language word "community" derives from the Old French comuneté (Modern French: communauté), which comes from the Latin communitas "community", "public spirit" (from Latin communis, "common"). -- en.wikipedia.org
 
+
+::: {.column-margin}
+
+
+**Newsletter Registration**
+
+Stay informed about new courses and trainings. [Join the quarterly RSEED newsletter](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html).
+
+```{r, echo=FALSE}
+library(qrcode)
+
+q <- qrcode::qr_code("https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html")
+plot(q)
+
+```
+
+:::
+
+
 ## RSEED Seminar Series
 
 in 2024, we are planning to hold a monthly seminar with speakers from academia, the public and private sector. Speakers will publish a blog post on their topic in advance of the live sessions to foster educated discussions within the sessions. The seminar series will run its own matrix channel to extend exchange beyond the live sessions. 
-
-Are you interested in speaking at the seminar? | Want to suggest a speaker ? | Contact us at ... 
 
 
 ## Join the RSEED Matrix Chat Space
@@ -17,7 +34,7 @@ Are you interested in speaking at the seminar? | Want to suggest a speaker ? | C
 We have opened up a Matrix based chat space for people working with (economic) data who are interested in exchange on programming as an approach to analyse and manage data. Matrix is an open network for secure and decentralized communication. All you need is
 
 - free registration at a matrix home server. 
-- a matrix client for your computer and/or mobile device. We recommend to use [Element](), the most popular matrix client. 
+- a matrix client for your computer and/or mobile device. We recommend to use [Element](https://element.io/), the most popular matrix client. 
 
 
 ![Join our Matrix channels either from ETH or outside ETH](element.png)
@@ -31,5 +48,5 @@ The openwashdata community which also uses Matrix as a chat platform offers a co
 
 ### RSEED Join Information
 
-Find our entrypoint room at **#rseed-lobby:staffchat.ethz.ch** ! 
-From the lobby you will find your first contacts as well as other more specific channels to join within our chat spaces. 
+Find our entrypoint room at **#rseed:staffchat.ethz.ch** ! 
+From the there you will find your first contacts as well as other more specific channels to join within our chat spaces. 
