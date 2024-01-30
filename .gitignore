@@ -50,3 +50,6 @@ po/*~
 rsconnect/
 
 /.quarto/
+
+# build folder _site & removed from the git repo cache
+_site
