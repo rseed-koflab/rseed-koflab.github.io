@@ -1,0 +1,23 @@
+---
+title: "Hacking4Science is back"
+description: "Hacking4Science is a highly interactive, online course providing non-computer science PhD students valuable big picture guidance and teaching hands-on software development skills. It is schedules to happen again in the Fall Semester 2024, bi-weekly on Thursdays and Fridays."
+author: "Minna Heim"
+date: "01/30/2024"
+categories:
+    - teaching
+    - economic data
+    - software skills
+    - RSEED news
+---
+
+### Wizard vs. Carpenter 
+
+Hacking for Social Scientists is a guide to programming with data, taught by Dr. Matthias Bannert. It is tailored to the needs of a field in which scholars’ typical curricula do not contain a strong programming component. Yet this course argues that what the open source community calls a ‘software carpentry’ level is totally within reach for a quantitative social scientist and well worth the investment. Therefore, the motto wizard vs. carpenter signals that being able to code on a carpentry-level leverages field specific expertise and fosters interdisciplinary collaboration, as source code continues to become an important communication channel, whereas wizardry, although essential, is not as important for an average quantitative social scientist. 
+
+![wizard vs. carpenter](wizardry.jpg)
+
+For those interested, the course happens this Fall Semester 2024 on Thursdays and Fridays bi-weekly. Below you will find all relevant links 
+
+[Course Details](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&ansicht=KATALOGDATEN&lerneinheitId=161937&lang=en) | [Sign Up]() 
+
+<!-- add sign up link -->

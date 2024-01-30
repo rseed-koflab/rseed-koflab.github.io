@@ -13,7 +13,7 @@ categories:
 
 ```{r, message=FALSE, warnings=FALSE}
 #| code-fold: true
-
+install.packages("cranlogs", repos = "http://cran.us.r-project.org")
 library(cranlogs)
 library(dplyr)
 library(lubridate)
@@ -21,14 +21,17 @@ library(tsbox)
 top <- cranlogs::cran_top_downloads()
 
 packs <- cranlogs::cran_downloads(
-                               from = "2015-01-01",
-                               to = "2023-09-30")
+    from = "2015-01-01",
+    to = "2023-09-30"
+)
 
-packs |> 
-  group_by(floor_date(date, "month")) |> 
-  summarize(m = sum(count)) |> 
-  ts_plot(title = "Sum of Monthly R Package Downloads",
-          subtitle = "source: RStudio CRAN mirror")
+packs |>
+    group_by(floor_date(date, "month")) |>
+    summarize(m = sum(count)) |>
+    ts_plot(
+        title = "Sum of Monthly R Package Downloads",
+        subtitle = "source: RStudio CRAN mirror"
+    )
 
 
 
