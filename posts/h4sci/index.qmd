@@ -26,6 +26,18 @@ Hacking for Social Scientists is a guide to programming with data, taught by Dr.
 
 - preliminary schedule
 
+Donnerstag:       26. September 2024 (10.00 – 13.00)
+Freitag:               27. September 2024 (10.00 – 14.00)
+ 
+Donnerstag:       24. Oktober 2024 (10.00 – 13.00)
+Freitag:               25. Oktober 2024 (10.00 – 14.00)
+ 
+Donnerstag:       21. November 2024 (10.00 – 13.00)
+Freitag:               22. November 2024 (10.00 – 14.00)
+ 
+Donnerstag:       5. Dezember 2024 (10.00 – 13.00)
+Freitag:               6. Dezember 2024 (10.00 – 14.00).
+
 
 ## Course Material: Free and Open Source
 
