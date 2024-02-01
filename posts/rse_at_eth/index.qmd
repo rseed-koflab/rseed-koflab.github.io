@@ -1,0 +1,36 @@
+---
+title: "First on-site RSE@ETH Event"
+description: "On Thursday afternoon, 1st of February 2024, the first in person event of the Research Software Engineering Community at ETH was held. With the aim of getting to know the various RSE interest groups represented at ETH, the participants were able to present their cause/themselves in rapid succession and discuss what they needed from an RSE@ETH community."
+author: "Minna Heim"
+date: "02/01/2024"
+categories:
+    - research software engineering
+    - community
+    - ETH
+    - RSE news
+---
+
+The Research Software Engineering Community was newly founded in late 2023, due to the need of a regional (local) RSE Society which arose on a university level. Although RSE@ETH had its first online information Event on the 12th of December 2023, the gettogether on the 1st of February served as a way to get to know the RSE community at ETH better, and to understand their wants and needs from a community such as RSE@ETH.
+
+
+## Event Program
+The event was structured in the following way.
+
+- 15:00 - 15:45 : Lightning talks
+
+- 15:45 - 16:00 : break
+
+- 16:00 - 16:30 : Presentation by Mr. Peter Schmidt, Trustee of the RSE society UK.
+
+- 16:30 - 17:30 : Breakout sessions/discussions
+
+
+## Impressions
+
+<!-- 
+- Impressions (who was there? What kind of audience, eth, section, etc.)
+- Check out Peter Schmidts podcast, suggestion of episode: “open data without friction”, how to work seamlessly with open data https://codeforthought.buzzsprout.com/1326658/14165274-en-open-data-without-friction-sara-petti-and-evgeny-karev
+- Content of our breakout session… -->
+
+## Future Cooperation
+<!-- - What do we hope for future cooperation, was steht an. -->

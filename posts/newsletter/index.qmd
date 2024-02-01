@@ -15,10 +15,11 @@ categories:
 #| code-fold: true
 library(qrcode)
 q <- qrcode::qr_code(
-  "https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html",ecl = "M"
+    "https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html",
+    ecl = "M"
 )
 
-ql <- qrcode::add_logo(q,"rseed-blk.png")
+ql <- qrcode::add_logo(q, "rseed-blk.png")
 plot(ql)
 
 
