@@ -1,20 +1,49 @@
 ---
-title: "Hacking4Science is back"
-description: "Hacking4Science is a highly interactive, online course providing non-computer science PhD students valuable big picture guidance and teaching hands-on software development skills. It is schedules to happen again in the Fall Semester 2024, bi-weekly on Thursdays and Fridays."
-author: "Minna Heim"
+title: "Hacking for Science - An Applied Guide to Programming with Data is back."
+description: "After a 1-year hiatus, Hacking for Science is back. Hacking for Science is a highly interactive, online course for PhD students that is open to interested guests. The idea behind Hacking for Science is to build a solid understanding of core technologies and concepts to help researchers develop a data processing strategy and increase one's possibilities when working with data. The course approach is to single out concepts from software development that are fairly easy to adopt and useful to scientists. Hacking for Science scheduled to happen again in the fall semester of 2024, subscription via the ETH course catalog will open soon."
+author: "Minna Heim and Matthias Bannert"
 date: "01/30/2024"
 categories:
     - teaching
+    - coaching
     - economic data
     - software skills
     - RSEED news
 ---
 
-### Wizard vs. Carpenter 
+
+The vast majority of data has been created within the last decade. As a result, more and more fields of research start to consider and embrace programming to process and analyse data. Hacking for Science embraces a programming approach to data engineering and analytics, teaches applied programming with data as it aims to leverage field specific expertise with the help of the open source ecosystem.  
+
+## How Much Programming Does a Researcher Need? 
+
+Wizard vs. Carpenter 
 
 Hacking for Social Scientists is a guide to programming with data, taught by Dr. Matthias Bannert. It is tailored to the needs of a field in which scholars’ typical curricula do not contain a strong programming component. Yet this course argues that what the open source community calls a ‘software carpentry’ level is totally within reach for a quantitative social scientist and well worth the investment. Therefore, the motto wizard vs. carpenter signals that being able to code on a carpentry-level leverages field specific expertise and fosters interdisciplinary collaboration, as source code continues to become an important communication channel, whereas wizardry, although essential, is not as important for an average quantitative social scientist. 
-
 ![wizard vs. carpenter](wizardry.jpg)
+
+## Teaching & Coaching Sessions
+
+
+- preliminary schedule
+
+
+## Course Material: Free and Open Source
+
+- GitHub as a platform
+- Book
+
+
+
+
+
+
+
+
+
+
+
+Links: Matrix Channel | RSE Book | Project Page 
+
 
 For those interested, the course happens this Fall Semester 2024 on Thursdays and Fridays bi-weekly. Below you will find all relevant links 
 
