@@ -1,6 +1,6 @@
 ---
 title: "Hacking for Science - An Applied Guide to Programming with Data is back."
-description: "After a 1-year hiatus, Hacking for Science is back. Hacking for Science is a highly interactive, online course for PhD students that is open to interested guests. The idea behind Hacking for Science is to build a solid understanding of core technologies and concepts to help researchers develop a data processing strategy and increase one's possibilities when working with data. The course approach is to single out concepts from software development that are fairly easy to adopt and useful to scientists. Hacking for Science scheduled to happen again in the fall semester of 2024, subscription via the ETH course catalog will open soon."
+description: "After a 1-year hiatus, Hacking for Science is back. Hacking for Science is a highly interactive online course for PhD students that is open to interested guests. The idea behind Hacking for Science is to build a solid understanding of core technologies and concepts to help researchers develop a data processing strategy and increase one's possibilities when working with data. We single out those concepts from software development that are fairly easy to adopt and useful to scientists. Hacking for Science will take palce again in fall 2024. Subscription via the ETH course catalog will open soon."
 author: "Minna Heim and Matthias Bannert"
 date: "01/30/2024"
 categories:
@@ -9,17 +9,24 @@ categories:
     - economic data
     - software skills
     - RSEED news
+references: references.bib
 ---
 
-
-The vast majority of data has been created within the last decade. As a result, more and more fields of research start to consider and embrace programming to process and analyse data. Hacking for Science embraces a programming approach to data engineering and analytics, teaches applied programming with data as it aims to leverage field specific expertise with the help of the open source ecosystem.  
+![Wizard or carpenter? How much programming proficiency do you need to tackle your data work?](wizardry.jpg)
 
 ## How Much Programming Does a Researcher Need? 
 
-Wizard vs. Carpenter 
+The vast majority of data has been created within the last decade. As a result, more and more fields of research start to consider programming to analyze data. Hacking for Science embraces a programming approach to data engineering and analytics as it aims to leverage field specific expertise with the help of the open source ecosystem. Besides its popular demand driven, hands-on programming examples, the greatest value of the course may lie in its big picture understanding. How do container, cloud, Kubernetes, Python, R, Julia, GitHub, git, Visual Studio Code, geoJSON, Postgres and Continuous Integration relate to each other? And do I -- all of a sudden -- need all of them for my research? @wizcarpenter
+
+## Online Teaching and Coaching Sessions 
+
+Hacking for Science first builds a common denominator understanding of the open source ecosystem as a toolbox and continues to discuss those combinations of tools that course participants look to apply in practice. Born during the pandemic, Hacking for Science is a native online course specifically designed to work well online. The course is thought in four two day blocks to implement a flipped classroom concept. I.e., after two days of input sessions, there is a break of multiple weeks that allow for self-learning time. These self-learning phases are supported by a course Matrix chat space that facilitates collaboration among students as well as communication with the lecturer. In addition to its technical 
+
+While the first two blocks of the course are focused on teaching, the latter two blocks 
+
 
 Hacking for Social Scientists is a guide to programming with data, taught by Dr. Matthias Bannert. It is tailored to the needs of a field in which scholars’ typical curricula do not contain a strong programming component. Yet this course argues that what the open source community calls a ‘software carpentry’ level is totally within reach for a quantitative social scientist and well worth the investment. Therefore, the motto wizard vs. carpenter signals that being able to code on a carpentry-level leverages field specific expertise and fosters interdisciplinary collaboration, as source code continues to become an important communication channel, whereas wizardry, although essential, is not as important for an average quantitative social scientist. 
-![wizard vs. carpenter](wizardry.jpg)
+
 
 ## Teaching & Coaching Sessions
 
