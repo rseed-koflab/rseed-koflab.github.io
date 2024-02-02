@@ -12,6 +12,7 @@ categories:
 
 The Research Software Engineering Community was newly founded in late 2023, due to the need of a regional (local) RSE Society which arose on a university level. Although RSE@ETH had its first online information Event on the 12th of December 2023, the gettogether on the 1st of February served as a way to get to know the RSE community at ETH better, and to understand their wants and needs from a community such as RSE@ETH.
 
+<!-- insert photo of lecture hall w/ people -->
 
 ## Event Program
 The event was structured in the following way.
@@ -32,5 +33,19 @@ The event was structured in the following way.
 - Check out Peter Schmidts podcast, suggestion of episode: “open data without friction”, how to work seamlessly with open data https://codeforthought.buzzsprout.com/1326658/14165274-en-open-data-without-friction-sara-petti-and-evgeny-karev
 - Content of our breakout session… -->
 
-## Future Cooperation
-<!-- - What do we hope for future cooperation, was steht an. -->
+## RSEED and RSE@ETH Cooperation
+<!-- Why, What do we hope for future cooperation, was steht an. -->
+
+<!-- 
+NOTES:
+“the force awakens”
+
+teaser: UK inspired, jetzt gehts los & first in person event →
+
+lightning talks → recurring theme, exchange 
+
+keynote → Peter Schmidt (hidden REF)
+
+community building & discussion → lies durch, was waren interessante vorschlage 
+
+promotion: RSEcon Newcastle, Element, join the community -->
