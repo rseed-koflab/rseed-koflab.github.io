@@ -9,63 +9,72 @@ categories:
     - economic data
     - software skills
     - RSEED news
-references: references.bib
+bibliography: references.bib
 ---
 
 ![Wizard or carpenter? How much programming proficiency do you need to tackle your data work?](wizardry.jpg)
 
 ## How Much Programming Does a Researcher Need? 
 
-The vast majority of data has been created within the last decade. As a result, more and more fields of research start to consider programming to analyze data. Hacking for Science embraces a programming approach to data engineering and analytics as it aims to leverage field specific expertise with the help of the open source ecosystem. Besides its popular demand driven, hands-on programming examples, the greatest value of the course may lie in its big picture understanding. How do container, cloud, Kubernetes, Python, R, Julia, GitHub, git, Visual Studio Code, geoJSON, Postgres and Continuous Integration relate to each other? And do I -- all of a sudden -- need all of them for my research? @wizcarpenter
+The vast majority of data has been created within the last decade. As a result, more and more fields of research consider programming to analyze data. Hacking for Science embraces a programming approach to data engineering and analytics as it aims to leverage field specific expertise with the help of the open source ecosystem. Besides its popular demand driven, hands-on programming examples, the greatest value of the course may lie in its big picture understanding. How do Python, R, Julia, GitHub, IDEs, git, Visual Studio Code, geoJSON, Postgres, containers, cloud, Kubernetes and Continuous Integration relate to each other? And do I -- all of a sudden -- need all of them for my research^[Readers who speak German may be interested in the discussion of this question for the profession of empirical economics [@wizcarpenter]]? 
 
 ## Online Teaching and Coaching Sessions 
 
-Hacking for Science first builds a common denominator understanding of the open source ecosystem as a toolbox and continues to discuss those combinations of tools that course participants look to apply in practice. Born during the pandemic, Hacking for Science is a native online course specifically designed to work well online. The course is thought in four two day blocks to implement a flipped classroom concept. I.e., after two days of input sessions, there is a break of multiple weeks that allow for self-learning time. These self-learning phases are supported by a course Matrix chat space that facilitates collaboration among students as well as communication with the lecturer. In addition to its technical 
-
-While the first two blocks of the course are focused on teaching, the latter two blocks 
+Born during the pandemic, Hacking for Science is a native online course - specifically designed to work well online. The course consists of four two day blocks all of which are at least several weeks apart with a flipped classroom concept in mind: after two days of input sessions, there is a break of multiple weeks that allow for self-learning time. This self-learning time is accompanied by a course matrix chat space and a free online version of the book [*Research Software Engineering*](https://rse-book.github.io) that was itself created using many of the open source technologies discussed in the course.  that allows participants to interact in asynchronous fashion with each other and with the lecturer. Participants decide on their own into which topics raised during the input sessions they would like to take more detailed look. 
 
 
-Hacking for Social Scientists is a guide to programming with data, taught by Dr. Matthias Bannert. It is tailored to the needs of a field in which scholars’ typical curricula do not contain a strong programming component. Yet this course argues that what the open source community calls a ‘software carpentry’ level is totally within reach for a quantitative social scientist and well worth the investment. Therefore, the motto wizard vs. carpenter signals that being able to code on a carpentry-level leverages field specific expertise and fosters interdisciplinary collaboration, as source code continues to become an important communication channel, whereas wizardry, although essential, is not as important for an average quantitative social scientist. 
+![Research Software Engineering - A Guide to the Open Source Ecosystem will be available soon as part of the Chapman & Hall/CRC Data Science Series ](rse-book.png)
 
 
 ## Teaching & Coaching Sessions
 
+::: {.callout-note}
 
-- preliminary schedule
+Registration via the ETH course catalog will open soon. If you are not an ETH student and/or have further questions, please do not hesitate to contact us: **heim [ at ] kof.ethz.ch** 
 
-Donnerstag:       26. September 2024 (10.00 – 13.00)
-Freitag:               27. September 2024 (10.00 – 14.00)
+
+:::
+
+
+While the first two blocks of the course are focused on teaching and building a common denominator understanding of the open source ecosystem as a toolbox, the latter two blocks have more of a coaching mindest. Similar to sports coach, participants can bring their (PhD) projects, every day programming issues and patterns to class. The course builds groups of participants with common problems and goes on to discuss ways to improve. Input ranges from workflow to source code as group outputs go from head-first dives into cloud computing to R Shiny Dashboards or profile websites. Each group will have the chance to hand in an ungraded programming exercise and to get feedback on this exercise at the end of the semester. Live session will take place on Thursdays and Fridays from **10:00 a.m. to 1:00 p.m.** and **10:00 a.m to 2 p.m.** including sufficient breaks. 
+
+**Preliminary Schedule**
+
+**Block 1**
+
+Thursday:  September 26, 2024 
+
+Friday: September 27, 2024
+
+
+**Block 2**
+
+Thursday: October 24, 2024
+
+Friday: October 24, 2024
  
-Donnerstag:       24. Oktober 2024 (10.00 – 13.00)
-Freitag:               25. Oktober 2024 (10.00 – 14.00)
+
+**Block 3**
+
+Thursday: November 21, 2024
+
+Friday: November 22, 2024
  
-Donnerstag:       21. November 2024 (10.00 – 13.00)
-Freitag:               22. November 2024 (10.00 – 14.00)
- 
-Donnerstag:       5. Dezember 2024 (10.00 – 13.00)
-Freitag:               6. Dezember 2024 (10.00 – 14.00).
+
+**Block 4**
+
+Thursday: December 5, 2024
+
+Friday: December 6, 2024
 
 
-## Course Material: Free and Open Source
+## Links 
 
-- GitHub as a platform
-- Book
-
-
-
+[Course Details (ETH Catalog)]((https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&ansicht=KATALOGDATEN&lerneinheitId=161937&lang=en)) | [RSE Book](https://rse-book.github.io) | [h4sci Matrix chat room (#h4sci:staffchat.ethz.ch)](https://matrix.to/#/#h4sci:staffchat.ethz.ch) |
 
 
 
 
 
-
-
-
-Links: Matrix Channel | RSE Book | Project Page 
-
-
-For those interested, the course happens this Fall Semester 2024 on Thursdays and Fridays bi-weekly. Below you will find all relevant links 
-
-[Course Details](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&ansicht=KATALOGDATEN&lerneinheitId=161937&lang=en) | [Sign Up]() 
 
 <!-- add sign up link -->
