@@ -1,6 +1,9 @@
 ---
-title: "First on-site RSE@ETH Event"
+title: "RSE@ETH - The Force awakens"
 description: "On Thursday afternoon, 1st of February 2024, the first in person event of the Research Software Engineering Community at ETH was held. With the aim of getting to know the various RSE interest groups represented at ETH, the participants were able to present their cause/themselves in rapid succession and discuss what they needed from an RSE@ETH community."
+
+# teaser: UK inspired, jetzt gehts los & first in person event
+
 author: "Minna Heim"
 date: "02/01/2024"
 categories:
@@ -12,10 +15,10 @@ categories:
 
 The Research Software Engineering Community was newly founded in late 2023, due to the need of a regional (local) RSE Society which arose on a university level. Although RSE@ETH had its first online information Event on the 12th of December 2023, the gettogether on the 1st of February served as a way to get to know the RSE community at ETH better, and to understand their wants and needs from a community such as RSE@ETH.
 
-<!-- insert photo of lecture hall w/ people -->
+![RSE Event on the 1st of February, 2024](rse_event.jpeg)
 
 ## Event Program
-The event was structured in the following way.
+The event was structured in the following way:
 
 - 15:00 - 15:45 : Lightning talks
 
@@ -25,27 +28,37 @@ The event was structured in the following way.
 
 - 16:30 - 17:30 : Breakout sessions/discussions
 
+## Lightning Talks
 
-## Impressions
+- noticed a recurring theme (data dissemination and processing packages, and science related, e.g. high performance computing (for physics) or peer-review based)
+- saw similarities in the problems RSEs faced
+- necessity for community and cooperation (not really field but tech based) 
+- "not to re-invent the wheel" every time
 
-<!-- 
-- Impressions (who was there? What kind of audience, eth, section, etc.)
-- Check out Peter Schmidts podcast, suggestion of episode: “open data without friction”, how to work seamlessly with open data https://codeforthought.buzzsprout.com/1326658/14165274-en-open-data-without-friction-sara-petti-and-evgeny-karev
-- Content of our breakout session… -->
+## Keynote - Peter Schmidt
+- started off in a room less than us RSE@ETH today, but already in 2013
+- isolated before, few people really called "RSE", but highly relevant (wizardry vs. carpentry)
+- SSI (software sustainability institute) → fellowship open to researchers/people abroad UK called [hidden REF](https://hidden-ref.org) (research excellence framework) → there's more to research than REF
 
-## RSEED and RSE@ETH Cooperation
+
+## Community Building
+
+- who was there? What kind of audience -> diverse audience (and we want to grow, this is only the ETH audience, already super diverse)
+- community building essential - so diverse, how do we "bringen wir es unter einen hut"?
+- questions: (and interesting answers)
+    - expectations of the community, how do we get there? 
+        - short and long term - long term -> SNF funding for joint RSE projects from different labs
+        - mentorship programme
+    - increase visibility, engagement, diversity
+        - ambassador roles, representation in companies 
+    - interest groups 
+        - group by interest/tech instead of fields, 
+        - imp. not to fragment the community
+
+## RSEED and RSE@ETH Cooperation 
 <!-- Why, What do we hope for future cooperation, was steht an. -->
+For RSEED & RSE@ETH -> we want to help (how?)
 
-<!-- 
-NOTES:
-“the force awakens”
-
-teaser: UK inspired, jetzt gehts los & first in person event →
-
-lightning talks → recurring theme, exchange 
-
-keynote → Peter Schmidt (hidden REF)
-
-community building & discussion → lies durch, was waren interessante vorschlage 
-
-promotion: RSEcon Newcastle, Element, join the community -->
+- RSECON 2024 - Dates, Location (we'll be there)
+- Element Chat (RSE - chat)
+- podcast recommendation: code for thought: [open data without friction, how to work more seamlessly with open data](https://codeforthought.buzzsprout.com/1326658/14165274-en-open-data-without-friction-sara-petti-and-evgeny-karev)
