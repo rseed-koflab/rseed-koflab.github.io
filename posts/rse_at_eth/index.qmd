@@ -1,9 +1,9 @@
 ---
 title: "RSE@ETH - The Force awakens"
-description: "Inspired by the UK RSE chapter, the first in person event of the Research Software Engineering (RSE) community at ETH Zurich took place on the 1st of February. With the aim of getting to know the various RSE interest groups represented at ETH, the participants were able to present themselves and their causes in rapid succession and discuss the future development of RSE@ETH."
+description: "Inspired by the UK RSE chapter, the first in-person event of the Research Software Engineering (RSE) community at ETH Zurich took place on the 1st of February. With the aim of getting to know the various RSE interest groups represented at ETH, the participants were able to present themselves and their causes in rapid succession and discuss the future development of RSE@ETH."
 
 author: "Minna Heim"
-date: "02/20/2024"
+date: "02/21/2024"
 categories:
     - research software engineering
     - community
@@ -11,44 +11,36 @@ categories:
     - RSE news
 ---
 
-The Research Software Engineering Community at ETH, was founded in late 2023 due to the regional need of an RSE society that arose on a university level.
+The Research Software Engineering Community at ETH was founded in late 2023 due to the regional need for an RSE community that arose on a university level.
 <!-- why need arose on uni level? -->
-Although RSE@ETH had its first online information Event on the 12th of December 2023, the get-together on the 1st of February served as an opportunity to get to know the RSE community at ETH better, and to understand their wishes and needs for a community such as RSE@ETH.
+Although RSE@ETH had its first online information event on the 12th of December 2023, the get-together on the 1st of February served as an opportunity to get to know the RSE community at ETH better, and to understand their wishes and needs for a community such as RSE@ETH.
 
 ![Participation at the first in-person RSE Event on the 1st of February, 2024](rse_event.jpeg)
 
 ## Event Program
 The event was structured as follows:
 
-First, participants were able to present one of their RSE-related projects in a lightning format of less than 5 minutes per speaker. Then the keynote speaker, Peter Schmidt, a trustee of the RSE Society UK, gave a talk on RSE developments in the UK, and finally, in the breakout sessions, participants broke into groups to discuss three questions related to the development of the RSE@ETH community.
-
-<!-- 15:00 - 15:45 : Lightning talks
-
-15:45 - 16:00 : break
-
-16:00 - 16:30 : Presentation by Mr. Peter Schmidt, Trustee of the RSE society UK.
-
-16:30 - 17:30 : Breakout sessions/discussions -->
+First, participants were able to present one of their RSE-related projects in a lightning format of less than 5 minutes per speaker. Then the keynote speaker, Peter Schmidt, a trustee of the RSE Society UK, gave a talk on RSE developments in the UK, and finally, in the breakout sessions, participants split into groups to discuss three questions related to the development of the RSE@ETH community.
 
 ## Lightning Talks
 
 With eight different projects and seven different research areas represented in the lightning talks, you might not think that there would be much in common between the speakers. After all, the speakers were presenting their software solutions for their highly specialised fields, ranging from the need to better control experiments in high-voltage physics through software to anonymising academic peer review.
 
-However, it was surprising to see how well the audience related to the problems presented. The audience noted the similarities in the nature of the problems faced by RSEs, such as data processing and re-entry after errors. The audience recognised the need for a local community that promotes collaboration when faced with similar "local" bottlenecks. This way, researchers do not have to reinvent the wheel every time they want to use data or software to advance their research.
+However, it was surprising to see how well the audience related to the problems presented. The audience noted the similarities in the nature of the problems faced by RSEs, such as data processing and re-entry after errors. Participants recognised the need for a local community that promotes collaboration when faced with similar local issues. This way, researchers do not have to reinvent the wheel every time they want to use software to advance their research.
 
 ## Keynote - Peter Schmidt
 
-The lightning talks were followed by a speech from Peter Schmidt, who has an academic background in physics and software engineering experience. On the side, he is active in the UK RSE community and hosts a podcast called "Code for Thought", which touches upon many different RSE topics, such as reproducibility, net zero in computing and, my favorite: Open Data, without friction (episode linked below). In his talk, Peter shared the journey of the UK RSE chapter, which started in 2013 with a group smaller than ours. He shared some key resources for RSEs, such as the Software Sustainability Institute's fellowship programme and a campaign called the [hidden REF](https://hidden-ref.org) which aims to "celebrate all research outputs", beyond publications and beyond researchers. 
+The lightning talks were followed by a speech from Peter Schmidt, who has an academic background in physics and software engineering experience. On the side, he is active in the UK RSE community and hosts a podcast called "Code for Thought", which touches upon many different RSE topics, such as reproducibility, net zero in computing, and, my favorite: [Open Data, without friction](https://codeforthought.buzzsprout.com/1326658/14165274-en-open-data-without-friction-sara-petti-and-evgeny-karev). In his talk, Peter shared the journey of the UK RSE chapter, which started in 2013 with a group smaller than ours. He shared some key resources for RSEs, such as the Software Sustainability Institute's [fellowship program](https://www.software.ac.uk/programmes/fellowship-programme) and a campaign called the [hidden REF](https://hidden-ref.org) which aims to "celebrate all research outputs", beyond publications and researchers. 
 
 ## Community Building
 
-Finally, the audience was divided into groups to discuss the following three questions. This part of the programme generated a lot of interesting discussion, which led to the following ideas worth sharing: 
+Finally, the audience was divided into groups to discuss three questions shown below. This part of the program generated a lot of interesting discussion, which led to the following ideas worth sharing: 
 
-- Q1: What are the expectations of the community, how do we get there (short and long term)?
+- Q1: What are the expectations of the community, and how do we get there (short and long-term)?
     * Long-term: seek SNF funding for joint RSE projects from different labs
-    * Launch a mentoring programme 
+    * Launch a mentoring program 
 
-- Q2: How do we increase visibility, engagement and diversity?
+- Q2: How do we increase visibility, engagement, and diversity?
     * Create ambassador roles within institutes
     * Seek industry representation 
 
@@ -60,11 +52,11 @@ Given the lively discussions and the motivation felt in the audience, we hope to
 
 ## RSEED and RSE@ETH Cooperation 
 
-Which brings us to our takeaways: As RSEED members, we are excited about the incredible turnout at the event and the diversity and motivation we saw from the RSE@ETH community. For this, we have to thank the team from ETH's Scientific IT Services, Uwe Schmitt, Franziska Oschmann and Tarun Chadha, who organised the event. As an emerging competence centre for economic data and research software engineering, we want to use our resources to help build the RSE@ETH community in the future. <!-- klingt ein bisschen vage... aber wir haben noch nichts konkretes vor.. soll ich was anderes hinschreiben --> We are planning to attend the global RSE conference (RSECON2024) in Newcastle on 3-5 September to gain as much insight as possible for our regional RSE journey!
+This brings us to our takeaways: As RSEED members, we are excited about the incredible turnout at the event and the diversity and motivation we saw from the RSE@ETH community. For this, we have to thank the team from ETH's Scientific IT Services, namely Uwe Schmitt, Franziska Oschmann, and Tarun Chadha, who organised the event. As an emerging competence center for economic data and research software engineering, we want to use our resources to help build the RSE@ETH community in the future. <!-- klingt ein bisschen vage... aber wir haben noch nichts konkretes vor.. soll ich was anderes hinschreiben --> We are planning to attend the global RSE conference (RSECON2024) in Newcastle on 3-5 September to gain as much insight as possible for our regional RSE journey!
 
 If you are also interested in joining the RSE@ETH community, you can join the Element chat using the link below. 
 
 ## Links
 
-[RSECON 2024](https://rsecon24.society-rse.org) | [RSE Element](https://m.ethz.ch/#/#research-software-engineering-ch:staffchat.ethz.ch) | [Code for Thought episode recommendation](https://codeforthought.buzzsprout.com/1326658/14165274-en-open-data-without-friction-sara-petti-and-evgeny-karev)
+[RSECON 2024](https://rsecon24.society-rse.org) | [RSE Element](https://m.ethz.ch/#/#research-software-engineering-ch:staffchat.ethz.ch) | [Code for Thought episode recommendation](https://codeforthought.buzzsprout.com)
 
