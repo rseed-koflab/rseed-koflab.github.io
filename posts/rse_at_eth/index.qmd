@@ -1,6 +1,6 @@
 ---
 title: "RSE@ETH - The Force awakens"
-description: "Inspired by the UK Society of Research Software Engineering (RSE), the first in-person event of the newly founded RSE at ETH took place on February 1. A lightning talk format gave a broad array of interested researchers the chance to present themselves and software engineering work at ETH and discuss the future development of RSE@ETH."
+description: "Inspired by the UK Society of Research Software Engineering (RSE), the first in-person event of the newly founded RSE community at ETH took place on February 1. A lightning talk format gave a broad array of interested researchers the chance to present themselves and their software engineering work at ETH and to discuss the future development of RSE@ETH."
 
 author: "Minna Heim"
 date: "02/21/2024"
@@ -11,11 +11,11 @@ categories:
     - RSE news
 ---
 
-The Research Software Engineering Community at ETH was founded in late 2023 due to the regional need for an RSE community that arose on a university level.
+The Research Software Engineering (RSE) community group at ETH was founded in late 2023 due to the regional need for an RSE community that arose on a university level.
 <!-- why need arose on uni level? -->
-Although RSE@ETH had its first online information event on the 12th of December 2023, the get-together on the 1st of February served as an opportunity to get to know the RSE community at ETH better, and to understand their wishes and needs for a community such as RSE@ETH.
+Although RSE@ETH had its first online information event on the December 12, 2023 the get-together on the February 1 served as an opportunity to get to know the RSE community at ETH better, and to understand their wishes and needs for a community such as RSE@ETH.
 
-![Participation at the first in-person RSE Event on the 1st of February, 2024](rse_event.jpeg)
+![Participation at the first in-person RSE Event on February 1, 2024](rse_event.jpeg)
 
 ## Event Program
 The event was structured as follows:
@@ -50,7 +50,7 @@ Finally, the audience was divided into groups to discuss three questions shown b
 
 Given the lively discussions and the motivation felt in the audience, the RSE community hope to be able to implement these ideas as the RSE@ETH community grows.
 
-As RSEED members, we are excited about the incredible turnout at the event and the diversity and motivation we saw from the RSE@ETH community. For this, we have to thank the team from ETH's Scientific IT Services, namely Uwe Schmitt, Franziska Oschmann, and Tarun Chadha, who organised the event. As an emerging competence center for economic data and research software engineering, we want to use our resources to help build the RSE@ETH community in the future. 
+At RSEED, we are excited about the incredible turnout of the event and the diversity and motivation we saw from the RSE@ETH community. We thank the team from ETH's Scientific IT Services, namely Uwe Schmitt, Franziska Oschmann, and Tarun Chadha, who organised the event. As an emerging competence center for economic data and research software engineering, we want to use our resources to help build the RSE@ETH community in the future. 
 
 If you are also interested in joining the RSE@ETH community, you can join the Element chat using the link below. 
 
