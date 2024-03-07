@@ -1,0 +1,26 @@
+---
+title: "Kick-off RSEEDWorkshop Series"
+description: "blah blah"
+
+author: "Minna Heim"
+date: "02/21/2024"
+categories:
+    - research software engineering
+    - community
+    - events
+    - discussion
+---
+
+## Concept 
+
+The aim of the RSEED Workshop Series is to expand the knowledge of useful 
+
+## Speaker Line-up 
+
+## Curious?
+
+
+## Links
+
+[RSECON 2024](https://rsecon24.society-rse.org) | [RSE Element](https://m.ethz.ch/#/#research-software-engineering-ch:staffchat.ethz.ch) | [Code for Thought episode recommendation](https://codeforthought.buzzsprout.com)
+
