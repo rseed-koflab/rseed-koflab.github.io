@@ -1,6 +1,6 @@
 ---
-title: "Kick-off RSEEDWorkshop Series"
-description: "blah blah"
+title: "Kick-off RSEED Workshop Series"
+description: ""
 
 author: "Minna Heim"
 date: "02/21/2024"
@@ -13,12 +13,25 @@ categories:
 
 ## Concept 
 
-The aim of the RSEED Workshop Series is to expand the knowledge of useful 
+The aim of the RSEED Workshop Series is to expand the participants (average academics) knowledge of research software and give tools to improve working with data. 
+
+This will happen in a (monthly) workshop with speakers from academia, the public and private sector. Speakers will publish a blog post on their topic in advance of the live sessions to foster educated discussions within the sessions. The seminar series will run its own matrix channel to extend exchange beyond the live sessions. 
+
+The format of the workshop series is Z'morge, Z'mittag and Z'vieri
 
 ## Speaker Line-up 
 
+- **April 11, 2024**  Matthias Bannert (RSEED at KOF Lab) on Collaboration on technical and scientific work using quarto and git
+
+- **May, 2024** Franziska Oschmann (Scientific Services ETH) on writing fast(er) code in Python 
+
+- **June,2024** Liz Tilley (Department of Mechanical and Process Engineering ETH) on Ope JMP, unlocking the potential of global indicator data
+
 ## Curious?
 
+Would you like to recommend a topic for an upcoming workshop or a Person to lead an upcoming workshop? 
+
+Get in touch with: heim@kof.ethz.ch
 
 ## Links
 
