@@ -1,0 +1,22 @@
+---
+title: "typst"
+description: ""
+author: "Minna Heim"
+date: "02/21/2024"
+categories:
+    - research software engineering
+    - quarto
+    - typst
+    - LaTeX
+    - events
+    - discussion
+---
+
+## Concept 
+
+Typst is a new open-source markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use. Typst creates beautiful PDF output with blazing fast render times.
+
+## Links
+
+[RSECON 2024](https://rsecon24.society-rse.org) | [RSE Element](https://m.ethz.ch/#/#research-software-engineering-ch:staffchat.ethz.ch) | [Code for Thought episode recommendation](https://codeforthought.buzzsprout.com)
+

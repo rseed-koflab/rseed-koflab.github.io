@@ -1,0 +1,13 @@
+---
+title: "Blogpost created with Typst"
+author: "Minna Heim"
+date: "03/14/2024"
+format:
+  typst:
+    columns: 1
+
+---
+
+## Concept 
+
+Typst is a new open-source markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use. Typst creates beautiful PDF output with blazing fast render times.
