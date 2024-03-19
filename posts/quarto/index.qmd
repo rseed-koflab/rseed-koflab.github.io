@@ -1,0 +1,248 @@
+---
+title: "Technical and Scientific Publishing with Quarto"
+subtitle: "Presentation at the RSE@ETH community event"
+author: "Matthias Bannert and Minna Heim"
+date: "03/07/2024"
+categories:
+    - research software engineering
+    - scientific writing
+    - ETH
+    - publishing
+---
+
+Last week, I gave an introduction to *Scientific and Technical Publishing with Quarto*
+at the ETH RSE community event.
+Discussing a quasi language agnostic framework with RSE experts from a broad variety of
+fields has been insightful and great fun.
+Hence, I decided to not only to post a quick debriefing summary of the talk but also to take a
+closer look at some of the comments.
+
+## Quarto Usage in the RSE Community
+
+```{r, message=FALSE, warnings=FALSE}
+library(readr)
+library(ggplot2)
+library(dplyr)
+
+res <- read_csv2("survey.csv")
+res |>
+  select(id, quarto) |>
+  ggplot(aes(x = as.factor(quarto))) +
+  geom_bar(stat = "count",
+           fill = "steelblue",) +
+  theme_minimal() +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.title.y = element_blank()) +
+  ggtitle("Quarto Skills (0 = never heard of it, 5 = teaching others.") +
+  coord_flip()
+
+```
+
+To get started, we ran a minimal online survey among the event's participants including an ad-hoc report
+rendered using -- guess what -- quarto.
+Even though I need to admit that mentioning an *introduction to quarto* in the event announcement may have lead
+to a certain selection bias, it was interesting to see how little quarto was actually known at an RSE event:
+More than 71% of our survey participants had never really heard of quarto.
+
+There are two explanations for the low prevalence of quarto among our subsample of the ETH RSE community.
+First, after decades at the top of academic typesetting, LaTeX still stands strong -- even if some love to hate it.
+
+```{r, message=FALSE, warnings=FALSE}
+res |>
+  select(id,publishing) |>
+  ggplot(aes(x = publishing)) +
+  geom_bar(stat = "count",
+           fill = "steelblue",) +
+  theme_minimal() +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.title.y = element_blank()) +
+  ggtitle("Main Publishing Tool") +
+  coord_flip()
+
+
+```
+
+Second, as expected in an engineering community, the go-to language for data work was Python,
+with R a rather distant second.
+Because quarto was open-source by *Posit*, the company formerly known as *Rstudio*, it is understandable that
+the quarto framework is better known in the R community, but technically it works equally well with Python, Julia
+or even the JavaScript based data visualization tool Observable.
+
+```{r, message=FALSE, warnings=FALSE}
+
+res |>
+  select(id, programming) |>
+  ggplot(aes(x = programming)) +
+  geom_bar(stat = "count",
+           fill = "steelblue",) +
+  theme_minimal() +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.title.y = element_blank()) +
+  ggtitle("Main Programming Languages for Data Work") +
+  coord_flip()
+
+```
+
+## Quarto in a Nutshell
+
+Quarto is a modern framework to help demanding technical and scientific writers create spiffy documents.
+Its syntax mingles *markdown* with an interpreted programming language and stores it in a `.qmd` file.
+At render time that mix of, let's say *R* and *markdown*, the interpreted code is executed and its result is
+placed where the code chunk had been before rendering.
+
+
+```
+---
+title: "Most Basic Quarto Document"
+format: html
+---
+
+## This Is Just a Markdown Section Header
+
+At render time this .qmd file is turned into a markdown file
+and then processed into an HTML document.
+Text can contain code chunks in various languages that are
+executed through their respective interpreters.
+
+### Subheader 1
+
+more text.
+
+### Subheader 2
+
+even more text.
+
+```
+
+Notice the `.yaml` header at the very beginning of the file.
+This header contains document level information including information such as the output format that is needed for
+the rendering process.
+To see how quarto syntax mixes formatted text with source code of a programming language,
+take a look at the [source of the blog post]() you're reading.
+
+
+## Components of Quarto
+
+So what's behind quarto? First, there is the quarto syntax briefly described above which is essentially
+a markdown dialect + a porgramming language.
+Second, quarto bundles document converters pandoc, tinytex and typst into one convenient installation.
+Third, quarto comes with a CLI that allows users to do operations like starting new projects of different types,
+rendering everything from previews to entire books from their console.
+Last but not least, quarto ships with decent templates for online books, website and articles.
+For example,
+
+
+```
+quarto create-project
+
+```
+
+spins up an interactive dialog to create a new quarto project inside a desired folder.
+When you are not using quarto for a single file `.qmd` document that holds all necessary
+information in its `.yaml` header, a project will always have a `_quarto.yml` file
+steering multi-file quarto projects.
+
+## Reports, Word Documents, Websites and Entire Books
+
+My forthcoming book *Research Software Engineering* is a more complex quarto example.
+
+```
+project:
+  type: book
+
+
+book:
+  title: "Research Software Engineering"
+  subtitle: "A Guide to the Open Source Ecosystem"
+  author: "Matthias Bannert"
+  date: "7/12/2022"
+  search: true
+  sharing: [twitter]
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - stack-developer-toolkit.qmd
+    - programming.qmd
+    - interaction.qmd
+    - version-control.qmd
+    - data-management.qmd
+    - infrastructure.qmd
+    - automation.qmd
+    - community.qmd
+    - publishing.qmd
+    - case-studies.qmd
+    - appendix.qmd
+    - references.qmd
+
+bibliography: references.bib
+execute:
+  freeze: true
+format:
+  html:
+    theme: cosmo
+
+
+```
+
+
+
+
+
+
+ in different formats from `.md` to `.docx`, `.pdf` and `.html`.
+
+
+
+
+
+
+
+
+
+
+## References
+
+- presentation online | source
+- quarto.org
+- quarto citation
+- RSE Book source code | online
+
+
+
+
+
+
+
+- presentation at RSE@ETH event
+- survey ...
+- We want to know that the butler did it
+    - presentation
+    - report
+    - website
+        - rseed
+        - openwashdata
+    - book
+        - online
+        - pdf
+- more known in the R community b/c it's actively developed and maintained by Posit, the company formerly known as RStudio.
+- framework for scientific publishing from reports to websites and books
+- CLI
+- How does quarto work?
+
+
+What are you hoping to get from your presentation?
+What do you expect the audience to gain from your presentation?
+How will your presentation help better the ecosystem?
+
+
+
+
+
+
+
+
+
+chill.
