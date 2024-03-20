@@ -89,7 +89,58 @@ res |>
 ## Quarto in a Nutshell
 
 Quarto is a modern framework to help demanding technical and scientific writers create spiffy documents.
-Its syntax mingles *markdown* with an interpreted programming language and stores it in a `.qmd` file.
+Its reading-friendly syntax is better received than LaTeX outside of academia and unlike Word processors
+out of the office world, its source is plain text.
+
+- quarto installation bundles document converters and comes with an easy-to-use CLI
+- and nice templates for articles, reports, websites and even books of different formats.
+- Potentially a big deal: combination of easy syntax, introducing w/o programming language.
+Impact shown in another blog post
+
+
+Quarto's approach of mingling a markdown dialect with code chunks written in languages such Python, R or Julia
+that are executed at render time is capable
+
+
+## A Glimpse of Quarto
+
+- good documentation, hence don't reproduce
+- show a glimpse anyway.
+    - basic doc
+    - CLI
+
+## From Presentation and Reports to Website's and Books
+
+- examples
+    - presentation
+    - this website
+    - book
+- more elaborate book example, discuss quarto file.
+- render as a PDF, too.
+
+
+## Typst Support
+
+
+
+
+
+
+Just like many tools that came out of Posit's corner of the R ecosystem, quarto has
+
+
+A plain text source does not only facilitate git based collaboration with seasoned software engineers,
+Web GUIs of state-of-the-art git platforms such as GitHub help introduce non-programmers to the
+collaboration workflow that made the open source ecosystem so powerful.
+
+ and automation tool chains from software
+development,
+
+In combination with state-of-the-art git platforms and their Web GUIs, th
+
+
+
+  mingles *markdown* with an interpreted programming language and stores it in a `.qmd` file.
 At render time that mix of, let's say *R* and *markdown*, the interpreted code is executed and its result is
 placed where the code chunk had been before rendering.
 
