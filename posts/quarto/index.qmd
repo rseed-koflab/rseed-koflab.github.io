@@ -12,10 +12,10 @@ categories:
 
 Last week, I gave an introduction to *Scientific and Technical Publishing with Quarto*
 at the ETH RSE community event.
-Discussing a quasi language agnostic framework with RSE experts from a broad variety of
-fields has been insightful and great fun.
+Discussing a framework that works with both of programming-with-data's favorite languages
+with RSE experts from a broad variety of fields has been insightful and great fun.
 Hence, I decided to not only to post a quick debriefing summary of the talk but also to take a
-closer look at some of the comments.
+closer at the feedback from the audience.
 
 ## Quarto Usage in the RSE Community
 
@@ -42,7 +42,7 @@ res |>
 To get started, we ran a minimal online survey among the event's participants including an ad-hoc report
 rendered using -- guess what -- quarto.
 Even though I need to admit that mentioning an *introduction to quarto* in the event announcement may have lead
-to a certain selection bias, it was interesting to see how little quarto was actually known at an RSE event:
+to a certain self-selection bias, it was interesting to see how little quarto was actually known at an RSE event:
 More than 71% of our survey participants had never really heard of quarto.
 
 There are two explanations for the low prevalence of quarto among our subsample of the ETH RSE community.
@@ -66,8 +66,8 @@ res |>
 
 Second, as expected in an engineering community, the go-to language for data work was Python,
 with R a rather distant second.
-Because quarto was open-source by *Posit*, the company formerly known as *Rstudio*, it is understandable that
-the quarto framework is better known in the R community, but technically it works equally well with Python, Julia
+Because quarto was open-sourced by *Posit*, the company formerly known as *RStudio*, it is understandable that
+the quarto framework is better known in the R community. Technically though, quarto works equally well with Python, Julia
 or even the JavaScript based data visualization tool Observable.
 
 ```{r, message=FALSE, warnings=FALSE}
@@ -89,61 +89,35 @@ res |>
 ## Quarto in a Nutshell
 
 Quarto is a modern framework to help demanding technical and scientific writers create spiffy documents.
-Its reading-friendly syntax is better received than LaTeX outside of academia and unlike Word processors
-out of the office world, its source is plain text.
+Outside of academia, its reading-friendly syntax is better received than LaTeX and unlike output of office world
+word processors quarto's source is plain text.
 
-- quarto installation bundles document converters and comes with an easy-to-use CLI
-- and nice templates for articles, reports, websites and even books of different formats.
-- Potentially a big deal: combination of easy syntax, introducing w/o programming language.
-Impact shown in another blog post
+Under quarto's hood, we find (among other things): a TeX installation, the Swiss army knife document
+converter pandoc and typst, the new kid on the block that set out to succeed LaTeX.
+All this flexible rendering power is complemented by an easy to use CLI and nice templates for
+articles, reports, presentations, websites and even entire books.
 
-
-Quarto's approach of mingling a markdown dialect with code chunks written in languages such Python, R or Julia
-that are executed at render time is capable
-
+What's the biggest deal to me though, is not that quarto makes typesetting a little more
+convenient.
+(A large chunk of quarto's target group never asked for convenience anyway.)
+Writing scientific and technical documents has just become so much more reproducible, interoperable,
+inclusive and modular:
+i) Plain text syntax allows to smoothly work with git.
+At the same time quarto's syntax helps to lure users with less software development affinity.
+And modern Git platforms continue to make developer collaboration workflow from issue trackers to
+Kanban boards and Pull Requests so much more accessible.
+ii) Attractive, reading-friendly HTML output displayed on websites, presentations or a growing number of
+online books, is a true alternative to the same old PDF documents.
+iii) Unlike Software-as-a-Service online editing offerings such as Overleaf, quarto and its ecosystem
+do not depend on a single online platform and allow to work locally, too.
+I believe the toolbox described above brings another chunk of use cases closer to the open-source software
+development workflow and possibly even a new group of people.
+(Stay for my blog post and workshop on *Academic Writing Collaboration Using Modern Git Platforms*).
 
 ## A Glimpse of Quarto
 
-- good documentation, hence don't reproduce
-- show a glimpse anyway.
-    - basic doc
-    - CLI
-
-## From Presentation and Reports to Website's and Books
-
-- examples
-    - presentation
-    - this website
-    - book
-- more elaborate book example, discuss quarto file.
-- render as a PDF, too.
-
-
-## Typst Support
-
-
-
-
-
-
-Just like many tools that came out of Posit's corner of the R ecosystem, quarto has
-
-
-A plain text source does not only facilitate git based collaboration with seasoned software engineers,
-Web GUIs of state-of-the-art git platforms such as GitHub help introduce non-programmers to the
-collaboration workflow that made the open source ecosystem so powerful.
-
- and automation tool chains from software
-development,
-
-In combination with state-of-the-art git platforms and their Web GUIs, th
-
-
-
-  mingles *markdown* with an interpreted programming language and stores it in a `.qmd` file.
-At render time that mix of, let's say *R* and *markdown*, the interpreted code is executed and its result is
-placed where the code chunk had been before rendering.
-
+One of quarto's strength is its great, applied documentation, so I am not going to reproduce it here.
+Yet, let me give you a quick glimpse of quarto anyway.
 
 ```
 ---
@@ -166,39 +140,27 @@ more text.
 
 even more text.
 
+
+
 ```
 
-Notice the `.yaml` header at the very beginning of the file.
+The most basic quarto document above, mingles mingles *markdown* with a `.yaml` header.
 This header contains document level information including information such as the output format that is needed for
 the rendering process.
-To see how quarto syntax mixes formatted text with source code of a programming language,
-take a look at the [source of the blog post]() you're reading.
+But most notably, quarto quarto mingles the markdown formatted text with source code of an interpreted programming
+language that is executed at render time.
+As you can see when you compare the [source code of this blog post]() with the post itself, code chunks
+are simply replaced with their execution results.
 
 
-## Components of Quarto
+## From Presentation and Reports to Website's and Books
 
-So what's behind quarto? First, there is the quarto syntax briefly described above which is essentially
-a markdown dialect + a porgramming language.
-Second, quarto bundles document converters pandoc, tinytex and typst into one convenient installation.
-Third, quarto comes with a CLI that allows users to do operations like starting new projects of different types,
-rendering everything from previews to entire books from their console.
-Last but not least, quarto ships with decent templates for online books, website and articles.
-For example,
-
-
-```
-quarto create-project
-
-```
-
-spins up an interactive dialog to create a new quarto project inside a desired folder.
-When you are not using quarto for a single file `.qmd` document that holds all necessary
-information in its `.yaml` header, a project will always have a `_quarto.yml` file
-steering multi-file quarto projects.
-
-## Reports, Word Documents, Websites and Entire Books
-
-My forthcoming book *Research Software Engineering* is a more complex quarto example.
+When quarto projects get complex beyond single documents, project level information is stored
+in a `_quarto.yml` file.
+In a book project for example, the `_quarto.yml` file sources all chapters including references.
+This allows to easily re-order chapters, split work among authors and alternate between different
+output formats.
+Here's the quarto file of the online version of my forthcomming *Research Software Engineering* book.
 
 ```
 project:
@@ -237,6 +199,46 @@ format:
 
 
 ```
+
+
+
+## Typst Support
+
+
+
+Just like many tools that came out of Posit's corner of the R ecosystem, quarto has
+A plain text source does not only facilitate git based collaboration with seasoned software engineers,
+Web GUIs of state-of-the-art git platforms such as GitHub help introduce non-programmers to the
+collaboration workflow that made the open source ecosystem so powerful.
+
+ and automation tool chains from software
+development,
+
+In combination with state-of-the-art git platforms and their Web GUIs, th
+
+## Components of Quarto
+
+So what's behind quarto? First, there is the quarto syntax briefly described above which is essentially
+a markdown dialect + a porgramming language.
+Second, quarto bundles document converters pandoc, tinytex and typst into one convenient installation.
+Third, quarto comes with a CLI that allows users to do operations like starting new projects of different types,
+rendering everything from previews to entire books from their console.
+Last but not least, quarto ships with decent templates for online books, website and articles.
+For example,
+
+
+```
+quarto create-project
+
+```
+
+spins up an interactive dialog to create a new quarto project inside a desired folder.
+When you are not using quarto for a single file `.qmd` document that holds all necessary
+information in its `.yaml` header, a project will always have a `_quarto.yml` file
+steering multi-file quarto projects.
+
+## Reports, Word Documents, Websites and Entire Books
+
 
 
 
