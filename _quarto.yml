@@ -5,7 +5,7 @@ website:
   open-graph: true
   search: true
   navbar:
-    logo: rseed-neg.png
+    logo: rseed-pos.png
     logo-alt: "Research Software Engineering and Economic Data at KOF Lab"
     left:
       - href: startpage/ed/index.qmd
@@ -22,9 +22,9 @@ website:
         text: Community
       - href: blog.qmd
         text: blog
-  page-footer: 'RSEED is a part of [KOF Lab at ETH Zurich](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed.html#).' 
+  page-footer: 'RSEED is a part of [KOF Lab at ETH Zurich](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed.html#).'
 
-    
+
 
 format:
   html:
@@ -34,4 +34,3 @@ format:
     include-in-header:
       text: |
         <script defer data-domain="rseed.ch" src="https://plausible.io/js/script.js"></script>
-
