@@ -2,12 +2,14 @@
 title: "Technical and Scientific Publishing with Quarto"
 subtitle: "Presentation at the RSE@ETH community event"
 author: "Matthias Bannert and Minna Heim"
+bibliography: references.bib
 date: "03/07/2024"
 categories:
     - research software engineering
     - scientific writing
     - ETH
     - publishing
+nocite: '@*'
 ---
 
 Last week, I gave an introduction to *Scientific and Technical Publishing with Quarto*
@@ -256,14 +258,19 @@ quickly renders to a beautiful two column layout.
 
 ![typst two column template](typst.png)
 
+The cool thing about quarto typst support is that you can use both raw typst syntax if you're already
+a heavey typst user, or quarto markdown if you rather familiar with markdown.
+In the latter case, `quarto render your-file.qmd` will just do the job: create an intermediate typst file
+create a PDF from there, clean up the intermediate file, done.
 
 
 
+Ah, and if you're into machine learning and ever needed another reason to invest some time into quarto,
+you can now [host quarto sites on Hugging Face using the new quarto space template](https://quarto.org/docs/blog/posts/2024-03-26-hugging-face/) :)
 
 
 ## References
 
-- presentation online | source
-- quarto.org
-- quarto citation
-- RSE Book source code | online
+
+::: {#refs}
+:::
