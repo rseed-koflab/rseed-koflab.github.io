@@ -161,6 +161,14 @@ In a book project for example, the `_quarto.yml` file sources all chapters inclu
 This allows to easily re-order chapters, split work among authors and alternate between different
 output formats.
 Here's the quarto file of the online version of my forthcomming *Research Software Engineering* book.
+The `_quarto.yml` file contains book level information such as title, subtitle or author as well as
+feature activation flags, e.g., search, and a navigation tree to all chapter sources.
+Quarto books allow for a plethora of configuration options that are a testimony of years of publishing
+experience and knowing what book authors need in the process of writing a book.
+Quarto was catalyst to getting my book done, pushing around chapters and content across chapters and
+several iterations of fine-tuning have been facilitated through quarto.
+Imo, it's also noteworthy that with CRC/Chapman&Hall, a large publisher not only accepted a quarto based draft
+for publication but even offered their own quarto template for quarto authors.
 
 ```
 project:
@@ -201,55 +209,52 @@ format:
 ```
 
 
-
 ## Typst Support
 
+Admittedly, I needed Roland Siegbert and my colleague Minna to become aware of the
+appeal of quarto's typst support, but now I feel like it's one of quarto's most promising new features.
+If you, like me, got your scientific writing stack together when iPhone 5s were hot and Gangnam style
+tested our nerves, you may appreciate a quick catch-up.
 
-
-Just like many tools that came out of Posit's corner of the R ecosystem, quarto has
-A plain text source does not only facilitate git based collaboration with seasoned software engineers,
-Web GUIs of state-of-the-art git platforms such as GitHub help introduce non-programmers to the
-collaboration workflow that made the open source ecosystem so powerful.
-
- and automation tool chains from software
-development,
-
-In combination with state-of-the-art git platforms and their Web GUIs, th
-
-## Components of Quarto
-
-So what's behind quarto? First, there is the quarto syntax briefly described above which is essentially
-a markdown dialect + a porgramming language.
-Second, quarto bundles document converters pandoc, tinytex and typst into one convenient installation.
-Third, quarto comes with a CLI that allows users to do operations like starting new projects of different types,
-rendering everything from previews to entire books from their console.
-Last but not least, quarto ships with decent templates for online books, website and articles.
-For example,
-
+Typst is *markup-based typesetting system* that set out to become an alternative to both good ol' LaTeX
+and office tools like Google Docs or Word.
+It does so by a considerably simpler syntax than LaTeX, a pleasure-to-use approach and clean, technical
+templates including popular academic outlets and the ability to create custom templates.
+The below syntax taken from the [typst own introduction](https://typst.app/docs/tutorial/making-a-template/)
+quickly renders to a beautiful two column layout.
 
 ```
-quarto create-project
+#let conf(title, doc) = {
+  set page(
+    paper: "us-letter",
+    header: align(
+      right + horizon,
+      title
+    ),
+    ...
+  )
+  set par(justify: true)
+  set text(
+    font: "Linux Libertine",
+    size: 11pt,
+  )
 
+  // Heading show rules.
+  ...
+
+  columns(2, doc)
+}
+
+#show: doc => conf(
+  [Paper title],
+  doc,
+)
+
+= Introduction
+#lorem(90)
 ```
 
-spins up an interactive dialog to create a new quarto project inside a desired folder.
-When you are not using quarto for a single file `.qmd` document that holds all necessary
-information in its `.yaml` header, a project will always have a `_quarto.yml` file
-steering multi-file quarto projects.
-
-## Reports, Word Documents, Websites and Entire Books
-
-
-
-
-
-
-
- in different formats from `.md` to `.docx`, `.pdf` and `.html`.
-
-
-
-
+![typst two column template](typst.png)
 
 
 
@@ -262,40 +267,3 @@ steering multi-file quarto projects.
 - quarto.org
 - quarto citation
 - RSE Book source code | online
-
-
-
-
-
-
-
-- presentation at RSE@ETH event
-- survey ...
-- We want to know that the butler did it
-    - presentation
-    - report
-    - website
-        - rseed
-        - openwashdata
-    - book
-        - online
-        - pdf
-- more known in the R community b/c it's actively developed and maintained by Posit, the company formerly known as RStudio.
-- framework for scientific publishing from reports to websites and books
-- CLI
-- How does quarto work?
-
-
-What are you hoping to get from your presentation?
-What do you expect the audience to gain from your presentation?
-How will your presentation help better the ecosystem?
-
-
-
-
-
-
-
-
-
-chill.
