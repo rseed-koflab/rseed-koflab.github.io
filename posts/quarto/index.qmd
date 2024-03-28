@@ -213,7 +213,7 @@ format:
 
 ## Typst Support
 
-Admittedly, I needed Roland Siegbert and my colleague Minna to become aware of the
+Admittedly, I needed [Roland Siegbert from ETH Quantum Device Lab](https://read.cv/roland) and my colleague Minna to become aware of the
 appeal of quarto's typst support, but now I feel like it's one of quarto's most promising new features.
 If you, like me, got your scientific writing stack together when iPhone 5s were hot and Gangnam style
 tested our nerves, you may appreciate a quick catch-up.
