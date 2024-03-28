@@ -24,13 +24,14 @@ website:
         text: blog
   page-footer: 'RSEED is a part of [KOF Lab at ETH Zurich](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed.html#).' 
 
-
+    
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
+    include-in-header:
+      text: |
+        <script defer data-domain="rseed.ch" src="https://plausible.io/js/script.js"></script>
 
