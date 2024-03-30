@@ -16,101 +16,85 @@ Last week, I gave an introduction to *Scientific and Technical Publishing with Q
 at the ETH RSE community event.
 Discussing a framework that works with both of programming-with-data's favorite languages
 with RSE experts from a broad variety of fields has been insightful and great fun.
-Hence, I decided to not only to post a quick debriefing summary of the talk but also to take a
-closer at the feedback from the audience.
+Hence, I decided to not only post a quick debriefing summary of the talk but also to take a
+closer at feedback from the audience.
 
 ## Quarto Usage in the RSE Community
+
+To get started, we ran a minimal online survey among the event's participants, including an ad-hoc report
+rendered using -- guess what -- Quarto.
+Even though I need to admit that mentioning an *Introduction to Quarto* in the event announcement may have led to a certain self-selection bias, it was interesting to see how little Quarto was known at an RSE event: More than 71% of our survey participants had never really heard of Quarto.
 
 ```{r, message=FALSE, warnings=FALSE}
 library(readr)
 library(ggplot2)
 library(dplyr)
+library(viridis)
+
 
 res <- read_csv2("survey.csv")
 res |>
-  select(id, quarto) |>
-  ggplot(aes(x = as.factor(quarto))) +
-  geom_bar(stat = "count",
-           fill = "steelblue",) +
+  select(id, quarto, programming) |>
+  ggplot(aes(x = as.factor(quarto),
+         fill = programming)) +
+  geom_bar(stat = "count", width = .8) +
   theme_minimal() +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.x = element_blank(),
         axis.title.y = element_blank()) +
-  ggtitle("Quarto Skills (0 = never heard of it, 5 = teaching others.") +
-  coord_flip()
+  ggtitle("Quarto Skills by Main Programming Language (0 = never heard of it, 5 = teaching others.") +
+  coord_flip() +
+  scale_fill_viridis(discrete = TRUE)
 
 ```
 
-To get started, we ran a minimal online survey among the event's participants including an ad-hoc report
-rendered using -- guess what -- quarto.
-Even though I need to admit that mentioning an *introduction to quarto* in the event announcement may have lead
-to a certain self-selection bias, it was interesting to see how little quarto was actually known at an RSE event:
-More than 71% of our survey participants had never really heard of quarto.
+There are two explanations for the low prevalence of Quarto among our subsample of the ETH RSE community.
+First, as expected, in an engineering community, the go-to language for data work was Python,
+with R a rather distant second.
+Because Quarto was open-sourced by *Posit*, the company formerly known as *RStudio*, it is understandable that the Quarto framework is better known in the R community. Technically, though, Quarto works equally well with Python, Julia or even the JavaScript-based data visualization tool Observable.
+Second, after decades at the top of academic typesetting, LaTeX still stands strong -- even if some love to hate it.
 
-There are two explanations for the low prevalence of quarto among our subsample of the ETH RSE community.
-First, after decades at the top of academic typesetting, LaTeX still stands strong -- even if some love to hate it.
 
 ```{r, message=FALSE, warnings=FALSE}
 res |>
   select(id,publishing) |>
   ggplot(aes(x = publishing)) +
-  geom_bar(stat = "count",
-           fill = "steelblue",) +
+  geom_bar(stat = "count", width = .8) +
   theme_minimal() +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.x = element_blank(),
         axis.title.y = element_blank()) +
   ggtitle("Main Publishing Tool") +
-  coord_flip()
+  coord_flip() +
+  scale_fill_viridis(discrete = TRUE)
 
 
 ```
 
-Second, as expected in an engineering community, the go-to language for data work was Python,
-with R a rather distant second.
-Because quarto was open-sourced by *Posit*, the company formerly known as *RStudio*, it is understandable that
-the quarto framework is better known in the R community. Technically though, quarto works equally well with Python, Julia
-or even the JavaScript based data visualization tool Observable.
-
-```{r, message=FALSE, warnings=FALSE}
-
-res |>
-  select(id, programming) |>
-  ggplot(aes(x = programming)) +
-  geom_bar(stat = "count",
-           fill = "steelblue",) +
-  theme_minimal() +
-  theme(panel.grid.major.x = element_blank(),
-        panel.grid.minor.x = element_blank(),
-        axis.title.y = element_blank()) +
-  ggtitle("Main Programming Languages for Data Work") +
-  coord_flip()
-
-```
 
 ## Quarto in a Nutshell
 
 Quarto is a modern framework to help demanding technical and scientific writers create spiffy documents.
-Outside of academia, its reading-friendly syntax is better received than LaTeX and unlike output of office world
-word processors quarto's source is plain text.
+Outside of academia, its reading-friendly syntax is better received than LaTeX and unlike the output of office world
+word processors, Quarto's source is plain text.
 
-Under quarto's hood, we find (among other things): a TeX installation, the Swiss army knife document
+Under Quarto's hood, we find (among other things): a TeX installation, the Swiss army knife document
 converter pandoc and typst, the new kid on the block that set out to succeed LaTeX.
-All this flexible rendering power is complemented by an easy to use CLI and nice templates for
+All this flexible rendering power is complemented by an easy-to-use CLI and nice templates for
 articles, reports, presentations, websites and even entire books.
 
-What's the biggest deal to me though, is not that quarto makes typesetting a little more
+What's the biggest deal to me, though, is not that Quarto makes typesetting a little more
 convenient.
-(A large chunk of quarto's target group never asked for convenience anyway.)
+(A large chunk of Quarto's target group never asked for convenience anyway.)
 Writing scientific and technical documents has just become so much more reproducible, interoperable,
 inclusive and modular:
-i) Plain text syntax allows to smoothly work with git.
-At the same time quarto's syntax helps to lure users with less software development affinity.
-And modern Git platforms continue to make developer collaboration workflow from issue trackers to
+i) Plain text syntax allows for smooth work with git.
+At the same time, Quarto's syntax helps to lure users with less software development affinity.
+And modern Git platforms continue to make developer collaboration workflows from issue trackers to
 Kanban boards and Pull Requests so much more accessible.
 ii) Attractive, reading-friendly HTML output displayed on websites, presentations or a growing number of
-online books, is a true alternative to the same old PDF documents.
-iii) Unlike Software-as-a-Service online editing offerings such as Overleaf, quarto and its ecosystem
+Online books are a true alternative to the same old PDF documents.
+iii) Unlike Software-as-a-Service online editing offerings such as Overleaf, Quarto, and its ecosystem
 do not depend on a single online platform and allow to work locally, too.
 I believe the toolbox described above brings another chunk of use cases closer to the open-source software
 development workflow and possibly even a new group of people.
@@ -118,8 +102,8 @@ development workflow and possibly even a new group of people.
 
 ## A Glimpse of Quarto
 
-One of quarto's strength is its great, applied documentation, so I am not going to reproduce it here.
-Yet, let me give you a quick glimpse of quarto anyway.
+One of Quarto's strengths is its great, applied documentation, so I am not going to reproduce it here.
+Yet, let me give you a quick glimpse of Quarto anyway.
 
 ```
 ---
@@ -146,31 +130,29 @@ even more text.
 
 ```
 
-The most basic quarto document above, mingles mingles *markdown* with a `.yaml` header.
-This header contains document level information including information such as the output format that is needed for
+The most basic Quarto document above mingles *markdown* with a `.yaml` header.
+This header contains document-level information, including information such as the output format that is needed for
 the rendering process.
-But most notably, quarto quarto mingles the markdown formatted text with source code of an interpreted programming
+But most notably, Quarto mingles the markdown formatted text with source code of an interpreted programming
 language that is executed at render time.
 As you can see when you compare the [source code of this blog post]() with the post itself, code chunks
 are simply replaced with their execution results.
 
 
-## From Presentation and Reports to Website's and Books
+## From Presentations and Reports to Websites and Books
 
-When quarto projects get complex beyond single documents, project level information is stored
+When quarto projects get complex beyond single documents, project-level information is stored
 in a `_quarto.yml` file.
-In a book project for example, the `_quarto.yml` file sources all chapters including references.
-This allows to easily re-order chapters, split work among authors and alternate between different
+In a book project, for example, the `_quarto.yml` file sources all chapters, including references.
+This allows you to easily re-order chapters, split work among authors, and alternate between different
 output formats.
-Here's the quarto file of the online version of my forthcomming *Research Software Engineering* book.
-The `_quarto.yml` file contains book level information such as title, subtitle or author as well as
+Here's the quarto file of the online version of my forthcoming *Research Software Engineering* book.
+The `_quarto.yml` file contains book-level information such as title, subtitle or author as well as
 feature activation flags, e.g., search, and a navigation tree to all chapter sources.
 Quarto books allow for a plethora of configuration options that are a testimony of years of publishing
 experience and knowing what book authors need in the process of writing a book.
-Quarto was catalyst to getting my book done, pushing around chapters and content across chapters and
-several iterations of fine-tuning have been facilitated through quarto.
-Imo, it's also noteworthy that with CRC/Chapman&Hall, a large publisher not only accepted a quarto based draft
-for publication but even offered their own quarto template for quarto authors.
+Quarto was a catalyst to getting my book done, pushing around chapters and content across chapters and several iterations of fine-tuning have been facilitated through quarto.
+Imo, it's also noteworthy that with CRC/Chapman&Hall, a large publisher, not only accepted a Quarto-based draft for publication but even offered their own quarto template for quarto authors.
 
 ```
 project:
@@ -214,15 +196,15 @@ format:
 ## Typst Support
 
 Admittedly, I needed [Roland Siegbert from ETH Quantum Device Lab](https://read.cv/roland) and my colleague Minna to become aware of the
-appeal of quarto's typst support, but now I feel like it's one of quarto's most promising new features.
+appeal of Quarto's typst support, but now I feel like it's one of Quarto's most promising new features.
 If you, like me, got your scientific writing stack together when iPhone 5s were hot and Gangnam style
 tested our nerves, you may appreciate a quick catch-up.
 
 Typst is *markup-based typesetting system* that set out to become an alternative to both good ol' LaTeX
 and office tools like Google Docs or Word.
-It does so by a considerably simpler syntax than LaTeX, a pleasure-to-use approach and clean, technical
-templates including popular academic outlets and the ability to create custom templates.
-The below syntax taken from the [typst own introduction](https://typst.app/docs/tutorial/making-a-template/)
+It does so with a considerably simpler syntax and faster rendering than LaTeX, a pleasure-to-use approach and clean, technical
+templates, including popular academic outlets and the ability to create custom templates.
+The below syntax is taken from the [typst own introduction](https://typst.app/docs/tutorial/making-a-template/)
 quickly renders to a beautiful two column layout.
 
 ```
@@ -259,14 +241,12 @@ quickly renders to a beautiful two column layout.
 ![typst two column template](typst.png)
 
 The cool thing about quarto typst support is that you can use both raw typst syntax if you're already
-a heavey typst user, or quarto markdown if you rather familiar with markdown.
-In the latter case, `quarto render your-file.qmd` will just do the job: create an intermediate typst file
-create a PDF from there, clean up the intermediate file, done.
+a heavy typst user, or quarto markdown if you're rather familiar with Markdown.
+In the latter case, `quarto render your-file.qmd` will just do the job: create an intermediate typst file create a PDF from there, clean up the intermediate file, done.
 
 
 
-Ah, and if you're into machine learning and ever needed another reason to invest some time into quarto,
-you can now [host quarto sites on Hugging Face using the new quarto space template](https://quarto.org/docs/blog/posts/2024-03-26-hugging-face/) :)
+Ah, and if you're into machine learning and ever needed another reason to invest some time into Quarto, you can now [host quarto sites on Hugging Face using the new quarto space template](https://quarto.org/docs/blog/posts/2024-03-26-hugging-face/) :)
 
 
 ## References
