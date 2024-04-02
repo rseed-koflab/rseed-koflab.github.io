@@ -1,0 +1,31 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/quarto/index.html",
+      "/posts/rse_at_eth/index.html",
+      "/posts/h4sci/index.html",
+      "/posts/newsletter/index.html",
+      "/posts/initial_post/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/startpage/ed/index.html",
+      "/startpage/rse/index.html",
+      "/startpage/teaching/index.html"
+    ]
+  },
+  {
+    "listing": "/about.html",
+    "items": [
+      "/about/klaus/index.html",
+      "/about/matt/index.html",
+      "/about/minna/index.html",
+      "/about/oliver/index.html",
+      "/about/hans/index.html",
+      "/about/martin/index.html"
+    ]
+  }
+]
