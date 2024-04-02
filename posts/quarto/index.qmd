@@ -14,16 +14,19 @@ nocite: '@*'
 
 Last week, I gave an introduction to *Scientific and Technical Publishing with Quarto*
 at the ETH RSE community event.
-Discussing a framework that works with both of programming-with-data's favorite languages
-with RSE experts from a broad variety of fields has been insightful and great fun.
+The Quarto framework works equally well with both of programming-with-data's favorite languages
+and has become popular in recent years, yet it was relatively little known in audience.
+Particularly the discussion with RSE experts from a broad variety of fields has been insightful and great fun.
 Hence, I decided to not only post a quick debriefing summary of the talk but also to take a
-closer at feedback from the audience.
+closer look at feedback from the audience.
 
 ## Quarto Usage in the RSE Community
 
 To get started, we ran a minimal online survey among the event's participants, including an ad-hoc report
 rendered using -- guess what -- Quarto.
-Even though I need to admit that mentioning an *Introduction to Quarto* in the event announcement may have led to a certain self-selection bias, it was interesting to see how little Quarto was known at an RSE event: More than 71% of our survey participants had never really heard of Quarto.
+Even though I need to admit that mentioning an *Introduction to Quarto* in the event announcement may have
+led to a certain self-selection bias, it was interesting to see how little Quarto was known at an RSE event:
+More than 71% of our survey participants had never really heard of Quarto.
 
 ```{r, message=FALSE, warnings=FALSE}
 library(readr)
@@ -51,7 +54,9 @@ res |>
 There are two explanations for the low prevalence of Quarto among our subsample of the ETH RSE community.
 First, as expected, in an engineering community, the go-to language for data work was Python,
 with R a rather distant second.
-Because Quarto was open-sourced by *Posit*, the company formerly known as *RStudio*, it is understandable that the Quarto framework is better known in the R community. Technically, though, Quarto works equally well with Python, Julia or even the JavaScript-based data visualization tool Observable.
+Because Quarto was open-sourced by *Posit*, the company formerly known as *RStudio*, it is understandable
+that the Quarto framework is better known in the R community. Technically, though, Quarto works equally well
+with Python, Julia or even the JavaScript-based data visualization tool Observable.
 Second, after decades at the top of academic typesetting, LaTeX still stands strong -- even if some love to hate it.
 
 
@@ -79,7 +84,7 @@ Outside of academia, its reading-friendly syntax is better received than LaTeX a
 word processors, Quarto's source is plain text.
 
 Under Quarto's hood, we find (among other things): a TeX installation, the Swiss army knife document
-converter pandoc and typst, the new kid on the block that set out to succeed LaTeX.
+converter [pandoc](https://pandoc.org/) and [typst](https://typst.app/), the new kid on the block that set out to succeed LaTeX.
 All this flexible rendering power is complemented by an easy-to-use CLI and nice templates for
 articles, reports, presentations, websites and even entire books.
 
@@ -88,6 +93,7 @@ convenient.
 (A large chunk of Quarto's target group never asked for convenience anyway.)
 Writing scientific and technical documents has just become so much more reproducible, interoperable,
 inclusive and modular:
+
 i) Plain text syntax allows for smooth work with git.
 At the same time, Quarto's syntax helps to lure users with less software development affinity.
 And modern Git platforms continue to make developer collaboration workflows from issue trackers to
@@ -98,7 +104,7 @@ iii) Unlike Software-as-a-Service online editing offerings such as Overleaf, Qua
 do not depend on a single online platform and allow to work locally, too.
 I believe the toolbox described above brings another chunk of use cases closer to the open-source software
 development workflow and possibly even a new group of people.
-(Stay for my blog post and workshop on *Academic Writing Collaboration Using Modern Git Platforms*).
+(Stay tuned for my blog post and workshop on *Collaborating on Academic Publications Using Modern Git Platforms*).
 
 ## A Glimpse of Quarto
 
@@ -135,7 +141,7 @@ This header contains document-level information, including information such as t
 the rendering process.
 But most notably, Quarto mingles the markdown formatted text with source code of an interpreted programming
 language that is executed at render time.
-As you can see when you compare the [source code of this blog post]() with the post itself, code chunks
+As you can see when you compare the [source code of this blog post](https://github.com/rseed-koflab/rseed-koflab.github.io/blob/main/posts/quarto/index.qmd) with the post itself, code chunks
 are simply replaced with their execution results.
 
 
@@ -151,8 +157,8 @@ The `_quarto.yml` file contains book-level information such as title, subtitle o
 feature activation flags, e.g., search, and a navigation tree to all chapter sources.
 Quarto books allow for a plethora of configuration options that are a testimony of years of publishing
 experience and knowing what book authors need in the process of writing a book.
-Quarto was a catalyst to getting my book done, pushing around chapters and content across chapters and several iterations of fine-tuning have been facilitated through quarto.
-Imo, it's also noteworthy that with CRC/Chapman&Hall, a large publisher, not only accepted a Quarto-based draft for publication but even offered their own quarto template for quarto authors.
+Quarto was a catalyst to getting my own book done, pushing around chapters and content across chapters and several iterations of fine-tuning have been facilitated through quarto.
+Imo, it is also noteworthy that with CRC/Chapman&Hall, a large publisher, not only accepted a Quarto-based draft for publication but even offered their own quarto template for quarto authors.
 
 ```
 project:
