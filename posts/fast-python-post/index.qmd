@@ -1,0 +1,56 @@
+---
+title: "Fast Python Workshop"
+description: "Do you encounter performance issues with your Python code? This workshop will help you to identify and get introduced to the tools that can help you solve them. If you are curious to learn more, visit our RSEED workshop where Dr. Franziska Oschmann, will introduce the course and give you a taste of what you can expect."
+
+author: "Minna Heim"
+date: "04/21/2024"
+categories:
+    - research software engineering
+    - python
+    - ETH
+    - HPC
+---
+
+### Teaser
+- who are the people 
+- here for everyone, not just science, etc.
+- 4-day workshop
+- local computer or a high-performance-computing cluster.
+ 
+- 
+
+
+### Eckdaten:
+When? 
+Where?
+How much? 400 CHF
+Target Audience: Python users with more than 1 year of experience, who have encountered performance issues in their code.
+
+## Details:
+- 4-day workshop
+- local computer or a high-performance-computing cluster.
+
+## Goals: 
+The course is intended to for people who are already familiar with Python and want to improve the performance of their code. It will cover the basics of profiling and optimization in Python, and introduce you to some of the most common tools and techniques. It will also come some best practices for writing fast and efficient Python code. Below you can find the core topics covered by the 4-day workshop
+
+We introduce advanced topics but do not offer a deep dive into them. Instead, we raise awareness of existing solutions and teach best practices so that participants can acquire the basic skills to tackle performance-related programming problems.
+
+## Core Topics 
+- Profiling
+- Concepts 
+- Optimization
+- Paralell computing (PC and on the Euler Cluster)
+
+## Non-Goals
+- not 
+
+## Code Snippet 
+
+## RSEED Workshop as teaser 
+
+## Register through...
+
+## Links
+
+[RSECON 2024](https://rsecon24.society-rse.org) | [RSE Element](https://m.ethz.ch/#/#research-software-engineering-ch:staffchat.ethz.ch) | [Code for Thought episode recommendation](https://codeforthought.buzzsprout.com)
+
