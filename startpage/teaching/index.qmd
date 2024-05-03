@@ -47,15 +47,3 @@ Hacking for Science is part of D-MTEC offering for PhD students but has benefite
 [Hacking for Science ETH Course Catalog](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&ansicht=KATALOGDATEN&lerneinheitId=161937&lang=en) | [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io) | [2021 KITE Award nomnination](https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html)
 
 
-
-## Hacking for Research Assistants, Make Repetitive Work Fun Again! 
-
-Assistant work in academic research may not consist of cutting edge tasks to 100%. In fact, turning real world information into machine friendly standardized datasets can be cumbersome, but inevitable. What is not inevitable though is an error prone, repetitive and hardly transparent approach. 
-This new training camp style course idea plans to work together with research assistants to find their most common needs and use programming to work on these needs hands-on in highly interactive fashion.  
-
-Further details to be determined. We expect to host the course in 2nd half of 2024 for the first time. 
-
-
-
-
-
