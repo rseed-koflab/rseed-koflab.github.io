@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,66 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script defer="" data-domain="rseed.ch" src="https://plausible.io/js/script.js"></script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Research Software Engineering and  Economic Data at KOF Lab">
@@ -152,20 +92,12 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./startpage/ed/index.html"> 
-<span class="menu-text">Data</span></a>
+    <a class="nav-link" href="./h4sci.html"> 
+<span class="menu-text">Hacking for Science</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./startpage/rse/index.html"> 
-<span class="menu-text">Software</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./startpage/teaching/index.html"> 
-<span class="menu-text">Courses</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./opnts-ord-proposal/"> 
+<span class="menu-text">Open Time Series</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -173,7 +105,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./community.html"> 
-<span class="menu-text">Community</span></a>
+<span class="menu-text">Join us on Matrix!</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
@@ -215,69 +147,11 @@ window.Quarto = {
 </header>
 
 
-<p>The majority of social and economic data has been created within the last decade. In turn, many fields of research are confronted with an unprecedented wealth of data. In an effort to make the most of this opportunity, the section <em>Research Software Engineering and Economic Data (RSEED)</em> has set out to become a competence hub for research projects that embrace a data and programming driven approach to analysis.</p>
+<p>The Research Software Engineering and Economic Data group at KOF Lab focuses on two main projects: The <a href="https://rseed.ch/opnts-ord-proposal">Open Time Series project</a> and the teaching project <a href="./startpage/teaching/index.html">Hacking for Science</a></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1709848721395" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
-<a href="./startpage/ed/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./startpage/ed/tse.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Economic Datasets
-</h5>
-<div class="card-subtitle listing-subtitle">
-Conduct research with KOF’s unique time series and micro data!
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1709848721396" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
-<a href="./startpage/rse/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./startpage/rse/rse.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Contribute Through Software
-</h5>
-<div class="card-subtitle listing-subtitle">
-Turn Software into Publications!
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1709848721397" data-listing-reading-time-sort="2" data-listing-word-count-sort="283">
-<a href="./startpage/teaching/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./startpage/teaching/h4sci.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Teaching
-</h5>
-<div class="card-subtitle listing-subtitle">
-Software Engineering Skills for Researchers
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -359,7 +233,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/rseed-koflab\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

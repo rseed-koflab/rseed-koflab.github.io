@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Teaching">
 <meta property="og:description" content="Software Engineering Skills for Researchers">
-<meta property="og:image" content="h4sci.jpeg">
+<meta property="og:image" content="https://rseed-koflab.github.io/startpage/teaching/h4sci.jpeg">
 </head>
 
 <body class="nav-fixed">
@@ -93,20 +93,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../startpage/ed/index.html"> 
-<span class="menu-text">Data</span></a>
+    <a class="nav-link" href="../../h4sci.html"> 
+<span class="menu-text">Hacking for Science</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../startpage/rse/index.html"> 
-<span class="menu-text">Software</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../../startpage/teaching/index.html" aria-current="page"> 
-<span class="menu-text">Courses</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../../opnts-ord-proposal/"> 
+<span class="menu-text">Open Time Series</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -114,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../community.html"> 
-<span class="menu-text">Community</span></a>
+<span class="menu-text">Join us on Matrix!</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../blog.html"> 
@@ -137,7 +129,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#hacking-for-science-eth-phd-program" id="toc-hacking-for-science-eth-phd-program" class="nav-link active" data-scroll-target="#hacking-for-science-eth-phd-program">Hacking for Science, ETH PhD program</a></li>
-  <li><a href="#hacking-for-research-assistants-make-repetitive-work-fun-again" id="toc-hacking-for-research-assistants-make-repetitive-work-fun-again" class="nav-link" data-scroll-target="#hacking-for-research-assistants-make-repetitive-work-fun-again">Hacking for Research Assistants, Make Repetitive Work Fun Again!</a></li>
   </ul>
 </nav>
     </div>
@@ -187,11 +178,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="hacking-for-science-eth-phd-program">Hacking for Science, ETH PhD program</h2>
 <p>Hacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector.</p>
 <p><a href="https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&amp;ansicht=KATALOGDATEN&amp;lerneinheitId=161937&amp;lang=en">Hacking for Science ETH Course Catalog</a> | <a href="https://rse-book.github.io">Research Software Engineering - A Guide to the Open Source Ecosystem</a> | <a href="https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html">2021 KITE Award nomnination</a></p>
-</section>
-<section id="hacking-for-research-assistants-make-repetitive-work-fun-again" class="level2">
-<h2 class="anchored" data-anchor-id="hacking-for-research-assistants-make-repetitive-work-fun-again">Hacking for Research Assistants, Make Repetitive Work Fun Again!</h2>
-<p>Assistant work in academic research may not consist of cutting edge tasks to 100%. In fact, turning real world information into machine friendly standardized datasets can be cumbersome, but inevitable. What is not inevitable though is an error prone, repetitive and hardly transparent approach. This new training camp style course idea plans to work together with research assistants to find their most common needs and use programming to work on these needs hands-on in highly interactive fashion.</p>
-<p>Further details to be determined. We expect to host the course in 2nd half of 2024 for the first time.</p>
 
 
 </section>
@@ -278,7 +264,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/rseed-koflab\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

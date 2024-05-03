@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>user_2024</title>
+<title>Hacking for Science Is Back!</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +70,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Hacking for Science Is Back!">
+<meta property="og:description" content="">
 </head>
 
 <body class="nav-fixed">
@@ -90,20 +92,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./startpage/ed/index.html"> 
-<span class="menu-text">Data</span></a>
+    <a class="nav-link active" href="./h4sci.html" aria-current="page"> 
+<span class="menu-text">Hacking for Science</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./startpage/rse/index.html"> 
-<span class="menu-text">Software</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./startpage/teaching/index.html"> 
-<span class="menu-text">Courses</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./opnts-ord-proposal/"> 
+<span class="menu-text">Open Time Series</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -111,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./community.html"> 
-<span class="menu-text">Community</span></a>
+<span class="menu-text">Join us on Matrix!</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
@@ -133,57 +127,58 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#opentimeseries-an-r-package-to-transform-ugly-data-publications-into-machine-readable-time-series" id="toc-opentimeseries-an-r-package-to-transform-ugly-data-publications-into-machine-readable-time-series" class="nav-link active" data-scroll-target="#opentimeseries-an-r-package-to-transform-ugly-data-publications-into-machine-readable-time-series">opentimeseries: An R Package to Transform (Ugly) Data Publications into Machine-Readable Time Series</a>
-  <ul class="collapse">
-  <li><a href="#gains-for-the-attendee" id="toc-gains-for-the-attendee" class="nav-link" data-scroll-target="#gains-for-the-attendee">Gains for the attendee</a></li>
-  </ul></li>
-  <li><a href="#open-time-series-initiative" id="toc-open-time-series-initiative" class="nav-link" data-scroll-target="#open-time-series-initiative">Open Time Series Initiative</a>
-  <ul class="collapse">
-  <li><a href="#learnings" id="toc-learnings" class="nav-link" data-scroll-target="#learnings">Learnings:</a></li>
-  </ul></li>
+  <li><a href="#hacking-for-science-eth-phd-program" id="toc-hacking-for-science-eth-phd-program" class="nav-link active" data-scroll-target="#hacking-for-science-eth-phd-program">Hacking for Science, ETH PhD program</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hacking for Science Is Back!</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="opentimeseries-an-r-package-to-transform-ugly-data-publications-into-machine-readable-time-series" class="level2">
-<h2 class="anchored" data-anchor-id="opentimeseries-an-r-package-to-transform-ugly-data-publications-into-machine-readable-time-series">opentimeseries: An R Package to Transform (Ugly) Data Publications into Machine-Readable Time Series</h2>
-<p>Because publications by public data providers focus on a broader audience, their datasets are often not convenient to use for research. To mitigate this problem, the opentimeseries R package provides the time series and official statistics communities with reusable code to conveniently source data from public sources. By splitting data and metadata into two different files, a long format CSV file for the data and a JSON file for multi-lingual metainformation, the package generates output that is inclusive to humans (and their favorite spreadsheet software) and convenient to ingest for machines. This data output is the starting point not only for intertemporal comparisons but also for versioning of time series, as it is needed for real-time analysis or evaluation of forecasts. The package open-sources a data ingestion framework, proven through its longtime usage in monitoring the Swiss economy at the KOF Swiss Economic Institute at ETH Zurich, for the first time. We explicitly chose the R ecosystem with its great documentation and boiler plating tools to encourage dataset maintenance and community contributions across different fields that use public data for research.</p>
-<section id="gains-for-the-attendee" class="level3">
-<h3 class="anchored" data-anchor-id="gains-for-the-attendee">Gains for the attendee</h3>
-<ul>
-<li>learn about a reusable approach that is transferable to other countries and fields</li>
-<li>exchange about the timelines/dynamics of data pipeline automation efforts in the public sector and what the research community can do in the meantime</li>
-<li>learn about a strategy to continously adapt to modernization of sources (migration to APIs)</li>
-<li>discuss efficient efficient versioning of revised time series and tradeoffs</li>
-</ul>
-</section>
-</section>
-<section id="open-time-series-initiative" class="level2">
-<h2 class="anchored" data-anchor-id="open-time-series-initiative">Open Time Series Initiative</h2>
-<p>The Open Time Series Initiative aims to bridge the gap between academic research and official statistics. Founded and developed at the Research Software Engineering and Economic Data section at KOF Lab at ETH Zurich (RSEED), the initiative plans to start its activities around publicly macroeconomic data. First, we publish an R based framework to provide the time series community with reusable code to source publicly available data and process data publications into time series. Second, we plan to publish maintain and version over 100’000 machine-readable macroeconomic time series following modern open science standards (FAIR principles). Third, we integrate processing of publicly available data into academic teaching. Our explaroatory discussion with the Swiss Federal Statistical Office (FSO) and the pionieering collaboration with the Swiss Secretariat of Economic affairs (SECO) make us optimistic that our starting push will lead to spillovers to other fields of research and parts of official statistics.</p>
-<ul>
-<li>publish framework</li>
-<li>publish 100K macro economic time series based on publicly available data, following fair principles</li>
-<li>integrates publicly available data into academic teaching</li>
-<li>pilots and pioneering efforts gives a hope to create a push big enough to cause spill overs to other research communities.</li>
-</ul>
-<p>The technical implementation of the open sourced initiative is backed by an R package, and integrates this framework and public data into teaching and community events.</p>
-<p>Developed by the Competence Hub for Research Software Engineering and Economic Data (RSEED) at the KOF Lab at ETH Zurich, in collaboration with the Swiss Federal Statistical Office (FSO) and with the pioneering efforts of the State Secretariat for Economic Affairs (SECO), the initiative aims not only to encourage public data providers to make their data FAIRer (findable, accessible, interoperable and reusable), but also to train the next generation of public servants to become Open Science leaders who are familiar with the Swiss data landscape.</p>
-<p>Here a link to the Open Time Series funding proposal: https://rseed.ch/opnts-ord-proposal/</p>
-<section id="learnings" class="level3">
-<h3 class="anchored" data-anchor-id="learnings">Learnings:</h3>
-<ul>
-<li>learn about how to make data publications inclusive</li>
-<li>how to make public data FAIR (findable, accessible, interoperable reusable), - discuss why many open data approaches stop shortly before being truly useful for research</li>
-</ul>
+    
+  
+    
+  </div>
+  
 
 
-</section>
+</header>
+
+
+<p>By popular demand, we’re bringing the Hacking for Science course back to the D-MTEC PhD program in fall 2024. The course will open to guests from all departments as well as interested guests. We are currently updating the course website, stay tuned and subscribe to our newsletter in the meantime.</p>
+<p>To learn more about the course, including an initial schedule, check our <a href="posts/h4sci/">blog post on the h4sci project</a>.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Feedback, Questions, Ideas?</strong></p>
+<p>Contact us.</p>
+<p><strong>Minna Heim</strong></p>
+<p>heim [ at ] kof.ethz.ch</p>
+<p><br><br></p>
+<p><strong>Newsletter Registration</strong></p>
+<p>Stay informed about new courses and trainings. <a href="https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html">Join the quarterly RSEED newsletter</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="h4sci_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</div></div><section id="hacking-for-science-eth-phd-program" class="level2">
+<h2 class="anchored" data-anchor-id="hacking-for-science-eth-phd-program">Hacking for Science, ETH PhD program</h2>
+<p>Hacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector.</p>
+<p><a href="https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&amp;ansicht=KATALOGDATEN&amp;lerneinheitId=161937&amp;lang=en">Hacking for Science ETH Course Catalog</a> | <a href="https://rse-book.github.io">Research Software Engineering - A Guide to the Open Source Ecosystem</a> | <a href="https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html">2022 KITE Award nomnination</a></p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -268,7 +263,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/rseed-koflab\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

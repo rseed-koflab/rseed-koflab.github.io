@@ -7,235 +7,67 @@
     "text": "Technical and Scientific Publishing with Quarto\n\n\nPresentation at the RSE@ETH community event\n\n\n\nresearch software engineering\n\n\nscientific writing\n\n\nETH\n\n\npublishing\n\n\n\n\n\n\n\n\n\nMar 7, 2024\n\n\nMatthias Bannert and Minna Heim\n\n\n\n\n\n\n\n\n\n\n\n\nRSE@ETH - The Force awakens\n\n\n\n\n\n\nresearch software engineering\n\n\ncommunity\n\n\nETH\n\n\nRSE news\n\n\n\nInspired by the UK Society of Research Software Engineering (RSE), the first in-person event of the newly founded RSE community at ETH took place on February 1. A lightning talk format gave a broad array of interested researchers the chance to present themselves and their software engineering work at ETH and to discuss the future development of RSE@ETH.\n\n\n\n\n\nFeb 21, 2024\n\n\nMinna Heim\n\n\n\n\n\n\n\n\n\n\n\n\nHacking for Science is back.\n\n\n\n\n\n\nteaching\n\n\ncoaching\n\n\neconomic data\n\n\nsoftware skills\n\n\nRSEED news\n\n\n\nAfter a 1-year hiatus, Hacking for Science is back. Hacking for Science is a highly interactive online course for PhD students that is also open to interested guests. The idea behind Hacking for Science is to build a solid understanding of core technologies and concepts to help researchers develop a data processing strategy and increase one’s possibilities when working with data. We single out those concepts from software development that are fairly easy to adopt and useful for scientists. Hacking for Science will take place again in fall 2024. Registration via the ETH course catalog will open soon.\n\n\n\n\n\nFeb 5, 2024\n\n\nMinna Heim and Matthias Bannert\n\n\n\n\n\n\n\n\n\n\n\n\nPsssst… Quarterly RSEED Newsletter launched\n\n\n\n\n\n\nresearch software engineering\n\n\neconomic data\n\n\nteaching\n\n\nRSEED news\n\n\n\nWant to know more about new courses or community events around programming with data? Do you want to know how RSEED at KOF Lab evolves over time? Are you on the lookout for the next job opportunity in the field? Mix in our take on the latest developments in the field. If you interested in any of the above, this newsletter is for you. No Spam. Just one email per quarter.\n\n\n\n\n\nNov 6, 2023\n\n\nMatthias Bannert\n\n\n\n\n\n\n\n\n\n\n\n\nRSEED at KOF Lab\n\n\n\n\n\n\nresearch software engineering\n\n\neconomic data\n\n\nteaching\n\n\nRSEED news\n\n\n\nIn 2023, the KOF Swiss Economic Institute started KOF Lab as a new research devision to develop, test and implement new approaches to economic research. Research Software Engineering and Economic Data (RSEED) starts as one of four KOF Lab sections alongside Medium and Long-Term Scenarios, Inequality and Public Economics and Public and Social Policy Design.\n\n\n\n\n\nNov 1, 2023\n\n\nMatthias Bannert\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "startpage/rse/index.html",
-    "href": "startpage/rse/index.html",
-    "title": "Contribute Through Software",
+    "objectID": "startpage/teaching/index.html",
+    "href": "startpage/teaching/index.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Open source programming languages, led by R, Python and JavaScript have taken the data analytics and engineering world by storm. This sharing, reproducibility and transparency driven development has not only resulted in a plethora of useful, license cost-free software package but has also established a tremendous communication channel in source code. RSEED aims to help (economic) researchers put their ideas into state-of-the-art software packages in increase the impact of their work in different ways: we make contributions reusable and connect researchers to a vibrant data science and open source software community."
+    "text": "Teaching is an integral part of our work at the KOF Lab section for Research Software Engineering and Economic Data. We strive to teach what is needed and continously learn in a dynamically evolving field. Hence, feedback to existing courses our requests to extend our program are greatly appreciated. Join our community to engage in the discussion!"
   },
   {
-    "objectID": "startpage/rse/index.html#timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql",
-    "href": "startpage/rse/index.html#timeseriesdb-a-time-series-database-for-official-statistics-with-r-and-postgresql",
-    "title": "Contribute Through Software",
-    "section": "timeseriesdb: A Time Series Database for Official Statistics with R and PostgreSQL",
-    "text": "timeseriesdb: A Time Series Database for Official Statistics with R and PostgreSQL\nArchive and manage times series data from official statistics. The ‘timeseriesdb’ package was designed to manage a large catalog of time series from official statistics which are typically published on a monthly, quarterly or yearly basis. Thus timeseriesdb is optimized to handle updates caused by data revision as well as elaborate, multi-lingual meta information.\ntimeseriesdb on CRAN | timeseriesdb on GitHub | timeseriesdb Documentation"
+    "objectID": "startpage/teaching/index.html#hacking-for-science-eth-phd-program",
+    "href": "startpage/teaching/index.html#hacking-for-science-eth-phd-program",
+    "title": "Teaching",
+    "section": "Hacking for Science, ETH PhD program",
+    "text": "Hacking for Science, ETH PhD program\nHacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector.\nHacking for Science ETH Course Catalog | Research Software Engineering - A Guide to the Open Source Ecosystem | 2021 KITE Award nomnination"
   },
   {
-    "objectID": "startpage/rse/index.html#kofdata-get-data-from-the-kof-datenservice-api",
-    "href": "startpage/rse/index.html#kofdata-get-data-from-the-kof-datenservice-api",
-    "title": "Contribute Through Software",
-    "section": "kofdata: Get Data from the ‘KOF Datenservice’ API",
-    "text": "kofdata: Get Data from the ‘KOF Datenservice’ API\nRead Swiss time series data from the ‘KOF Data’ API, https://datenservice.kof.ethz.ch. The API provides macro economic time series data mostly about Switzerland. The package itself is a set of wrappers around the ‘KOF Datenservice’ API. The ‘kofdata’ package is able to consume public information as well as data that requires an API token.\nkofdata on CRAN | kofdata on Github (documentation in README)"
-  },
-  {
-    "objectID": "startpage/ed/index.html",
-    "href": "startpage/ed/index.html",
-    "title": "Economic Datasets",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Team",
     "section": "",
-    "text": "One of the three main goals of RSEED is to increase the impact of KOF’s unique economic datasets by enabling academic researchers to work with the datasets we built and maintain. Social and economic data ask for contributions not only from researchers, but also from companies and individuals. To fully value these contributions we are committed to creating the conditions to use the economic datasets maintained by KOF while protecting the privacy of individual companies and persons."
+    "text": "Research Software Engineering and Economic Data is a team effort.\nResearch Software Engineering and Economic Data (RSEED) is a KOF Lab section which itself is a part of KOF, the D-MTEC department and ETH Zurich. The RSEED team does not a have an hierarchical approach to organize its activities. Our understanding of working together is more similar to the guild approach in SCRUM: RSEED intends to give contributors from all of research divisions of KOF and beyond a platform collaborate on the data and software component of their work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Klaus Abberger\n\n\nDivision Head Business Tendency Surveys\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Matthias Bannert\n\n\nSection Lead RSEED\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinna Heim\n\n\nResearch Assistant and Organization Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nOliver Müller\n\n\nResearch Software Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Hans Gersbach\n\n\nDivision Head KOF Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Martin Wörter\n\n\nDivision Head Innovation Economics\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "startpage/ed/index.html#micro-data-at-kof",
-    "href": "startpage/ed/index.html#micro-data-at-kof",
-    "title": "Economic Datasets",
-    "section": "Micro Data at KOF",
-    "text": "Micro Data at KOF\n\nThe term “micro data” refers to unit-level data obtained from sample surveys, censuses and administrative systems, usually from individual firms. Part of the KOF Lab’s expertise stems from decades of fine-grained panel data monitoring of the Swiss economy, partly through surveys from which micro data are generated. This added value is enhanced by giving researchers access to some of the anonymised micro data and thus increasing the use of the data."
-  },
-  {
-    "objectID": "startpage/ed/index.html#opendata.swiss-at-kof",
-    "href": "startpage/ed/index.html#opendata.swiss-at-kof",
-    "title": "Economic Datasets",
-    "section": "opendata.swiss at KOF",
-    "text": "opendata.swiss at KOF\nKOF’s economic indicators are its most exposed data. Indicators such as the KOF Barometer (see below) are publicly available and designed for intertemporal comparison as they summarise economic development in a single number.\n\n\n\n\n\n\n\n\n\n\nComprehensive dissemination of the extracted information is an important part of monitoring the Swiss economy. Hence, it is important to follow standards in order to make data not only available but immediately processable. KOF indicators are available from the official open government data (OGD) portal of the Swiss Federal Office of Statistics and the KOF Data application programming interface (API).\n| Learn more about KOF indicators on kof.ethz.ch | KOF at opendata.swiss"
-  },
-  {
-    "objectID": "startpage/ed/index.html#time-series-database-at-kof",
-    "href": "startpage/ed/index.html#time-series-database-at-kof",
-    "title": "Economic Datasets",
-    "section": "Time Series Database at KOF",
-    "text": "Time Series Database at KOF\nIn addition to its publicly available time series, KOF offers a plethora of finer grained time series including regional and sector specific indicators. The KOF time series data API provides researchers with access to over 30’000 time series on every sector of the Swiss economy.\n\n\n\nThe KOF Time Series Explorer helps user navigate over 30’000 economic time series\n\n\nKOF Micro Data Center |KOF Time Series Explorer | kofdata API R package | Learn more about the KOF Time Series database on kof.ethz.ch"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Research Software Engineering and  Economic Data at KOF Lab",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "The majority of social and economic data has been created within the last decade. In turn, many fields of research are confronted with an unprecedented wealth of data. In an effort to make the most of this opportunity, the section Research Software Engineering and Economic Data (RSEED) has set out to become a competence hub for research projects that embrace a data and programming driven approach to analysis.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconomic Datasets\n\n\nConduct research with KOF’s unique time series and micro data!\n\n\n\n\n\n\n\n\n\n\n\n\n\nContribute Through Software\n\n\nTurn Software into Publications!\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching\n\n\nSoftware Engineering Skills for Researchers\n\n\n\n\n\n\n\nNo matching items"
+    "text": "The book project Research Software Engineering - A Guide to the Open Source Ecosystem argues that a solid programming and operations skill level is totally in reach for most researchers. And most importantly, investing is worth the effort: being able to code leverages field specific expertise and fosters interdisciplinary collaboration as source code continues to become an important communication channel\n\n\n\nResearch Software Engineering, Figure 2"
   },
   {
-    "objectID": "about/oliver/index.html",
-    "href": "about/oliver/index.html",
-    "title": "Oliver Müller",
+    "objectID": "projects.html#research-software-engineering-a-guide-to-the-open-source-ecosystem",
+    "href": "projects.html#research-software-engineering-a-guide-to-the-open-source-ecosystem",
+    "title": "Projects",
     "section": "",
-    "text": "Integrating data from all over Switzerland here at KOF will supercharge its usefulness for the social sciences. To make this a reality, we need to do lots of engineering. As an IT specialist with a fondness for economic research, I will contribute my expertise and many lines of code to this promising venture."
+    "text": "The book project Research Software Engineering - A Guide to the Open Source Ecosystem argues that a solid programming and operations skill level is totally in reach for most researchers. And most importantly, investing is worth the effort: being able to code leverages field specific expertise and fosters interdisciplinary collaboration as source code continues to become an important communication channel\n\n\n\nResearch Software Engineering, Figure 2"
   },
   {
-    "objectID": "about/hans/index.html",
-    "href": "about/hans/index.html",
-    "title": "Prof. Dr. Hans Gersbach",
+    "objectID": "projects.html#openwashdata",
+    "href": "projects.html#openwashdata",
+    "title": "Projects",
+    "section": "Openwashdata",
+    "text": "Openwashdata\nopenwashdata is an active global community that applies FAIR principles to data generated in the greater water, sanitation, and hygiene (WASH) sector. Open Wash Data’s mission is to empower WASH professionals to engage with tools and workflows for open data and code."
+  },
+  {
+    "objectID": "about/klaus/index.html",
+    "href": "about/klaus/index.html",
+    "title": "Dr. Klaus Abberger",
     "section": "",
-    "text": "RSEED is a particularly promising field of research for my work in democracy and innovation. For the citizens in any democracy, enhanced, equal access to data as well as data quality can be defined as public goods. Enhanced data and a programming-driven approach to the analysis of these data are also the basis needed for innovation in the collective decision-making processes we examine in our research, with the goal to improve democracy and to ensure long-term welfare for society."
+    "text": "The use of data, knowing how to use it correctly, but also how to make your own data available for others to use so that they can work with it in a suitable way, are important prerequisites in today’s world. As a data producer on the one hand and a data user on the other, KOF can play an important bridging role and bring together data producers and academic users in particular. I am looking forward to the exciting process of helping to build this bridge."
   },
   {
-    "objectID": "about/martin/index.html",
-    "href": "about/martin/index.html",
-    "title": "Prof. Dr. Martin Wörter",
+    "objectID": "about/matt/index.html",
+    "href": "about/matt/index.html",
+    "title": "Dr. Matthias Bannert",
     "section": "",
-    "text": "RSEED is a key resource in our data-centric age, where the availability of microdata, software expertise and analytical skills are becoming increasingly important. The potential of RSEED as a basis for sound economic policy analysis is immense. So it’s not just about having access to data, it’s about being able to unlock its potential through improved analytical skills. It is very exciting to be part of this project."
+    "text": "Over the last two decades, we have witnessed programming, and source code in particular, become a tremendously sharp, illustrative and hence increasingly popular communication channel across many fields of research. RSEED picks up this chance to leverage our resources: Reproducible dissemination of results, interactive communication of methodological advances and truly accessible data, make research more inclusive, increase its reach and therefore its impact."
   },
   {
-    "objectID": "posts/h4sci/index.html",
-    "href": "posts/h4sci/index.html",
-    "title": "Hacking for Science is back.",
+    "objectID": "about/minna/index.html",
+    "href": "about/minna/index.html",
+    "title": "Minna Heim",
     "section": "",
-    "text": "Wizard or carpenter? How much programming proficiency do you need to tackle your data work?"
-  },
-  {
-    "objectID": "posts/h4sci/index.html#how-much-programming-does-a-researcher-need",
-    "href": "posts/h4sci/index.html#how-much-programming-does-a-researcher-need",
-    "title": "Hacking for Science is back.",
-    "section": "How Much Programming Does a Researcher Need?",
-    "text": "How Much Programming Does a Researcher Need?\nThe vast majority of data has been created within the last decade. As a result, more and more research fields are considering programming to analyze data. Hacking for Science embraces a programming approach to data engineering and analytics, as it aims to leverage field-specific expertise with the help of the open source ecosystem. In addition to its popular, demand driven, hands-on programming examples, the most significant value of the course may lie in its big-picture understanding. How do Python, R, Julia, GitHub, IDEs, git, Visual Studio Code, geoJSON, Postgres, containers, cloud, Kubernetes and Continuous Integration relate to each other? And do I – all of a sudden – need them all for my research1?"
-  },
-  {
-    "objectID": "posts/h4sci/index.html#online-teaching-and-coaching-sessions",
-    "href": "posts/h4sci/index.html#online-teaching-and-coaching-sessions",
-    "title": "Hacking for Science is back.",
-    "section": "Online Teaching and Coaching Sessions",
-    "text": "Online Teaching and Coaching Sessions\nBorn during the pandemic, Hacking for Science is a native online course specifically designed to be interactive and engaging. The course consists of four two-day blocks, all spaced at least several weeks apart, with a flipped classroom concept in mind: after two days of input sessions, there is a break of multiple weeks that allows for self-study time. This self-learning time is accompanied by a course matrix chat space and the book Research Software Engineering, which itself was created using many of the open source technologies discussed in the course2. The chat allows participants to interact with each other in asynchronous fashion as well as with the lecturer. Participants decide for themselves which topics raised during the input sessions they wish to explore in more detail.\n\n\n\nResearch Software Engineering - A Guide to the Open Source Ecosystem will be available soon as part of the Chapman & Hall/CRC Data Science Series"
-  },
-  {
-    "objectID": "posts/h4sci/index.html#teaching-coaching-sessions",
-    "href": "posts/h4sci/index.html#teaching-coaching-sessions",
-    "title": "Hacking for Science is back.",
-    "section": "Teaching & Coaching Sessions",
-    "text": "Teaching & Coaching Sessions\n\n\n\n\n\n\nNote\n\n\n\nRegistration via the ETH course catalog will open soon. If you are not an ETH student and/or have further questions, please do not hesitate to contact us: heim [ at ] kof.ethz.ch\n\n\nWhile the first two blocks of the course focus on teaching and building a common denominator understanding of the open source ecosystem as a toolbox, the latter two blocks have more of a coaching mindset. Similar to coaching in sports, the course observe participants doing their work offer ways to adapt one’s own patterns and learn new techniques and industry standard workflows. Participants can bring their (PhD) projects, everyday programming issues and patterns to class. The course builds groups of participants with common problems and then discusses ways to improve. Input ranges from workflow to source code, while group outputs range from head-first dives into cloud computing to R Shiny dashboards or profile websites. Each group will have the opportunity to submit an ungraded programming exercise and receive feedback on this exercise at the end of the semester. Live sessions will take place on Thursdays and Fridays from 10:00 a.m. to 1:00 p.m. and 10:00 a.m. to 2 p.m. including sufficient breaks.\nPreliminary Schedule\nBlock 1\nThursday: September 26, 2024\nFriday: September 27, 2024\nBlock 2\nThursday: October 24, 2024\nFriday: October 24, 2024\nBlock 3\nThursday: November 21, 2024\nFriday: November 22, 2024\nBlock 4\nThursday: December 5, 2024\nFriday: December 6, 2024"
-  },
-  {
-    "objectID": "posts/h4sci/index.html#links",
-    "href": "posts/h4sci/index.html#links",
-    "title": "Hacking for Science is back.",
-    "section": "Links",
-    "text": "Links\nCourse Details (ETH Catalog) | RSE Book | h4sci Matrix chat room (#h4sci:staffchat.ethz.ch)"
-  },
-  {
-    "objectID": "posts/h4sci/index.html#footnotes",
-    "href": "posts/h4sci/index.html#footnotes",
-    "title": "Hacking for Science is back.",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nReaders who speak German may be interested in the discussion of this question for the profession of empirical economics (Bannert 2022-03)↩︎\nThe book will be available as part of the [CRC Data Science Series from early April 2024(https://www.routledge.com/Research-Software-Engineering-A-Guide-to-the-Open-Source-Ecosystem/Bannert/p/book/9781032261270)]. In addition we offer a free online version of the book on GitHub.↩︎"
-  },
-  {
-    "objectID": "posts/newsletter/index.html",
-    "href": "posts/newsletter/index.html",
-    "title": "Psssst… Quarterly RSEED Newsletter launched",
-    "section": "",
-    "text": "Code\nlibrary(qrcode)\nq &lt;- qrcode::qr_code(\n    \"https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html\",\n    ecl = \"M\"\n)\n\nql &lt;- qrcode::add_logo(q, \"rseed-blk.png\")\nplot(ql)\n\n\n\n\n\n\n\n\n\nSubscribe to the RSEED Newsletter."
-  },
-  {
-    "objectID": "posts/initial_post/index.html",
-    "href": "posts/initial_post/index.html",
-    "title": "RSEED at KOF Lab",
-    "section": "",
-    "text": "Code\nlibrary(cranlogs)\nlibrary(dplyr)\nlibrary(lubridate)\nlibrary(tsbox)\ntop &lt;- cranlogs::cran_top_downloads()\n\npacks &lt;- cranlogs::cran_downloads(\n                               from = \"2015-01-01\",\n                               to = \"2023-09-30\")\n\npacks |&gt; \n  group_by(floor_date(date, \"month\")) |&gt; \n  summarize(m = sum(count)) |&gt; \n  ts_plot(title = \"Sum of Monthly R Package Downloads\",\n          subtitle = \"source: RStudio CRAN mirror\")\nThe aim of the newly launched KOF Lab section is to become a competence hub for Research Software Engineering and Economic Data in Switzerland and beyond. The section aims to enable more researchers to work with KOF’s unique datasets an to help use the potential of programming as a channel to communicate methodological advances and new analyses. In addition, RSEED provides courses to help non-computer science scholars bolster their computational competencies."
-  },
-  {
-    "objectID": "posts/initial_post/index.html#what-to-expect-from-rseed",
-    "href": "posts/initial_post/index.html#what-to-expect-from-rseed",
-    "title": "RSEED at KOF Lab",
-    "section": "What to Expect from RSEED?",
-    "text": "What to Expect from RSEED?\nRSEED’s initial offering includes working with the KOF Micro Data Center, the course Hacking for Science along with the book project Research Software Engineering - A Guide to the Open Source Ecosystem as well as several software package projects. Short term future plans include the launch of a new innovative seminar."
-  },
-  {
-    "objectID": "posts/initial_post/index.html#what-to-expect-from-this-blog",
-    "href": "posts/initial_post/index.html#what-to-expect-from-this-blog",
-    "title": "RSEED at KOF Lab",
-    "section": "What to Expect from this Blog?",
-    "text": "What to Expect from this Blog?\nBesides section news, tutorials and an occasional discussion of highlights in the field, expect the blog to accompany the RSEED seminar. We invite speakers to present their topic in a blog post before their actual presentation. This form of pre-circulated content is intended to help drive the discussion, improve feedback at the live event and allow to catch-up for debriefing. In addition to the blog, the seminar has its own channel on the RSEED matrix chat space."
-  },
-  {
-    "objectID": "community.html",
-    "href": "community.html",
-    "title": "Community",
-    "section": "",
-    "text": "The English-language word “community” derives from the Old French comuneté (Modern French: communauté), which comes from the Latin communitas “community”, “public spirit” (from Latin communis, “common”). – en.wikipedia.org"
-  },
-  {
-    "objectID": "community.html#rseed-seminar-series",
-    "href": "community.html#rseed-seminar-series",
-    "title": "Community",
-    "section": "RSEED Seminar Series",
-    "text": "RSEED Seminar Series\nin 2024, we are planning to hold a monthly seminar with speakers from academia, the public and private sector. Speakers will publish a blog post on their topic in advance of the live sessions to foster educated discussions within the sessions. The seminar series will run its own matrix channel to extend exchange beyond the live sessions."
-  },
-  {
-    "objectID": "community.html#join-the-rseed-matrix-chat-space",
-    "href": "community.html#join-the-rseed-matrix-chat-space",
-    "title": "Community",
-    "section": "Join the RSEED Matrix Chat Space",
-    "text": "Join the RSEED Matrix Chat Space\nWe have opened up a Matrix based chat space for people working with (economic) data who are interested in exchange on programming as an approach to analyse and manage data. Matrix is an open network for secure and decentralized communication. All you need is\n\nfree registration at a matrix home server.\na matrix client for your computer and/or mobile device. We recommend to use Element, the most popular matrix client.\n\n\n\n\nJoin our Matrix channels either from ETH or outside ETH\n\n\n\nMatrix Tutorial\nThe openwashdata community which also uses Matrix as a chat platform offers a comprehensive Matrix tutorial. The tutorial will guide you through finding the right homeserver for you and help set up an Element Matrix client so you can find and join our chat space and its channels. Make sure to use the below entrypoint instead of the openshdata community’s entrypoint.\nopenwashdata Matrix tutorial | element Matrix client\n\n\nRSEED Join Information\nFind our entrypoint room at #rseed:staffchat.ethz.ch ! From the there you will find your first contacts as well as other more specific channels to join within our chat spaces."
-  },
-  {
-    "objectID": "useR_2024.html",
-    "href": "useR_2024.html",
-    "title": "",
-    "section": "",
-    "text": "Because publications by public data providers focus on a broader audience, their datasets are often not convenient to use for research. To mitigate this problem, the opentimeseries R package provides the time series and official statistics communities with reusable code to conveniently source data from public sources. By splitting data and metadata into two different files, a long format CSV file for the data and a JSON file for multi-lingual metainformation, the package generates output that is inclusive to humans (and their favorite spreadsheet software) and convenient to ingest for machines. This data output is the starting point not only for intertemporal comparisons but also for versioning of time series, as it is needed for real-time analysis or evaluation of forecasts. The package open-sources a data ingestion framework, proven through its longtime usage in monitoring the Swiss economy at the KOF Swiss Economic Institute at ETH Zurich, for the first time. We explicitly chose the R ecosystem with its great documentation and boiler plating tools to encourage dataset maintenance and community contributions across different fields that use public data for research.\n\n\n\nlearn about a reusable approach that is transferable to other countries and fields\nexchange about the timelines/dynamics of data pipeline automation efforts in the public sector and what the research community can do in the meantime\nlearn about a strategy to continously adapt to modernization of sources (migration to APIs)\ndiscuss efficient efficient versioning of revised time series and tradeoffs"
-  },
-  {
-    "objectID": "useR_2024.html#opentimeseries-an-r-package-to-transform-ugly-data-publications-into-machine-readable-time-series",
-    "href": "useR_2024.html#opentimeseries-an-r-package-to-transform-ugly-data-publications-into-machine-readable-time-series",
-    "title": "",
-    "section": "",
-    "text": "Because publications by public data providers focus on a broader audience, their datasets are often not convenient to use for research. To mitigate this problem, the opentimeseries R package provides the time series and official statistics communities with reusable code to conveniently source data from public sources. By splitting data and metadata into two different files, a long format CSV file for the data and a JSON file for multi-lingual metainformation, the package generates output that is inclusive to humans (and their favorite spreadsheet software) and convenient to ingest for machines. This data output is the starting point not only for intertemporal comparisons but also for versioning of time series, as it is needed for real-time analysis or evaluation of forecasts. The package open-sources a data ingestion framework, proven through its longtime usage in monitoring the Swiss economy at the KOF Swiss Economic Institute at ETH Zurich, for the first time. We explicitly chose the R ecosystem with its great documentation and boiler plating tools to encourage dataset maintenance and community contributions across different fields that use public data for research.\n\n\n\nlearn about a reusable approach that is transferable to other countries and fields\nexchange about the timelines/dynamics of data pipeline automation efforts in the public sector and what the research community can do in the meantime\nlearn about a strategy to continously adapt to modernization of sources (migration to APIs)\ndiscuss efficient efficient versioning of revised time series and tradeoffs"
-  },
-  {
-    "objectID": "useR_2024.html#open-time-series-initiative",
-    "href": "useR_2024.html#open-time-series-initiative",
-    "title": "",
-    "section": "Open Time Series Initiative",
-    "text": "Open Time Series Initiative\nThe Open Time Series Initiative aims to bridge the gap between academic research and official statistics. Founded and developed at the Research Software Engineering and Economic Data section at KOF Lab at ETH Zurich (RSEED), the initiative plans to start its activities around publicly macroeconomic data. First, we publish an R based framework to provide the time series community with reusable code to source publicly available data and process data publications into time series. Second, we plan to publish maintain and version over 100’000 machine-readable macroeconomic time series following modern open science standards (FAIR principles). Third, we integrate processing of publicly available data into academic teaching. Our explaroatory discussion with the Swiss Federal Statistical Office (FSO) and the pionieering collaboration with the Swiss Secretariat of Economic affairs (SECO) make us optimistic that our starting push will lead to spillovers to other fields of research and parts of official statistics.\n\npublish framework\npublish 100K macro economic time series based on publicly available data, following fair principles\nintegrates publicly available data into academic teaching\npilots and pioneering efforts gives a hope to create a push big enough to cause spill overs to other research communities.\n\nThe technical implementation of the open sourced initiative is backed by an R package, and integrates this framework and public data into teaching and community events.\nDeveloped by the Competence Hub for Research Software Engineering and Economic Data (RSEED) at the KOF Lab at ETH Zurich, in collaboration with the Swiss Federal Statistical Office (FSO) and with the pioneering efforts of the State Secretariat for Economic Affairs (SECO), the initiative aims not only to encourage public data providers to make their data FAIRer (findable, accessible, interoperable and reusable), but also to train the next generation of public servants to become Open Science leaders who are familiar with the Swiss data landscape.\nHere a link to the Open Time Series funding proposal: https://rseed.ch/opnts-ord-proposal/\n\nLearnings:\n\nlearn about how to make data publications inclusive\nhow to make public data FAIR (findable, accessible, interoperable reusable), - discuss why many open data approaches stop shortly before being truly useful for research"
-  },
-  {
-    "objectID": "posts/rse_at_eth/index.html",
-    "href": "posts/rse_at_eth/index.html",
-    "title": "RSE@ETH - The Force awakens",
-    "section": "",
-    "text": "The Research Software Engineering (RSE) community group at ETH was founded in late 2023 due to the regional need for an RSE community that arose on a university level.  Although RSE@ETH had its first online information event on the December 12, 2023 the get-together on the February 1 served as an opportunity to get to know the RSE community at ETH better, and to understand their wishes and needs for a community such as RSE@ETH."
-  },
-  {
-    "objectID": "posts/rse_at_eth/index.html#event-program",
-    "href": "posts/rse_at_eth/index.html#event-program",
-    "title": "RSE@ETH - The Force awakens",
-    "section": "Event Program",
-    "text": "Event Program\nThe event was structured as follows:\nFirst, participants were able to present one of their RSE-related projects in a lightning format of less than 5 minutes per speaker. Then the keynote speaker, Peter Schmidt, a trustee of the RSE Society UK, gave a talk on RSE developments in the UK, and finally, in the breakout sessions, participants split into groups to discuss three questions related to the development of the RSE@ETH community."
-  },
-  {
-    "objectID": "posts/rse_at_eth/index.html#lightning-talks",
-    "href": "posts/rse_at_eth/index.html#lightning-talks",
-    "title": "RSE@ETH - The Force awakens",
-    "section": "Lightning Talks",
-    "text": "Lightning Talks\nWith eight different projects and seven different research areas represented in the lightning talks, you might not think that there would be much in common between the speakers. After all, the speakers were presenting their software solutions for their highly specialised fields, ranging from the need to better control experiments in high-voltage physics through software to anonymising academic peer review.\nHowever, it was surprising to see how well the audience related to the problems presented. The audience noted the similarities in the nature of the problems faced by RSEs, such as data processing and re-entry after errors. Participants recognised the need for a local community that promotes collaboration when faced with similar local issues. This way, researchers do not have to reinvent the wheel every time they want to use software to advance their research."
-  },
-  {
-    "objectID": "posts/rse_at_eth/index.html#keynote---peter-schmidt",
-    "href": "posts/rse_at_eth/index.html#keynote---peter-schmidt",
-    "title": "RSE@ETH - The Force awakens",
-    "section": "Keynote - Peter Schmidt",
-    "text": "Keynote - Peter Schmidt\nThe lightning talks were followed by a speech from Peter Schmidt, who has an academic background in physics and software engineering experience. In addition, he is active in the UK RSE community and hosts a podcast called “Code for Thought”, which touches upon many different RSE topics, such as reproducibility, net zero in computing, and, my favorite: Open Data, without friction. In his talk, Peter shared the journey of the UK RSE chapter, which started in 2013 with a group smaller than ours. He shared some key resources for RSEs, such as the Software Sustainability Institute’s fellowship program and a campaign called the hidden REF which aims to “celebrate all research outputs”, beyond publications and researchers."
-  },
-  {
-    "objectID": "posts/rse_at_eth/index.html#community-building",
-    "href": "posts/rse_at_eth/index.html#community-building",
-    "title": "RSE@ETH - The Force awakens",
-    "section": "Community Building",
-    "text": "Community Building\nFinally, the audience was divided into groups to discuss three questions shown below. This part of the program generated a lot of interesting discussion, which led to the following ideas worth sharing:\n\nQ1: What are the expectations of the community, and how do we get there (short and long-term)?\n\nLong-term: seek SNF funding for joint RSE projects from different labs\nLaunch a mentoring program\n\nQ2: How do we increase visibility, engagement, and diversity?\n\nCreate ambassador roles within institutes\nSeek industry representation\n\nQ3: Should we form special interest groups?\n\nYes, once we reach a certain size: group by interest/technology rather than by discipline\nthe overall aim is not to fragment the community\n\n\nGiven the lively discussions and the motivation felt in the audience, the RSE community hope to be able to implement these ideas as the RSE@ETH community grows.\nAt RSEED, we are excited about the incredible turnout of the event and the diversity and motivation we saw from the RSE@ETH community. We thank the team from ETH’s Scientific IT Services, namely Uwe Schmitt, Franziska Oschmann, and Tarun Chadha, who organised the event. As an emerging competence center for economic data and research software engineering, we want to use our resources to help build the RSE@ETH community in the future.\nIf you are also interested in joining the RSE@ETH community, you can join the Element chat using the link below."
-  },
-  {
-    "objectID": "posts/rse_at_eth/index.html#links",
-    "href": "posts/rse_at_eth/index.html#links",
-    "title": "RSE@ETH - The Force awakens",
-    "section": "Links",
-    "text": "Links\nRSECON 2024 | RSE Element | Code for Thought episode recommendation"
+    "text": "RSEED has the potential to make data accessible beyond its current reach of data scientists and software engineers. I want to help grow the RSEED section and develop our community."
   },
   {
     "objectID": "posts/quarto/index.html",
@@ -287,73 +119,164 @@
     "text": "References\n\n\nAllaire, JJ, and Christophe Dervieux. 2024. Quarto: R Interface to ’Quarto’ Markdown Publishing System. https://CRAN.R-project.org/package=quarto.\n\n\nBannert, Matthias. 2024. “Scientific and Technical Writing with Quarto.” Talk at the ETH RSE Community Event. https://rseed.ch/rse-eth-quarto.\n\n\nHaug, Martin, and Laurenz Mädje. visited on March 28, 2024. “Typst - Compose Papers Faster.” https://typst.app.\n\n\nPBC, Posit. visited on March 28, 2024. “Official Quarto Documentation.” https://quarto.org."
   },
   {
-    "objectID": "about/minna/index.html",
-    "href": "about/minna/index.html",
-    "title": "Minna Heim",
+    "objectID": "posts/rse_at_eth/index.html",
+    "href": "posts/rse_at_eth/index.html",
+    "title": "RSE@ETH - The Force awakens",
     "section": "",
-    "text": "RSEED has the potential to make data accessible beyond its current reach of data scientists and software engineers. I want to help grow the RSEED section and develop our community."
+    "text": "The Research Software Engineering (RSE) community group at ETH was founded in late 2023 due to the regional need for an RSE community that arose on a university level.  Although RSE@ETH had its first online information event on the December 12, 2023 the get-together on the February 1 served as an opportunity to get to know the RSE community at ETH better, and to understand their wishes and needs for a community such as RSE@ETH."
   },
   {
-    "objectID": "about/matt/index.html",
-    "href": "about/matt/index.html",
-    "title": "Dr. Matthias Bannert",
+    "objectID": "posts/rse_at_eth/index.html#event-program",
+    "href": "posts/rse_at_eth/index.html#event-program",
+    "title": "RSE@ETH - The Force awakens",
+    "section": "Event Program",
+    "text": "Event Program\nThe event was structured as follows:\nFirst, participants were able to present one of their RSE-related projects in a lightning format of less than 5 minutes per speaker. Then the keynote speaker, Peter Schmidt, a trustee of the RSE Society UK, gave a talk on RSE developments in the UK, and finally, in the breakout sessions, participants split into groups to discuss three questions related to the development of the RSE@ETH community."
+  },
+  {
+    "objectID": "posts/rse_at_eth/index.html#lightning-talks",
+    "href": "posts/rse_at_eth/index.html#lightning-talks",
+    "title": "RSE@ETH - The Force awakens",
+    "section": "Lightning Talks",
+    "text": "Lightning Talks\nWith eight different projects and seven different research areas represented in the lightning talks, you might not think that there would be much in common between the speakers. After all, the speakers were presenting their software solutions for their highly specialised fields, ranging from the need to better control experiments in high-voltage physics through software to anonymising academic peer review.\nHowever, it was surprising to see how well the audience related to the problems presented. The audience noted the similarities in the nature of the problems faced by RSEs, such as data processing and re-entry after errors. Participants recognised the need for a local community that promotes collaboration when faced with similar local issues. This way, researchers do not have to reinvent the wheel every time they want to use software to advance their research."
+  },
+  {
+    "objectID": "posts/rse_at_eth/index.html#keynote---peter-schmidt",
+    "href": "posts/rse_at_eth/index.html#keynote---peter-schmidt",
+    "title": "RSE@ETH - The Force awakens",
+    "section": "Keynote - Peter Schmidt",
+    "text": "Keynote - Peter Schmidt\nThe lightning talks were followed by a speech from Peter Schmidt, who has an academic background in physics and software engineering experience. In addition, he is active in the UK RSE community and hosts a podcast called “Code for Thought”, which touches upon many different RSE topics, such as reproducibility, net zero in computing, and, my favorite: Open Data, without friction. In his talk, Peter shared the journey of the UK RSE chapter, which started in 2013 with a group smaller than ours. He shared some key resources for RSEs, such as the Software Sustainability Institute’s fellowship program and a campaign called the hidden REF which aims to “celebrate all research outputs”, beyond publications and researchers."
+  },
+  {
+    "objectID": "posts/rse_at_eth/index.html#community-building",
+    "href": "posts/rse_at_eth/index.html#community-building",
+    "title": "RSE@ETH - The Force awakens",
+    "section": "Community Building",
+    "text": "Community Building\nFinally, the audience was divided into groups to discuss three questions shown below. This part of the program generated a lot of interesting discussion, which led to the following ideas worth sharing:\n\nQ1: What are the expectations of the community, and how do we get there (short and long-term)?\n\nLong-term: seek SNF funding for joint RSE projects from different labs\nLaunch a mentoring program\n\nQ2: How do we increase visibility, engagement, and diversity?\n\nCreate ambassador roles within institutes\nSeek industry representation\n\nQ3: Should we form special interest groups?\n\nYes, once we reach a certain size: group by interest/technology rather than by discipline\nthe overall aim is not to fragment the community\n\n\nGiven the lively discussions and the motivation felt in the audience, the RSE community hope to be able to implement these ideas as the RSE@ETH community grows.\nAt RSEED, we are excited about the incredible turnout of the event and the diversity and motivation we saw from the RSE@ETH community. We thank the team from ETH’s Scientific IT Services, namely Uwe Schmitt, Franziska Oschmann, and Tarun Chadha, who organised the event. As an emerging competence center for economic data and research software engineering, we want to use our resources to help build the RSE@ETH community in the future.\nIf you are also interested in joining the RSE@ETH community, you can join the Element chat using the link below."
+  },
+  {
+    "objectID": "posts/rse_at_eth/index.html#links",
+    "href": "posts/rse_at_eth/index.html#links",
+    "title": "RSE@ETH - The Force awakens",
+    "section": "Links",
+    "text": "Links\nRSECON 2024 | RSE Element | Code for Thought episode recommendation"
+  },
+  {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Join Us on Matrix!",
     "section": "",
-    "text": "Over the last two decades, we have witnessed programming, and source code in particular, become a tremendously sharp, illustrative and hence increasingly popular communication channel across many fields of research. RSEED picks up this chance to leverage our resources: Reproducible dissemination of results, interactive communication of methodological advances and truly accessible data, make research more inclusive, increase its reach and therefore its impact."
+    "text": "Newsletter Registration\nStay informed about new courses and trainings. Join the quarterly RSEED newsletter.\n\n\n\n\n\n\n\n\n\nWe have opened up a Matrix based chat space for people working with (economic) data who are interested in exchange on programming as an approach to analyse and manage data. Matrix is an open network for secure and decentralized communication. All you need is\n\nfree registration at a matrix home server.\na matrix client for your computer and/or mobile device. We recommend to use Element, the most popular matrix client.\n\n\n\n\nJoin our Matrix channels either from ETH or outside ETH\n\n\n\nMatrix Tutorial\nThe openwashdata community which also uses Matrix as a chat platform offers a comprehensive Matrix tutorial. The tutorial will guide you through finding the right homeserver for you and help set up an Element Matrix client so you can find and join our chat space and its channels. Make sure to use the below entrypoint instead of the openshdata community’s entrypoint.\nopenwashdata Matrix tutorial | element Matrix client\n\n\nRSEED Join Information\nFind our entrypoint room at #rseed:staffchat.ethz.ch ! From the there you will find your first contacts as well as other more specific channels to join within our chat spaces."
   },
   {
-    "objectID": "about/klaus/index.html",
-    "href": "about/klaus/index.html",
-    "title": "Dr. Klaus Abberger",
+    "objectID": "posts/initial_post/index.html",
+    "href": "posts/initial_post/index.html",
+    "title": "RSEED at KOF Lab",
     "section": "",
-    "text": "The use of data, knowing how to use it correctly, but also how to make your own data available for others to use so that they can work with it in a suitable way, are important prerequisites in today’s world. As a data producer on the one hand and a data user on the other, KOF can play an important bridging role and bring together data producers and academic users in particular. I am looking forward to the exciting process of helping to build this bridge."
+    "text": "Code\nlibrary(cranlogs)\nlibrary(dplyr)\nlibrary(lubridate)\nlibrary(tsbox)\ntop &lt;- cranlogs::cran_top_downloads()\n\npacks &lt;- cranlogs::cran_downloads(\n                               from = \"2015-01-01\",\n                               to = \"2023-09-30\")\n\npacks |&gt; \n  group_by(floor_date(date, \"month\")) |&gt; \n  summarize(m = sum(count)) |&gt; \n  ts_plot(title = \"Sum of Monthly R Package Downloads\",\n          subtitle = \"source: RStudio CRAN mirror\")\nThe aim of the newly launched KOF Lab section is to become a competence hub for Research Software Engineering and Economic Data in Switzerland and beyond. The section aims to enable more researchers to work with KOF’s unique datasets an to help use the potential of programming as a channel to communicate methodological advances and new analyses. In addition, RSEED provides courses to help non-computer science scholars bolster their computational competencies."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "posts/initial_post/index.html#what-to-expect-from-rseed",
+    "href": "posts/initial_post/index.html#what-to-expect-from-rseed",
+    "title": "RSEED at KOF Lab",
+    "section": "What to Expect from RSEED?",
+    "text": "What to Expect from RSEED?\nRSEED’s initial offering includes working with the KOF Micro Data Center, the course Hacking for Science along with the book project Research Software Engineering - A Guide to the Open Source Ecosystem as well as several software package projects. Short term future plans include the launch of a new innovative seminar."
+  },
+  {
+    "objectID": "posts/initial_post/index.html#what-to-expect-from-this-blog",
+    "href": "posts/initial_post/index.html#what-to-expect-from-this-blog",
+    "title": "RSEED at KOF Lab",
+    "section": "What to Expect from this Blog?",
+    "text": "What to Expect from this Blog?\nBesides section news, tutorials and an occasional discussion of highlights in the field, expect the blog to accompany the RSEED seminar. We invite speakers to present their topic in a blog post before their actual presentation. This form of pre-circulated content is intended to help drive the discussion, improve feedback at the live event and allow to catch-up for debriefing. In addition to the blog, the seminar has its own channel on the RSEED matrix chat space."
+  },
+  {
+    "objectID": "posts/newsletter/index.html",
+    "href": "posts/newsletter/index.html",
+    "title": "Psssst… Quarterly RSEED Newsletter launched",
     "section": "",
-    "text": "The book project Research Software Engineering - A Guide to the Open Source Ecosystem argues that a solid programming and operations skill level is totally in reach for most researchers. And most importantly, investing is worth the effort: being able to code leverages field specific expertise and fosters interdisciplinary collaboration as source code continues to become an important communication channel\n\n\n\nResearch Software Engineering, Figure 2"
+    "text": "Code\nlibrary(qrcode)\nq &lt;- qrcode::qr_code(\n    \"https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html\",\n    ecl = \"M\"\n)\n\nql &lt;- qrcode::add_logo(q, \"rseed-blk.png\")\nplot(ql)\n\n\n\n\n\n\n\n\n\nSubscribe to the RSEED Newsletter."
   },
   {
-    "objectID": "projects.html#research-software-engineering-a-guide-to-the-open-source-ecosystem",
-    "href": "projects.html#research-software-engineering-a-guide-to-the-open-source-ecosystem",
-    "title": "Projects",
+    "objectID": "posts/h4sci/index.html",
+    "href": "posts/h4sci/index.html",
+    "title": "Hacking for Science is back.",
     "section": "",
-    "text": "The book project Research Software Engineering - A Guide to the Open Source Ecosystem argues that a solid programming and operations skill level is totally in reach for most researchers. And most importantly, investing is worth the effort: being able to code leverages field specific expertise and fosters interdisciplinary collaboration as source code continues to become an important communication channel\n\n\n\nResearch Software Engineering, Figure 2"
+    "text": "Wizard or carpenter? How much programming proficiency do you need to tackle your data work?"
   },
   {
-    "objectID": "projects.html#openwashdata",
-    "href": "projects.html#openwashdata",
-    "title": "Projects",
-    "section": "Openwashdata",
-    "text": "Openwashdata\nopenwashdata is an active global community that applies FAIR principles to data generated in the greater water, sanitation, and hygiene (WASH) sector. Open Wash Data’s mission is to empower WASH professionals to engage with tools and workflows for open data and code."
+    "objectID": "posts/h4sci/index.html#how-much-programming-does-a-researcher-need",
+    "href": "posts/h4sci/index.html#how-much-programming-does-a-researcher-need",
+    "title": "Hacking for Science is back.",
+    "section": "How Much Programming Does a Researcher Need?",
+    "text": "How Much Programming Does a Researcher Need?\nThe vast majority of data has been created within the last decade. As a result, more and more research fields are considering programming to analyze data. Hacking for Science embraces a programming approach to data engineering and analytics, as it aims to leverage field-specific expertise with the help of the open source ecosystem. In addition to its popular, demand driven, hands-on programming examples, the most significant value of the course may lie in its big-picture understanding. How do Python, R, Julia, GitHub, IDEs, git, Visual Studio Code, geoJSON, Postgres, containers, cloud, Kubernetes and Continuous Integration relate to each other? And do I – all of a sudden – need them all for my research1?"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Team",
+    "objectID": "posts/h4sci/index.html#online-teaching-and-coaching-sessions",
+    "href": "posts/h4sci/index.html#online-teaching-and-coaching-sessions",
+    "title": "Hacking for Science is back.",
+    "section": "Online Teaching and Coaching Sessions",
+    "text": "Online Teaching and Coaching Sessions\nBorn during the pandemic, Hacking for Science is a native online course specifically designed to be interactive and engaging. The course consists of four two-day blocks, all spaced at least several weeks apart, with a flipped classroom concept in mind: after two days of input sessions, there is a break of multiple weeks that allows for self-study time. This self-learning time is accompanied by a course matrix chat space and the book Research Software Engineering, which itself was created using many of the open source technologies discussed in the course2. The chat allows participants to interact with each other in asynchronous fashion as well as with the lecturer. Participants decide for themselves which topics raised during the input sessions they wish to explore in more detail.\n\n\n\nResearch Software Engineering - A Guide to the Open Source Ecosystem will be available soon as part of the Chapman & Hall/CRC Data Science Series"
+  },
+  {
+    "objectID": "posts/h4sci/index.html#teaching-coaching-sessions",
+    "href": "posts/h4sci/index.html#teaching-coaching-sessions",
+    "title": "Hacking for Science is back.",
+    "section": "Teaching & Coaching Sessions",
+    "text": "Teaching & Coaching Sessions\n\n\n\n\n\n\nNote\n\n\n\nRegistration via the ETH course catalog will open soon. If you are not an ETH student and/or have further questions, please do not hesitate to contact us: heim [ at ] kof.ethz.ch\n\n\nWhile the first two blocks of the course focus on teaching and building a common denominator understanding of the open source ecosystem as a toolbox, the latter two blocks have more of a coaching mindset. Similar to coaching in sports, the course observe participants doing their work offer ways to adapt one’s own patterns and learn new techniques and industry standard workflows. Participants can bring their (PhD) projects, everyday programming issues and patterns to class. The course builds groups of participants with common problems and then discusses ways to improve. Input ranges from workflow to source code, while group outputs range from head-first dives into cloud computing to R Shiny dashboards or profile websites. Each group will have the opportunity to submit an ungraded programming exercise and receive feedback on this exercise at the end of the semester. Live sessions will take place on Thursdays and Fridays from 10:00 a.m. to 1:00 p.m. and 10:00 a.m. to 2 p.m. including sufficient breaks.\nPreliminary Schedule\nBlock 1\nThursday: September 26, 2024\nFriday: September 27, 2024\nBlock 2\nThursday: October 24, 2024\nFriday: October 24, 2024\nBlock 3\nThursday: November 21, 2024\nFriday: November 22, 2024\nBlock 4\nThursday: December 5, 2024\nFriday: December 6, 2024"
+  },
+  {
+    "objectID": "posts/h4sci/index.html#links",
+    "href": "posts/h4sci/index.html#links",
+    "title": "Hacking for Science is back.",
+    "section": "Links",
+    "text": "Links\nCourse Details (ETH Catalog) | RSE Book | h4sci Matrix chat room (#h4sci:staffchat.ethz.ch)"
+  },
+  {
+    "objectID": "posts/h4sci/index.html#footnotes",
+    "href": "posts/h4sci/index.html#footnotes",
+    "title": "Hacking for Science is back.",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nReaders who speak German may be interested in the discussion of this question for the profession of empirical economics (Bannert 2022-03)↩︎\nThe book will be available as part of the [CRC Data Science Series from early April 2024(https://www.routledge.com/Research-Software-Engineering-A-Guide-to-the-Open-Source-Ecosystem/Bannert/p/book/9781032261270)]. In addition we offer a free online version of the book on GitHub.↩︎"
+  },
+  {
+    "objectID": "about/martin/index.html",
+    "href": "about/martin/index.html",
+    "title": "Prof. Dr. Martin Wörter",
     "section": "",
-    "text": "Research Software Engineering and Economic Data is a team effort.\nResearch Software Engineering and Economic Data (RSEED) is a KOF Lab section which itself is a part of KOF, the D-MTEC department and ETH Zurich. The RSEED team does not a have an hierarchical approach to organize its activities. Our understanding of working together is more similar to the guild approach in SCRUM: RSEED intends to give contributors from all of research divisions of KOF and beyond a platform collaborate on the data and software component of their work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Klaus Abberger\n\n\nDivision Head Business Tendency Surveys\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Matthias Bannert\n\n\nSection Lead RSEED\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinna Heim\n\n\nResearch Assistant and Organization Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nOliver Müller\n\n\nResearch Software Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Hans Gersbach\n\n\nDivision Head KOF Lab\n\n\n\n\n\n\n\n\n\n\n\n\n\nProf. Dr. Martin Wörter\n\n\nDivision Head Innovation Economics\n\n\n\n\n\n\n\nNo matching items"
+    "text": "RSEED is a key resource in our data-centric age, where the availability of microdata, software expertise and analytical skills are becoming increasingly important. The potential of RSEED as a basis for sound economic policy analysis is immense. So it’s not just about having access to data, it’s about being able to unlock its potential through improved analytical skills. It is very exciting to be part of this project."
   },
   {
-    "objectID": "startpage/teaching/index.html",
-    "href": "startpage/teaching/index.html",
-    "title": "Teaching",
+    "objectID": "about/hans/index.html",
+    "href": "about/hans/index.html",
+    "title": "Prof. Dr. Hans Gersbach",
     "section": "",
-    "text": "Teaching is an integral part of our work at the KOF Lab section for Research Software Engineering and Economic Data. We strive to teach what is needed and continously learn in a dynamically evolving field. Hence, feedback to existing courses our requests to extend our program are greatly appreciated. Join our community to engage in the discussion!"
+    "text": "RSEED is a particularly promising field of research for my work in democracy and innovation. For the citizens in any democracy, enhanced, equal access to data as well as data quality can be defined as public goods. Enhanced data and a programming-driven approach to the analysis of these data are also the basis needed for innovation in the collective decision-making processes we examine in our research, with the goal to improve democracy and to ensure long-term welfare for society."
   },
   {
-    "objectID": "startpage/teaching/index.html#hacking-for-science-eth-phd-program",
-    "href": "startpage/teaching/index.html#hacking-for-science-eth-phd-program",
-    "title": "Teaching",
+    "objectID": "about/oliver/index.html",
+    "href": "about/oliver/index.html",
+    "title": "Oliver Müller",
+    "section": "",
+    "text": "Integrating data from all over Switzerland here at KOF will supercharge its usefulness for the social sciences. To make this a reality, we need to do lots of engineering. As an IT specialist with a fondness for economic research, I will contribute my expertise and many lines of code to this promising venture."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Research Software Engineering and  Economic Data at KOF Lab",
+    "section": "",
+    "text": "The Research Software Engineering and Economic Data group at KOF Lab focuses on two main projects: The Open Time Series project and the teaching project Hacking for Science"
+  },
+  {
+    "objectID": "h4sci.html",
+    "href": "h4sci.html",
+    "title": "Hacking for Science Is Back!",
+    "section": "",
+    "text": "By popular demand, we’re bringing the Hacking for Science course back to the D-MTEC PhD program in fall 2024. The course will open to guests from all departments as well as interested guests. We are currently updating the course website, stay tuned and subscribe to our newsletter in the meantime.\nTo learn more about the course, including an initial schedule, check our blog post on the h4sci project."
+  },
+  {
+    "objectID": "h4sci.html#hacking-for-science-eth-phd-program",
+    "href": "h4sci.html#hacking-for-science-eth-phd-program",
+    "title": "Hacking for Science Is Back!",
     "section": "Hacking for Science, ETH PhD program",
-    "text": "Hacking for Science, ETH PhD program\nHacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector.\nHacking for Science ETH Course Catalog | Research Software Engineering - A Guide to the Open Source Ecosystem | 2021 KITE Award nomnination"
-  },
-  {
-    "objectID": "startpage/teaching/index.html#hacking-for-research-assistants-make-repetitive-work-fun-again",
-    "href": "startpage/teaching/index.html#hacking-for-research-assistants-make-repetitive-work-fun-again",
-    "title": "Teaching",
-    "section": "Hacking for Research Assistants, Make Repetitive Work Fun Again!",
-    "text": "Hacking for Research Assistants, Make Repetitive Work Fun Again!\nAssistant work in academic research may not consist of cutting edge tasks to 100%. In fact, turning real world information into machine friendly standardized datasets can be cumbersome, but inevitable. What is not inevitable though is an error prone, repetitive and hardly transparent approach. This new training camp style course idea plans to work together with research assistants to find their most common needs and use programming to work on these needs hands-on in highly interactive fashion.\nFurther details to be determined. We expect to host the course in 2nd half of 2024 for the first time."
+    "text": "Hacking for Science, ETH PhD program\nHacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector.\nHacking for Science ETH Course Catalog | Research Software Engineering - A Guide to the Open Source Ecosystem | 2022 KITE Award nomnination"
   }
 ]
