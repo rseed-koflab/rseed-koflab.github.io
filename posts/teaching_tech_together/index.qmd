@@ -1,0 +1,171 @@
+---
+title: "8 Tipps to Become a Better Teacher Immediately"
+description: "Findings in cognitive psychology (what's going on in individual brains) and social psychology (how we think in groups) help to improve teaching and as consequence help students learn faster. Yet, these findings are used strinkingly little in academic teaching. Greg Wilson co-initiator of software carpentry and Posit's tidyvers instructor program is on a mission to change this. I attended one of his workshops and became a fan."
+author: "Matthias Bannert"
+date: "05/21/2024"
+categories:
+    - research software engineering
+    - community
+    - teaching
+---
+
+
+>"A week of work can save you an hour of hard thinking."
+
+
+
+Thanks to my friends at ETH Global Health Engineering I had the chance to take part in Greg Wilson's *Teaching Tech Together workshop*. 
+Luckily, I knew from a previous sneak preview encounter that a busy schedule would be an extremely bad excuse to miss the opportunity to learn about teaching in tech from the guy who had initiated [the carpentries]() and Posit's (back then RStudio's) tidyverse instructor program. 
+I cannot remember a workshop, particularly an online workshop, in which the audience was so involved and had so little things to do on the side (you know those things that are just a click away).
+This article is a digest of the practical teaching advice I took away from the Greg's workshop. 
+
+
+## 1. Learner Personas
+
+::: {.callout-note}
+See **learner personas** as an interface.
+:::
+
+
+Teaching starts before class. 
+Help your target audience find the classroom and manage expectations.
+Doing so improves the learning environment and participants' motivation helping them to learn faster. 
+Learner personas are a good starting point. 
+Take your time to develop 3-5 learner personas for your university course catalog or course announcement, think about the personas' background and motivation to attend class.
+Common ground with a learner persona will help participants identify with the early course at an earyl stage and get a feel what the course will be like. 
+
+<!-- 
+ dr. egghead 
+ 
+--> 
+
+## 2. Use Mental Models And Be Aware of Cognitive Progression
+
+::: {.callout-note}
+Not every learner necessarily acquires more knowledge, 
+they may just see a different perspective.
+:::
+
+The difference between a novice and a more competent person or even an expert in the topic is their mental. 
+In programming, I have obserbed that the lack of mental model beginners is the single biggest problem for beginners.
+Novices often do not have a mental model at all and as a consequence follow some sort of recipe without knowing why. 
+Hence, I teacher should help novice build a simple model which can be revised later on. 
+
+<!-- 
+graph from A to Z, different routes. 
+
+--> 
+
+But mental model do not only help participants. 
+Goal definitions are important to your lesson and [concept maps](https://third-bit.com/ideas/concept-maps/) are a great way to improve your course and lesson design. 
+See them as visualizations of mental models of your course and/or of topics within the course.  
+
+::: {.callout-tip}
+Try giving concept maps to learners after the lesson.
+:::
+
+
+## 3. Mind Cognitive Load
+
+I.m.a.g.i.n.e a pIeCe of TEXT that *uses* **different** formatting f-o-r every w0rd.
+Obviously, you could still follow, but wondering about the information contained in this variation adds to the
+cognitive load of reading the text. 
+Of course, some cognitive load is important to make gains, yet we often observe a lot of load that is not necessary
+to convey the message that we are trying to send. 
+Be mindful of three different types of congnitive workload: *intrinsic*, *germane* and *extrinsic*. 
+While the former 
+
+
+:::{.callout-tip}
+Reading visualized stuff to learners is the worst possible way to teach.
+:::
+
+
+## Stress the Importance of Breaks
+
+Particularly, when teaching online, participants (and teachers) are - against all scientific, anectodical and personal evidence - reluctant to take a true break. 
+After sitting around, thinking, possibly in the same room with others for 40 minutes, our toned down cardivascular system does not do
+a good job of delivering what our brain needs to work best. 
+The solution is simple: get up and walk around, open the windows and make sure course participants do the same. 
+To give participants motivation to actually leave their desk in a break, introduce a push up challenge or ask them to check their pulse before and after the break. 
+
+
+:::{.callout-important}
+Checking emails, TikTok or Instagram does not count as a proper break. 
+:::}
+
+
+
+## 4. Formative Assessment Is Important
+
+:::{.callout-important}
+Learners need to leave class knowing whether they can do it or not.
+:::
+
+
+## 6. Be Aware of the 5 Bosses Problem
+
+To some of us, one boss is already too much, let alone two or three bosses. 
+Imagine having up to 5 ot 6 bosses that hardly talk to each other. 
+This is exactly the situation undergraduates are facing. 
+After picking a handful of courses, every professor pushes forward their courses attendance with little to no guidance
+in managing workload across courses. 
+While this problem is hard to come by, awareness is an important first step. 
+Asking instead of assuming could be the next step and talking to other lecturers would already help a lot. 
+
+
+## 7. Active Is Better (Even if Most Students Prefer Passive) 
+
+:::{.callout-important}
+It's not the sheer time invested, but **reflective practice** that makes us great at something.
+:::
+
+I had secretly hoped that the 10'000 hour rule was true. 
+Yet, I guess the concept became so popular because believing if we just clock enough hours doing something, 
+we inevitably become good at it, is simply convenient.
+While routine certainly helps to get better, without reflective practice doing stuff over and over lets us cruise control into mediocrity
+without reaching an update of our mental model. 
+
+Through my fascination for sports, I have often watched professional atheletes practice. 
+Even though otherworldly talent, 40" verticals and 7 foot frames camouflage other differences to the rest of us, 
+it is athletes' dedication to reflective practice that fascinates me more than any highlight reel. 
+Many of their exercises are similar to what your ambitious, local amateur club does. 
+Execution though could not be more different.
+The commitment to use any mean possible to analyze and reflect on execution of every single component of an athelete's repertoire is what
+translates incredible competitive spirit and talent into a career in professional sports.
+
+Because most of us have less competitive spirit, when asked learners often prefer self-learning, watch-when-you-want lectures without
+assessment. Yet, they learn more and faster when they are committed and constantly active. 
+
+
+
+## 8. Foster Positive Motivation, Avoid Negative Motivation
+
+:::{.callout-tip}
+Signing up in groups can motivate participants.
+:::
+
+Take time to discuss utility of the content with participants as utility is straight forward driver of motivation. 
+
+
+
+- self efficacy
+- Utility
+- community 
+
+
+- unpredictability (learned helplessness)
+- unfairness
+- indifference
+
+
+
+
+
+## Links
+
+[Greg Wilson's website](https://third-bit.com)
+
+[Software Carpentry]()
+
+[Catherine Hicks](https://www.catharsisinsight.com/_files/ugd/fce7f8_ba59e7aef3604140a4284c1714b3d18a.pdf?index=true) 
