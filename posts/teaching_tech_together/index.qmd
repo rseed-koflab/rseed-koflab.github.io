@@ -1,6 +1,6 @@
 ---
 title: "8 Tipps to Become a Better Teacher Immediately"
-description: "Findings in cognitive psychology (what's going on in individual brains) and social psychology (how we think in groups) help to improve teaching and as consequence help students learn faster. Yet, these findings are used strinkingly little in academic teaching. Greg Wilson co-initiator of software carpentry and Posit's tidyvers instructor program is on a mission to change this. I attended one of his workshops and became a fan."
+description: "Findings in cognitive psychology (what's going on in individual brains) and social psychology (how we think in groups) help to improve teaching and as consequence help students learn faster. Yet, these findings are used strinkingly little in academic teaching. Greg Wilson co-initiator of software carpentry and Posit's tidyverse instructor program is on a mission to change this. I attended one of his workshops and became a fan."
 author: "Matthias Bannert"
 date: "05/21/2024"
 categories:
@@ -15,7 +15,7 @@ categories:
 
 
 Thanks to my friends at ETH Global Health Engineering I had the chance to take part in Greg Wilson's *Teaching Tech Together workshop*. 
-Luckily, I knew from a previous sneak preview encounter that a busy schedule would be an extremely bad excuse to miss the opportunity to learn about teaching in tech from the guy who had initiated [the carpentries]() and Posit's (back then RStudio's) tidyverse instructor program. 
+Luckily, I knew from a previous sneak preview encounter that a busy schedule would be an extremely bad excuse to miss the opportunity to learn about teaching in tech from the guy who had initiated [the carpentries](https://carpentries.org) and Posit's (back then RStudio's) tidyverse instructor program. 
 I cannot remember a workshop, particularly an online workshop, in which the audience was so involved and had so little things to do on the side (you know those things that are just a click away).
 This article is a digest of the practical teaching advice I took away from the Greg's workshop. 
 
@@ -92,7 +92,7 @@ To give participants motivation to actually leave their desk in a break, introdu
 
 :::{.callout-important}
 Checking emails, TikTok or Instagram does not count as a proper break. 
-:::}
+:::
 
 
 
@@ -163,6 +163,8 @@ Take time to discuss utility of the content with participants as utility is stra
 
 
 ## Links
+
+[Greg Wilson's Podcast: Carpentries for All](https://codeforthought.buzzsprout.com/1326658/15010367-en-carpentries-for-all-greg-wilson)
 
 [Greg Wilson's website](https://third-bit.com)
 
