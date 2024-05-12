@@ -47,3 +47,39 @@ Hacking for Science is part of D-MTEC offering for PhD students but has benefite
 [Hacking for Science ETH Course Catalog](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&ansicht=KATALOGDATEN&lerneinheitId=161937&lang=en) | [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io) | [2022 KITE Award nomnination](https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html)
 
 
+## Course Learning Personas 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![Lars Linux](images/packages.jpg){fig-align="left" width="60%"} 
+
+
+![Bruno Berufseinsteiger](images/carpenter.jpeg){fig-align="left" width="60%"} 
+
+![Quinn Quantitatives Ph.D.](images/girl.jpeg){fig-align="left" width="60%"} 
+
+![Peter Ph.D.](images/dr_egghead_panics.jpg){fig-align="left" width="60%"} 
+
+
+:::
+
+::: {.column width="70%"}
+**Lars Linux** hacks on Linux, Docker, Kubernetes, Python R and Julia since he was 15 years old. Internet & social media native finds his solutions in stackoverflow and with the help of LLMs.
+
+Pain points: he feels everyone throws mickey mouse problems at him and his collaborators can't even use git properly.
+
+**Bruno Berufseinsteiger** is a 20-something year old, who works in the private sector in an entry-level role at a SME company with a lot of freedom but few resources (i.e. he can/must teach himself new skills (programming, data analytics))
+
+Pain points: course requirements and format must match his busy lifestyle and he needs to see immediate benefits for his work.
+
+**Quinn Quantitatives Ph.D.** is a quantitative Ph.D. with some previous experience in coding, given her quantitative background she is not afraid of math and statistics. She is looking to improve her coding skills and learn how to learn to work with other non-quantitative researchers.
+
+Pain points: if the course progresses too slowly
+
+**Peter Ph.D.** is a Ph.D. student in the social sciences, he has some experience with coding but is not a computer scientist. He is looking to improve his coding to improve his data processing andcollaboration for his research
+
+Pain points: if the course is not applied to research conditions
+
+:::
+::::
