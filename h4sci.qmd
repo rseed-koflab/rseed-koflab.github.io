@@ -3,11 +3,112 @@ title: "Hacking for Science Is Back!"
 ---
 
 By popular demand, we're bringing the Hacking for Science course back to the D-MTEC PhD program in fall 2024.
-The course will open to guests from all departments as well as interested guests. 
-We are currently updating the course website, stay tuned and subscribe to our newsletter in the meantime. 
+The course is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. 
+Hacking for Science is part of D-MTEC offering for PhD students but will open to guests from all departments as well as interested guests.
 
 To learn more about the course, including an initial schedule, check our [blog post on the h4sci project](posts/h4sci/).
 
+
+## Course Concepts
+- wizard vs. carpenter
+- code as a communication channel
+- course speaks to different learner personas
+- learn the x’ and o’s of coding
+- flipped classroom concept
+
+
+## Course Learning Personas 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![Lars Linux](images/packages.jpg){fig-align="left" width="90%"} 
+:::
+
+::: {.column width="70%"}
+**Lars Linux** hacks on Linux, Docker, Kubernetes, Python R and Julia since he was 15 years old. Internet & social media native finds his solutions in stackoverflow and with the help of LLMs. His team consists of coding-beginners and he  wants to use this course to shift his perspective on how to best mentor and collaborate with them. 
+
+Pain points: he feels everyone throws mickey mouse problems at him and his collaborators can't even use git properly.
+
+:::
+
+::: {.column width="30%"}
+![Bruno Berufseinsteiger](images/carpenter.jpeg){fig-align="left" width="90%"} 
+
+:::
+
+::: {.column width="70%"}
+**Bruno Berufseinsteiger**  Bruno is in his twenties, works in an entry-level position at a small to medium-sized enterprise. He has considerable autonomy to self-teach new skills. Bruno aims to enhance his ability to work with data without the immediate need to master all tools at once. His focus is on finding practical, applied learning that can be directly integrated into his work.
+
+Pain Points: Bruno finds it challenging to integrate and scale his data analyses due to limited resources. He needs course options that fit his busy schedule and offer immediate, applicable benefits to improve his productivity and contribution to his team.
+
+:::
+
+
+::: {.column width="30%"}
+
+![Quinn Quantitatives Ph.D.](images/girl.jpeg){fig-align="left" width="90%"} 
+
+
+:::
+
+::: {.column width="70%"}
+
+**Quinn Quantitatives Ph.D.**  Quinn is a quantitative Ph.D. holder with prior coding experience. Her strong background in math and statistics makes her comfortable tackling complex data. Quinn's main objective for the course is to enhance her research collaborations through better use of DevOps tools, open source workflows and improved collaboration strategies with non-quantitative researchers.
+
+Pain Points: Quinn wants this course to focus on the DevOps and group work, less coding basics.
+:::
+
+::: {.column width="30%"}
+
+![Peter Ph.D.](images/dr_egghead_panics.jpg){fig-align="left" width="90%"} 
+:::
+
+::: {.column width="70%"}
+**Peter Ph.D.** is a seasoned social scientist with a more than 5 years of experience in qualitative research. Intrigued by the potential of quantitative methods, he's eager to blend these approaches to enrich his studies on societal trends by using data analytics, and to make his research more reproducible once he publishes his first paper. Peter has limited experience with coding, primarily using Stata or R for basic statistical analysis.
+
+Pain points: he finds the transition from purely qualitative to mixed-method research daunting, especially the technical aspects of handling large datasets, and is concerned about keeping pace.
+
+:::
+
+<!-- not happy with the student testimonials yet, I think the call-out note looks bad and i think columns isn't right here -->
+
+## Student Testimonials 
+
+:::: {.columns}
+
+::: {.column width="33%"}
+::: {.callout-note}
+"The Hacking for Science course was the best course I never attended!""
+
+[Minna Heim]{.blockquote-footer}
+:::
+:::
+
+::: {.column width="33%"}
+::: {.callout-note}
+"It was so refreshing to partake in a course where the instructors were so passionate about the material and genuinely wanted to help us learn. I felt like I was part of a community."
+
+[Lars Linux]{.blockquote-footer}
+:::
+:::
+
+::: {.column width="33%"}
+::: {.callout-note}
+"Hacking for Science was super insightful and gave me concrete tools to improve my research workflow."
+
+[Bruno B.]{.blockquote-footer}
+:::
+:::
+::::
+
+
+
+
+
+[Hacking for Science ETH Course Catalog](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&ansicht=KATALOGDATEN&lerneinheitId=161937&lang=en) | [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io) | [2022 KITE Award nomnination](https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html)
+
+::::
 
 
 ::: {.column-margin}
@@ -36,50 +137,3 @@ plot(q)
 ```
 
 :::
-
-
-
-## Hacking for Science, ETH PhD program
-
-Hacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. 
-Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector. 
-
-[Hacking for Science ETH Course Catalog](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2022W&ansicht=KATALOGDATEN&lerneinheitId=161937&lang=en) | [Research Software Engineering - A Guide to the Open Source Ecosystem](https://rse-book.github.io) | [2022 KITE Award nomnination](https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html)
-
-
-## Course Learning Personas 
-
-:::: {.columns}
-
-::: {.column width="30%"}
-![Lars Linux](images/packages.jpg){fig-align="left" width="60%"} 
-
-
-![Bruno Berufseinsteiger](images/carpenter.jpeg){fig-align="left" width="60%"} 
-
-![Quinn Quantitatives Ph.D.](images/girl.jpeg){fig-align="left" width="60%"} 
-
-![Peter Ph.D.](images/dr_egghead_panics.jpg){fig-align="left" width="60%"} 
-
-
-:::
-
-::: {.column width="70%"}
-**Lars Linux** hacks on Linux, Docker, Kubernetes, Python R and Julia since he was 15 years old. Internet & social media native finds his solutions in stackoverflow and with the help of LLMs.
-
-Pain points: he feels everyone throws mickey mouse problems at him and his collaborators can't even use git properly.
-
-**Bruno Berufseinsteiger** is a 20-something year old, who works in the private sector in an entry-level role at a SME company with a lot of freedom but few resources (i.e. he can/must teach himself new skills (programming, data analytics))
-
-Pain points: course requirements and format must match his busy lifestyle and he needs to see immediate benefits for his work.
-
-**Quinn Quantitatives Ph.D.** is a quantitative Ph.D. with some previous experience in coding, given her quantitative background she is not afraid of math and statistics. She is looking to improve her coding skills and learn how to learn to work with other non-quantitative researchers.
-
-Pain points: if the course progresses too slowly
-
-**Peter Ph.D.** is a Ph.D. student in the social sciences, he has some experience with coding but is not a computer scientist. He is looking to improve his coding to improve his data processing andcollaboration for his research
-
-Pain points: if the course is not applied to research conditions
-
-:::
-::::
