@@ -1,8 +1,7 @@
 ---
 title: "Fast Python Workshop"
-description: "Do you have performance problems with your Python code? The 4-day fast Python workshop offered by the Scientific IT Services at ETH will help you to identify these problems and introduce you to different techniques and tools to solve them on your local machine or on a high performance computing cluster. To familiarise interested people with the course content of the workshop, Dr. Franziska Oschmann from the Scientific IT Services will give a short Z'Morge session at RSEED in the KOF Lab on 30 May 2024."
-
-author: "Minna Heim"
+description: "Getting started with Python is easy given the abundance of free online material. Now, RSEED would like to invite interested researchers to a Znüni session with Franziska Oschmann from the Scientific IT Services (SIS) group to discuss how to improve your Python beyond those first steps. ETH SIS offers a 4-day workshop 'Fast Python' that teaches different techniques and tools to resolve performance issues – on a local machine and a High Performance (HPC) cluster alike."
+author: "Minna Heim, Matthias Bannert, Franziska Oschmann"
 date: "04/21/2024"
 categories:
     - research software engineering
@@ -10,6 +9,16 @@ categories:
     - ETH
     - scientific IT services
 ---
+
+>"And **Python** continued to see gains in its usage across GitHub with a 22.5% year-over-year increase driven, in part, **by its utility in data science and machine learning**." -- *GitHub Octoverse Report on the top programming languages.*
+
+Though much of Python's popularity stems from its flexibility and general purpose appeal^[[Why Python keeps growing, explained](https://github.blog/2023-03-02-why-python-keeps-growing-explained/)], the idea of this article is to point at Python's use in research and present an opportunity to efficiently improve your skills in a programming language that has become ubiquitous in many fields of research.
+
+
+
+
+
+
 
 ### Teaser
 
