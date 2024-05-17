@@ -3,7 +3,7 @@ title: "Fast Python Workshop"
 description: "Do you have performance problems with your Python code? The 4-day fast Python workshop offered by the Scientific IT Services at ETH will help you to identify these problems and introduce you to different techniques and tools to solve them on your local machine or on a high performance computing cluster. To familiarise interested people with the course content of the workshop, Dr. Franziska Oschmann from the Scientific IT Services will give a short Z'Morge session at RSEED in the KOF Lab on 30 May 2024."
 
 author: "Minna Heim"
-date: "04/21/2024"
+date: "05/21/2024"
 categories:
     - research software engineering
     - python
@@ -14,8 +14,8 @@ categories:
 ### Teaser
 
 **When:** (tbd) \
-**Where:** on-site at ETH Zurich \
-**How much:** 400 CHF per attendee \
+**Where:** on-site at ETH Zurich, not available remotely \
+**How much:** 400 CHF per attendee, free of charge for KOF employees \
 
 The team of Scientific IT Services at ETH Zurich is organising the four-day fast-python workshop to help interested people, from PhD students or scientific staff working with Python and wanting to optimise their code, to people who have been working with Python for a while and want to improve their skills, or to help you solve performance issues when writing Python code to run it on your local computer or a high performance computing cluster.
 
@@ -34,6 +34,87 @@ We introduce advanced topics, but do not provide a deep dive into them. Instead,
 - Have you been programming in Python for more than a year?
 - Have you ever experienced performance issues in your Python code?
 - Are you interested in running Python code on high-performance-computing clusters (such as ETH's Euler cluster)?
+
+## Self-Assessment
+
+Completing a sample of these exercises will help you check whether your python knowledge suffices for the fast-python workshop, next semester.
+
+In case your answers are not correct, consider revisiting the [python documentation](https://docs.python.org/3/contents.html) before attending the workshop!
+
+```python
+n = 1 + 3 ** 2 + 1_000 // 3 + 10 % 3
+print(isinstance(n, float), n)
+```
+
+<details> 
+<summary>Answer</summary>
+```{python}
+# | echo: false
+n = 1 + 3 ** 2 + 1_000 // 3 + 10 % 3
+print(isinstance(n, float), n)
+```
+</details> 
+
+
+```python
+squares = [1, 4, 9, 16, 25]
+squares_new = squares
+squares_new[1] = 0
+print(squares[::-1])
+```
+
+<details>
+<summary>Answer</summary>
+```{python}
+# | echo: false
+squares = [1, 4, 9, 16, 25]
+squares_new = squares
+squares_new[1] = 0
+print(squares[::-1])
+```
+</details>
+
+
+```python
+l = []
+for i in range(10):
+    if i % 3 == 0:
+        pass
+    elif i % 3 == 1:
+        continue
+    else:
+        i *= 10
+
+    if i == 6:
+        break
+    l.append(i)
+    
+print(l)
+```
+<details>
+<summary>Results</summary>
+```{python}
+# | echo: false
+
+l = []
+for i in range(10):
+    if i % 3 == 0:
+        pass
+    elif i % 3 == 1:
+        continue
+    else:
+        i *= 10
+
+    if i == 6:
+        break
+    l.append(i)
+    
+print(l)
+```
+
+</details>
+For a more extensive self assessment for the fast-python workshop, see [here](https://gitlab.ethz.ch/sis/courses/fast-python/preparation/-/blob/main/self_assessment.ipynb).
+
 
 ## Profiling example
 
