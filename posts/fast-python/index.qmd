@@ -1,6 +1,6 @@
 ---
 title: "Still Noodling Around With Python?"
-description: "Getting started with Python is easy given the abundance of free online material. To discuss how researchers can improve their Python beyond those first steps, RSEED invites you to a Znüni session with Franziska Oschmann from the Scientific IT Services (SIS). Our Znüni with Franziska given you a sneak preview of the ETH SIS 'Fast Python'. The 4-day workshop teaches different techniques and tools to resolve performance issues – on a local machine and a High Performance (HPC) cluster alike."
+description: "Getting started with Python is easy given the abundance of free online material. To discuss how researchers can improve their Python beyond those first steps, RSEED invites you to a Znüni session with Franziska Oschmann from the Scientific IT Services (SIS). Our Znüni with Franziska gives you a sneak preview of the ETH SIS 'Fast Python'. The 4-day workshop teaches different techniques and tools to resolve performance issues – on a local machine and a High Performance (HPC) cluster alike."
 author: "Minna Heim, Matthias Bannert, Franziska Oschmann"
 date: "05/20/2024"
 categories:
@@ -18,7 +18,7 @@ categories:
 Much of Python's popularity stems from its flexibility and general purpose appeal^[[Why Python keeps growing, explained](https://github.blog/2023-03-02-why-python-keeps-growing-explained/)], yet the idea of this article is to point at Python's use in research and to present an opportunity to efficiently improve your skills in a programming language that has become ubiquitous in many fields of research.
 While our innate curiosity as researchers is definitely enough of a driver to get us started with a trending programming language, getting past the first steps requires more commitment and hence comes with prerequisities and opportunity costs.
 
-In other words, the goal of the RSEED Znüni with Franziska Oschmann is to discuss to you find out whether a deeper dive into Python is for you.
+In other words, the goal of the RSEED Znüni with Franziska Oschmann is for you to find out whether a deeper dive into Python is for you.
 The *Fast Python* workshop is great opportunity for researchers to improve effectively. 
 Though you should already be somewhat familiar with Python to get the most out of 4-day workshop, you do not have to be an expert, and definitely not a computer scientist. 
 
@@ -53,7 +53,7 @@ Can you explain the snippets and their results to others?
 
 :::{.callout-tip}
 Do not be discouraged if you cannot answer all snippets immediately! You can use a computer to execute these snippets step by step and work to understand them. The course won't start tomorrow and there is plenty of great material to help you catch up. 
-:::}
+:::
 
 ```python
 n = 1 + 3 ** 2 + 1_000 // 3 + 10 % 3
@@ -148,4 +148,4 @@ Typically, groups, chairs or insitutions are subscribed to SIS – so make sure
 
 [The Algorithmos Implemented in Python](https://github.com/TheAlgorithms/Python)
 
-[30 Days of Python}](https://github.com/Asabeneh/30-Days-Of-Python)
+[30 Days of Python](https://github.com/Asabeneh/30-Days-Of-Python)
