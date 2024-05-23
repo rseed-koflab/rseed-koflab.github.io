@@ -6,10 +6,78 @@
   </url>
   <url>
     <loc>https://rseed-koflab.github.io/startpage/teaching/index.html</loc>
-    <lastmod>2024-05-03T08:10:00.319Z</lastmod>
+    <lastmod>2024-05-17T09:35:02.753Z</lastmod>
   </url>
   <url>
-    <loc>https://rseed-koflab.github.io/about.html</loc>
+    <loc>https://rseed-koflab.github.io/lib/python3.12/site-packages/httpx-0.27.0.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-05-17T09:47:40.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/lib/python3.12/site-packages/soupsieve-2.5.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-05-17T09:47:38.141Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/lib/python3.12/site-packages/cffi/recompiler.html</loc>
+    <lastmod>2024-05-17T09:47:40.632Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/lib/python3.12/site-packages/httpcore-1.0.5.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-05-17T09:47:40.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/index.html</loc>
+    <lastmod>2024-05-17T09:35:02.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/about/oliver/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.154Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/about/hans/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/about/martin/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/posts/h4sci/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/posts/newsletter/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.163Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/posts/fast-python/index.html</loc>
+    <lastmod>2024-05-23T06:16:02.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/community.html</loc>
+    <lastmod>2024-05-17T09:35:02.746Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/posts/initial_post/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/posts/rse_at_eth/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/posts/quarto/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.163Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/about/minna/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/about/matt/index.html</loc>
+    <lastmod>2024-05-03T07:35:39.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rseed-koflab.github.io/about/klaus/index.html</loc>
     <lastmod>2024-05-03T07:35:39.152Z</lastmod>
   </url>
   <url>
@@ -17,60 +85,24 @@
     <lastmod>2024-05-03T07:35:39.175Z</lastmod>
   </url>
   <url>
-    <loc>https://rseed-koflab.github.io/about/klaus/index.html</loc>
+    <loc>https://rseed-koflab.github.io/about.html</loc>
     <lastmod>2024-05-03T07:35:39.152Z</lastmod>
   </url>
   <url>
-    <loc>https://rseed-koflab.github.io/about/matt/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.153Z</lastmod>
+    <loc>https://rseed-koflab.github.io/lib/python3.12/site-packages/QtPy-2.4.1.dist-info/AUTHORS.html</loc>
+    <lastmod>2024-05-17T09:47:40.090Z</lastmod>
   </url>
   <url>
-    <loc>https://rseed-koflab.github.io/about/minna/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.153Z</lastmod>
+    <loc>https://rseed-koflab.github.io/lib/python3.12/site-packages/pyzmq-26.0.3.dist-info/licenses/LICENSE.html</loc>
+    <lastmod>2024-05-17T09:47:38.191Z</lastmod>
   </url>
   <url>
-    <loc>https://rseed-koflab.github.io/posts/quarto/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/posts/rse_at_eth/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.174Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/community.html</loc>
-    <lastmod>2024-05-03T08:10:00.318Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/posts/initial_post/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.162Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/posts/newsletter/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/posts/h4sci/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/about/martin/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.153Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/about/hans/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.152Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/about/oliver/index.html</loc>
-    <lastmod>2024-05-03T07:35:39.154Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rseed-koflab.github.io/index.html</loc>
-    <lastmod>2024-05-03T08:10:00.319Z</lastmod>
+    <loc>https://rseed-koflab.github.io/lib/python3.12/site-packages/idna-3.7.dist-info/LICENSE.html</loc>
+    <lastmod>2024-05-17T09:47:39.233Z</lastmod>
   </url>
   <url>
     <loc>https://rseed-koflab.github.io/h4sci.html</loc>
-    <lastmod>2024-05-03T08:10:00.318Z</lastmod>
+    <lastmod>2024-05-17T10:10:53.056Z</lastmod>
   </url>
   <url>
     <loc>https://rseed-koflab.github.io/data.html</loc>

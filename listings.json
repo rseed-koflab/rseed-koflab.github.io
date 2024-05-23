@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/fast-python/index.html",
       "/posts/quarto/index.html",
       "/posts/rse_at_eth/index.html",
       "/posts/h4sci/index.html",
