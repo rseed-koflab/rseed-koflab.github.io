@@ -1,6 +1,6 @@
 ---
 title: "Still Noodling Around With Python?"
-description: "Getting started with Python is easy given the abundance of free online material. To discuss how researchers can improve their Python beyond those first steps, RSEED invites you to a Znüni session with Franziska Oschmann from the Scientific IT Services (SIS). Our Znüni with Franziska gives you a sneak preview of the ETH SIS 'Fast Python'. The 4-day workshop teaches different techniques and tools to resolve performance issues – on a local machine and a High Performance (HPC) cluster alike."
+description: "Getting started with Python is easy given the abundance of free online material. To discuss how researchers can improve their Python beyond those first steps, RSEED invites you to a Znüni session with Franziska Oschmann from the Scientific IT Services (SIS). Our Znüni with Franziska gives you a sneak preview of the ETH SIS course 'Fast Python'. The 4-day workshop teaches different techniques and tools to resolve performance issues – on a local machine and a High Performance (HPC) cluster alike."
 author: "Minna Heim, Matthias Bannert, Franziska Oschmann"
 date: "05/20/2024"
 categories:
@@ -10,7 +10,12 @@ categories:
     - scientific IT services
 ---
 
+
+
 **Znüni with Franziska Oschmann at ETH KOF Swiss Economic Institute on May 30, 09:45.** 
+
+
+![Join our Python + Gipfeli session on Thu, May 30](python.jpeg)
 
 
 >"[...] And **Python** continued to see gains in its usage across GitHub with a 22.5% year-over-year increase driven, in part, **by its utility in data science and machine learning**." -- *GitHub Octoverse Report on the top programming languages.*
@@ -18,13 +23,13 @@ categories:
 Much of Python's popularity stems from its flexibility and general purpose appeal^[[Why Python keeps growing, explained](https://github.blog/2023-03-02-why-python-keeps-growing-explained/)], yet the idea of this article is to point at Python's use in research and to present an opportunity to efficiently improve your skills in a programming language that has become ubiquitous in many fields of research.
 While our innate curiosity as researchers is definitely enough of a driver to get us started with a trending programming language, getting past the first steps requires more commitment and hence comes with prerequisities and opportunity costs.
 
-In other words, the goal of the RSEED Znüni with Franziska Oschmann is for you to find out whether a deeper dive into Python is for you.
-The *Fast Python* workshop is great opportunity for researchers to improve effectively. 
+In other words, the goal of the RSEED Znüni with Franziska Oschmann is to find out whether a deeper dive into Python is for you.
+The *Fast Python* workshop is a great opportunity for researchers to improve effectively. 
 Though you should already be somewhat familiar with Python to get the most out of 4-day workshop, you do not have to be an expert, and definitely not a computer scientist. 
 
-## What Can I learn and Why is my current Python not good enough? 
+## What Can I learn and Why Is My Current Python Not Good Enough? 
 
-Often it is not easy for novice or intermediate programmer why *whatever works* is or *good enough for me* is not good enough. 
+Often it is not easy for novice or intermediate programmers to see why *whatever works* or *good enough for me* is not good enough. 
 One example of an important skill when problems get harder or require more throughput, is the ability to benchmark one's code.
 Benchmarking is important in order to assess one's need for computing resources and can facilitate cooperation with software engineering experts.
 
