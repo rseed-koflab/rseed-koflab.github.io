@@ -8,18 +8,26 @@ website:
     logo: rseed-pos.png
     logo-alt: "Research Software Engineering and Economic Data at KOF Lab"
     left:
-      - href: h4sci.qmd
-        text: Hacking for Science
-      - href: opnts-ord-proposal/
-        text: Open Time Series
-      - href: about.qmd
-        text: Team
-      - href: community.qmd
-        text: Join us on Matrix!
+      # - href: h4sci.qmd
+      #   text: Hacking for Science
+      # - href: opnts-ord-proposal/
+      #   text: Open Time Series
+      # - href: about.qmd
+      #   text: Team
+      # - href: community.qmd
+      #   text: Join us on Matrix!
       - href: blog.qmd
         text: blog
-  page-footer: 'RSEED is a part of [KOF Lab at ETH Zurich](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed.html#).'
-
+  page-footer: 
+    left: "**Feedback, Questions, Ideas?**
+          <br>
+          Contact us.
+          <br>
+          **Minna Heim**
+          <br>
+          heim [ at ] kof.ethz.ch" 
+    center: "KOF Lab is part of [KOF Lab at ETH Zurich](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab.html)"
+    right: "Newsletter Registration"
 
 
 format:

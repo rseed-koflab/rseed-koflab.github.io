@@ -1,0 +1,42 @@
+# Open Time Series Initiative 
+
+<!-- hero banner, hellgrau  -->
+## Human-Friendly, Machine-Readable, Scientific-Grade Time Series 
+
+<!-- recycle text from abstract - proposal und user vortäge -->
+
+<!-- hero banner end -->
+
+<!-- content, dunkelgrau -->
+## Vintages: Versioned Time Series for Researchers 
+
+<!-- grid 2 column layout -->
+
+<!-- links why forecasters need their vintages -->
+<!-- rechts: -->
+```{r}
+library(opentimeseries) 
+archive_read("ch.kof.globalbaro.incident", 
+            remote_archive = "opentsi/kofethz",
+            date = "2023-07-01")
+            kein datum heisst, aktuellste, mit datum ist es best. version
+<!-- created grafik vintages mit veränderung zu sehen  -->
+```
+
+reproducible sneak preview of what opentimeseries can do
+
+## Open for Contributions: Shared Framework for Data Sourcing
+
+the opentimeseries is in its early stages but builds on years of experience in sourcing data at KOF, formerly swissdata ...
+
+project plan: recycle part about publication...
+
+
+<!-- poster grafik:  nasty excel zu tidy-->
+<!-- swissdata example -->
+
+ button with "read the full proposal"
+
+
+## Involving the Community: H4Sci
+
