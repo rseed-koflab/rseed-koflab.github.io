@@ -19,7 +19,8 @@ website:
       - href: blog.qmd
         text: blog
   page-footer: 
-    left: "**Feedback, Questions, Ideas?**
+    background: rgb(200,200,200)
+    right: "**Feedback, Questions, Ideas?**
           <br>
           Contact us.
           <br>
@@ -27,7 +28,7 @@ website:
           <br>
           heim [ at ] kof.ethz.ch" 
     center: "KOF Lab is part of [KOF Lab at ETH Zurich](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab.html)"
-    right: "Newsletter Registration"
+    left: "To stay up to date with RSEED, sign up to our [Newsletter](https://kof.ethz.ch/en/the-institute/kof-divisions/research-division-kof-lab/rseed/subscription.html)"
 
 
 format:

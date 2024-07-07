@@ -14,7 +14,7 @@
 
 <!-- links why forecasters need their vintages -->
 <!-- rechts: -->
-```{r}
+```r
 library(opentimeseries) 
 archive_read("ch.kof.globalbaro.incident", 
             remote_archive = "opentsi/kofethz",
